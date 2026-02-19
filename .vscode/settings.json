@@ -1,0 +1,33 @@
+{
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [100],
+  "markdown.validate.enabled": true,
+  "cSpell.words": [
+    "cybersecurity",
+    "whistleblower",
+    "whistleblowing",
+    "deontology",
+    "deontological",
+    "utilitarianism",
+    "utilitarian",
+    "Sarbanes",
+    "Oxley",
+    "HIPAA",
+    "GDPR",
+    "CCPA",
+    "COPPA",
+    "fiduciary",
+    "stakeholder",
+    "stakeholders",
+    "FERPA",
+    "phishing",
+    "malware",
+    "ransomware",
+    "PII",
+    "mHealth",
+    "telemedicine",
+    "telehealth"
+  ]
+}

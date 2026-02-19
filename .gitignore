@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+
+# Build outputs
+build/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Google Docs conversion artifacts
+*.docx
+media/
+
+# Node (if mkdocs or similar tooling added later)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
