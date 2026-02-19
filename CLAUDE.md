@@ -271,6 +271,32 @@ Before considering a module complete, verify:
 * [ ] Further Reading has 3-6 curated OER resources
 * [ ] Module length appropriate (readable in 1-2 hours)
 
+## Task Management Preference
+
+Use the **Tasks system** (TaskCreate, TaskUpdate, TaskList, TaskGet) for all project tracking and work coordination. Do NOT use the deprecated TodoWrite tool.
+
+**When to create Tasks:**
+
+* Before starting any multi-step work, break the work into Tasks with explicit dependencies.
+* When spinning up subagents, create a shared Task list so all agents see current status.
+* When a request involves changes across multiple files or modules, decompose into dependent Tasks first.
+
+**How to structure Tasks:**
+
+* Give each Task a clear, specific subject that describes a single deliverable.
+* Set dependencies using `addBlockedBy` so Tasks execute in the correct order.
+* Group independent Tasks together so subagents can work on them in parallel.
+* Update Task status as you complete work. Mark Tasks done before moving to the next.
+
+**Multi-session coordination:**
+When working on a project that spans multiple sessions or subagents, use the shared Task list via the `CLAUDE_CODE_TASK_LIST_ID` environment variable. Store Tasks in `~/.claude/tasks/` so they persist across restarts.
+
+**What NOT to do:**
+
+* Do not use TodoWrite. It is deprecated and session-scoped only.
+* Do not track work in your head or in conversational context alone. Create Tasks.
+* Do not start implementation before defining the Task dependency chain for complex work.
+
 ## Banned Words/Phrases
 
 Never use: spot-on, indeed, delve, dive, embark, nuances, journey, tapestry, navigate, em dashes
