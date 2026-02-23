@@ -11,13 +11,13 @@ That tension between what you believe is right and what your employer asks you t
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab reflection
 * **CLOs addressed:** CLO II
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **2.1-LO1 (Understand):** Explain the difference between personal ethics and professional ethics in IT work environments (CLO II)
-* **2.2-LO2 (Apply):** Apply ethical reasoning to scenarios involving the six key professional relationships IT workers must manage (CLO II)
-* **2.3-LO3 (Analyze):** Analyze the competing obligations IT professionals face when employer expectations conflict with broader ethical responsibilities (CLO II)
+* MLO-2.1 (Understand): **Explain the difference between personal ethics and professional ethics in IT work environments** *(CLO II)*
+* MLO-2.2 (Apply): **Apply ethical reasoning to scenarios involving the six key professional relationships IT workers must manage** *(CLO II)*
+* MLO-2.3 (Analyze): **Analyze the competing obligations IT professionals face when employer expectations conflict with broader ethical responsibilities** *(CLO II)*
 
 ---
 
@@ -47,9 +47,9 @@ The following table highlights the key differences.
 
 Understanding this distinction matters because it prevents two common mistakes. The first mistake is assuming that your personal morals are enough to guide professional conduct. They are not. IT work creates situations your personal experience never prepared you for. The second mistake is assuming that professional standards override everything. They do not. When a professional obligation requires something you believe is genuinely harmful, you have a responsibility to speak up. Later in this module, you will examine how to handle those conflicts.
 
-### Think About It 💭
+### Think About It 2.1 💭
 
-Think about a job you have held, whether in IT or another field. Was there ever a moment when what your employer expected conflicted with what you personally felt was right? How did you handle it? Looking back, would you handle it differently now?
+> Think about a job you have held, whether in IT or another field. Was there ever a moment when what your employer expected conflicted with what you personally felt was right? How did you handle it? Looking back, would you handle it differently now?
 
 ### Quick Check 2.1 ✅
 
@@ -109,9 +109,9 @@ The broadest ethical relationship extends beyond your employer, your clients, an
 
 **The digital divide** is another. Not everyone has equal access to technology. When you design systems that require high-speed internet, expensive devices, or advanced technical skills, you may be excluding people who are already disadvantaged. Ethical IT practice considers accessibility and inclusion as design requirements, not afterthoughts.
 
-### Think About It 💭
+### Think About It 2.2 💭
 
-A vendor you work with regularly sends your IT department a $200 gift basket every holiday season. Your company has no formal policy on vendor gifts. Is accepting the gift ethical? Does your answer change if the vendor is currently bidding on a new contract with your company?
+> A vendor you work with regularly sends your IT department a $200 gift basket every holiday season. Your company has no formal policy on vendor gifts. Is accepting the gift ethical? Does your answer change if the vendor is currently bidding on a new contract with your company?
 
 ### Case Study 2.1 - The Conflicted Cloud Migration 📋
 
@@ -166,9 +166,9 @@ Using unlicensed software on a work computer is both illegal and unethical. It v
 
 IT users often have access to data that does not belong to them personally. A human resources assistant can see salary information. A customer service representative can see billing records. An intern with database access might be able to view confidential project files. The ethical obligation is clear: access only the data you need for your job, and never use organizational data for personal purposes.
 
-### Think About It 💭
+### Think About It 2.3 💭
 
-You are working from home and your personal laptop breaks down. You still have your company-issued laptop. Your child needs to submit a school assignment by midnight. Is it ethical to let your child use your company laptop for 30 minutes to complete the assignment? What factors would influence your decision?
+> You are working from home and your personal laptop breaks down. You still have your company-issued laptop. Your child needs to submit a school assignment by midnight. Is it ethical to let your child use your company laptop for 30 minutes to complete the assignment? What factors would influence your decision?
 
 ### Quick Check 2.3 ✅
 

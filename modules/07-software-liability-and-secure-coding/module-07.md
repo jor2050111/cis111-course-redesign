@@ -13,13 +13,13 @@ This module examines software liability, software quality, secure coding practic
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab analysis
 * **CLOs addressed:** CLO VIII, CLO IX
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **7.1-LO1 (Apply):** Apply product liability concepts, including negligence, strict liability, and warranty frameworks, to real-world software failure scenarios (CLO VIII)
-* **7.2-LO2 (Analyze):** Analyze the ethical obligations of software developers and organizations regarding software quality, secure coding, and vulnerability management (CLO VIII)
-* **7.3-LO3 (Evaluate):** Evaluate cost/benefit trade-offs in IT decision-making, particularly in safety-critical systems and AI deployment (CLO IX)
+* MLO-7.1 (Apply): **Apply product liability concepts, including negligence, strict liability, and warranty frameworks, to real-world software failure scenarios** *(CLO VIII)*
+* MLO-7.2 (Analyze): **Analyze the ethical obligations of software developers and organizations regarding software quality, secure coding, and vulnerability management** *(CLO VIII)*
+* MLO-7.3 (Evaluate): **Evaluate cost/benefit trade-offs in IT decision-making, particularly in safety-critical systems and AI deployment** *(CLO IX)*
 
 ---
 
@@ -59,9 +59,9 @@ These clauses raise significant ethical questions. Most users never read EULAs. 
 
 Courts have sometimes found that particularly egregious liability limitations are **unconscionable**, meaning they are so one-sided that they are unenforceable. However, in practice, most EULA limitations hold up in court. This means that software vendors enjoy a level of liability protection that manufacturers of physical products do not.
 
-### Think About It 💭
+### Think About It 7.1 💭
 
-You install a popular antivirus program that promises "comprehensive protection against all known threats." A new strain of ransomware encrypts your files, and the antivirus software fails to detect it. The EULA says the company is not liable for any damages. Do you think the company has an ethical obligation to compensate you, even if the EULA says otherwise? What if the same ransomware affected a hospital and disrupted patient care?
+> You install a popular antivirus program that promises "comprehensive protection against all known threats." A new strain of ransomware encrypts your files, and the antivirus software fails to detect it. The EULA says the company is not liable for any damages. Do you think the company has an ethical obligation to compensate you, even if the EULA says otherwise? What if the same ransomware affected a hospital and disrupted patient care?
 
 ### Quick Check 7.1 ✅
 
@@ -191,9 +191,9 @@ Patch management raises its own ethical questions. How quickly must a vendor rel
 
 The 2017 Equifax data breach, which exposed the personal information of approximately 147 million people, illustrates the consequences of failed patch management. The vulnerability that attackers exploited (in the Apache Struts web framework) had a patch available for two months before the breach occurred. Equifax knew about the patch but failed to apply it. The ethical failure was not in the existence of the vulnerability. It was in the organizational decision-making that left a known flaw unpatched in a system containing sensitive personal data.
 
-### Think About It 💭
+### Think About It 7.3 💭
 
-Imagine you are a security researcher who discovers a critical vulnerability in a widely used open source library. The maintainer of the library is a single volunteer who responds to emails slowly and has no formal patching process. Meanwhile, you know that millions of applications depend on this library. Would you follow responsible disclosure (and wait, potentially for months, while users remain vulnerable), or would you choose a different approach? What factors would influence your decision?
+> Imagine you are a security researcher who discovers a critical vulnerability in a widely used open source library. The maintainer of the library is a single volunteer who responds to emails slowly and has no formal patching process. Meanwhile, you know that millions of applications depend on this library. Would you follow responsible disclosure (and wait, potentially for months, while users remain vulnerable), or would you choose a different approach? What factors would influence your decision?
 
 ### Quick Check 7.3 ✅
 
@@ -264,9 +264,9 @@ When traditional software causes harm, there is usually a clear chain of respons
 
 The ethical obligations for AI system testing and release decisions include rigorous testing across diverse populations and scenarios, ongoing monitoring after deployment, transparent communication about the system's limitations, and clear mechanisms for users to report problems and seek recourse. Organizations that rush AI systems to market without adequate testing are making the same kind of ethical error as organizations that ship software with known defects: they are transferring risk to users for their own benefit.
 
-### Think About It 💭
+### Think About It 7.4 💭
 
-Self-driving vehicle companies argue that autonomous cars do not need to be perfect; they only need to be safer than human drivers. If a self-driving car is statistically involved in fewer accidents per mile than a human driver, is that sufficient to justify deployment, even knowing that the AI will still cause some deaths? Who should make that decision: the company, government regulators, or the public? And if an autonomous vehicle does cause a death, who should be held liable: the manufacturer, the software developer, the owner, or no one?
+> Self-driving vehicle companies argue that autonomous cars do not need to be perfect; they only need to be safer than human drivers. If a self-driving car is statistically involved in fewer accidents per mile than a human driver, is that sufficient to justify deployment, even knowing that the AI will still cause some deaths? Who should make that decision: the company, government regulators, or the public? And if an autonomous vehicle does cause a death, who should be held liable: the manufacturer, the software developer, the owner, or no one?
 
 ### Quick Check 7.4 ✅
 

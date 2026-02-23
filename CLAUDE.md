@@ -98,16 +98,19 @@ Every module MUST follow this structure:
 * 2-3 Module Learning Objectives (MLOs) per module
 * Each MLO explicitly maps to one or more CLOs
 * Use Bloom's Taxonomy action verbs
-* Progression from lower to higher cognitive levels across the course
-* Format: `**N.X-LOY (Bloom's Level):** [Verb] [measurable outcome] (CLO Z)`
+* Within each module, MLOs must progress from lower to higher cognitive levels (e.g., Understand, Apply, Analyze)
+* Progression from lower to higher cognitive levels across the course (Parts I-IV)
+* Format: `MLO-N.X ([Bloom's Level]): **[Verb] [measurable outcome]** *(CLO [X])*`
 
 **Example:**
 ```markdown
-## Learning Objectives 🎯
-By the end of this module, you will be able to:
-* **1.1-LO1 (Understand):** Explain the core principles of utilitarianism, deontology, and virtue ethics (CLO I)
-* **1.2-LO2 (Apply):** Apply ethical frameworks to analyze a real-world IT scenario (CLO I, II)
-* **1.3-LO3 (Analyze):** Compare how different ethical theories lead to different conclusions about the same IT dilemma (CLO I)
+### Module Learning Objectives *(MLO)* 🎯
+
+By the end of this module, **you will be able to**:
+
+* MLO-1.1 (Understand): **Explain the core principles of utilitarianism, deontology, virtue ethics, and social contract theory** *(CLO I)*
+* MLO-1.2 (Apply): **Apply an ethical framework to a real-world IT decision-making scenario** *(CLO I)*
+* MLO-1.3 (Analyze): **Compare the strengths and limitations of each ethical theory when applied to technology scenarios** *(CLO I)*
 ```
 
 ### Module Overview (QM Standard 3)

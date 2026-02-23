@@ -33,33 +33,38 @@ Ethical issues that arise as a result of increasing use of computers, and the re
 ## Course Outline
 
 I. Ethics and Ethical Theories
-   * Sources of ethical theories
-   * Definition of professional Information Technology ethics
-   * Application of ethical theories to business
+
+* Sources of ethical theories
+* Definition of professional Information Technology ethics
+* Application of ethical theories to business
 
 II. Corporate and Individual Responsibilities
-   * Responsibilities to shareholders
-   * Responsibilities to stakeholders
-   * Social media responsibility
-   * Healthcare information privacy issues with mobile and wireless technologies
-   * Fiduciary responsibilities concerning private information
-   * Whistle-blower rights and responsibilities
+
+* Responsibilities to shareholders
+* Responsibilities to stakeholders
+* Social media responsibility
+* Healthcare information privacy issues with mobile and wireless technologies
+* Fiduciary responsibilities concerning private information
+* Whistle-blower rights and responsibilities
 
 III. Obligations in the Information Technology Profession
-   * Describe liabilities related to software
-   * Give examples of secure coding
-   * Give examples of cost/benefit analysis in information technology ethical decision-making
+
+* Describe liabilities related to software
+* Give examples of secure coding
+* Give examples of cost/benefit analysis in information technology ethical decision-making
 
 IV. Decision-Making in Information Technology
-   * Describe the influence of government regulations and professional self-regulation
-   * The professional and corporate social audit
-   * Describe intellectual property, copyright laws, and fair use doctrine
+
+* Describe the influence of government regulations and professional self-regulation
+* The professional and corporate social audit
+* Describe intellectual property, copyright laws, and fair use doctrine
 
 V. Application of Ethics to Specific Areas of Information Technology
-   * Explain hate speech and defamation
-   * Explain privacy issues related to workplace monitoring
-   * Give examples of Information Technology security breaches and risk assessments
-   * Define security policies within Information Technology
-   * Describe prevention, detection, and responses to Information Technology security attacks
-   * Describe the major identity theft issues
-   * Describe the professional code of ethics for Information Technology professionals
+
+* Explain hate speech and defamation
+* Explain privacy issues related to workplace monitoring
+* Give examples of Information Technology security breaches and risk assessments
+* Define security policies within Information Technology
+* Describe prevention, detection, and responses to Information Technology security attacks
+* Describe the major identity theft issues
+* Describe the professional code of ethics for Information Technology professionals

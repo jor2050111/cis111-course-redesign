@@ -13,13 +13,13 @@
 * **Deliverables:** [Discussion post, Quick Checks, Skills Lab reflection/analysis]
 * **CLOs addressed:** [CLO X, CLO Y]
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **N.1-LO1 ([Bloom's Level]):** [Verb] [measurable outcome] (CLO [X])
-* **N.2-LO2 ([Bloom's Level]):** [Verb] [measurable outcome] (CLO [X])
-* **N.3-LO3 ([Bloom's Level]):** [Verb] [measurable outcome] (CLO [X])
+* MLO-N.1 ([Bloom's Level]): **[Verb] [measurable outcome]** *(CLO [X])*
+* MLO-N.2 ([Bloom's Level]): **[Verb] [measurable outcome]** *(CLO [X])*
+* MLO-N.3 ([Bloom's Level]): **[Verb] [measurable outcome]** *(CLO [X])*
 
 ---
 
@@ -29,7 +29,9 @@ By the end of this module, you will be able to:
 
 [Use **bold** for key terms on first mention.]
 
-> **Think About It:** 💭 [Reflection question connecting this concept to the student's own experience or observations]
+### Think About It N.1 💭
+
+> [Reflection question connecting this concept to the student's own experience or observations]
 
 ### Quick Check N.1 ✅
 
@@ -56,7 +58,9 @@ By the end of this module, you will be able to:
 2. [Question asking students to consider a specific stakeholder's perspective]
 3. [Question asking what the student would do and why]
 
-> **Think About It:** 💭 [Reflection question about the case study or related personal experience]
+### Think About It N.2 💭
+
+> [Reflection question about the case study or related personal experience]
 
 ### Quick Check N.2 ✅
 
@@ -69,7 +73,9 @@ By the end of this module, you will be able to:
 
 [Content for third section.]
 
-> **Think About It:** 💭 [Reflection question]
+### Think About It N.3 💭
+
+> [Reflection question]
 
 ### Quick Check N.3 ✅
 

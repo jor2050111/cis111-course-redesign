@@ -11,13 +11,13 @@ This module gives you four ethical frameworks: utilitarianism, deontology, virtu
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab reflection
 * **CLOs addressed:** CLO I
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **1.1-LO1 (Understand):** Explain the core principles of utilitarianism, deontology, virtue ethics, and social contract theory (CLO I)
-* **1.2-LO2 (Analyze):** Compare the strengths and limitations of each ethical theory when applied to technology scenarios (CLO I)
-* **1.3-LO3 (Apply):** Apply an ethical framework to a real-world IT decision-making scenario (CLO I)
+* MLO-1.1 (Understand): **Explain the core principles of utilitarianism, deontology, virtue ethics, and social contract theory** *(CLO I)*
+* MLO-1.2 (Apply): **Apply an ethical framework to a real-world IT decision-making scenario** *(CLO I)*
+* MLO-1.3 (Analyze): **Compare the strengths and limitations of each ethical theory when applied to technology scenarios** *(CLO I)*
 
 ---
 
@@ -43,9 +43,9 @@ As an IT professional, you will face situations where no policy manual tells you
 
 That is what this module builds: a set of reasoning tools you can reach for when the right choice is not obvious.
 
-### Think About It 💭
+### Think About It 1.1 💭
 
-You are working at a small tech company. A coworker shows you a way to access a competitor's customer list through a flaw in their website. No law clearly prohibits it, and your boss would love the information. What would you do, and what is guiding that decision: your personal morals, a professional code of ethics, or the law?
+> You are working at a small tech company. A coworker shows you a way to access a competitor's customer list through a flaw in their website. No law clearly prohibits it, and your boss would love the information. What would you do, and what is guiding that decision: your personal morals, a professional code of ethics, or the law?
 
 ### Quick Check 1.1 ✅
 
@@ -75,9 +75,9 @@ Now consider an IT example. A social media company discovers that its recommenda
 
 **Limitations of utilitarianism.** Predicting outcomes is hard. You cannot always know who will be helped or harmed, or by how much. It can also justify harming a small group if the benefit to a larger group is big enough. In IT, this matters. A company might argue that collecting personal data without consent is fine because millions of users benefit from a better product. The people whose privacy was violated might disagree.
 
-### Think About It 💭
+### Think About It 1.2  💭
 
-A hospital's IT department is deciding between two new patient records systems. System A is cheaper and works well for 90% of patients, but it has accessibility problems that make it difficult for visually impaired patients to use. System B costs more but works for everyone. Using utilitarian reasoning, which system should they choose? What factors make this decision harder than it looks?
+> A hospital's IT department is deciding between two new patient records systems. System A is cheaper and works well for 90% of patients, but it has accessibility problems that make it difficult for visually impaired patients to use. System B costs more but works for everyone. Using utilitarian reasoning, which system should they choose? What factors make this decision harder than it looks?
 
 ### Deontology: Duties and Rules Matter Most
 
@@ -125,9 +125,9 @@ Now consider an IT example. You are a database administrator and you discover th
 
 **Limitations of virtue ethics.** It is vague. Two people with "good character" might still disagree about the right action. It does not provide a step-by-step method for resolving dilemmas, which makes it harder to apply in a professional setting where clear justifications are expected. Different cultures also value different virtues, so what counts as "good character" is not universal.
 
-### Think About It 💭
+### Think About It 1.3 💭
 
-Think about someone you admire in a professional setting, a teacher, a boss, a mentor, or a public figure. What character traits make them admirable? Would those traits help them make good ethical decisions in IT? Why or why not?
+> Think about someone you admire in a professional setting, a teacher, a boss, a mentor, or a public figure. What character traits make them admirable? Would those traits help them make good ethical decisions in IT? Why or why not?
 
 ### Social Contract Theory: Fairness Through Agreement
 

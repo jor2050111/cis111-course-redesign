@@ -13,13 +13,13 @@ This module also addresses two workforce ethics topics that intersect with regul
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab analysis
 * **CLOs addressed:** CLO X
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **8.1-LO1 (Apply):** Apply knowledge of key IT regulations (GDPR, CCPA, COPPA, HIPAA) to determine which laws govern specific data handling scenarios and identify compliance obligations (CLO X)
-* **8.2-LO2 (Analyze):** Analyze the strengths and limitations of government regulation versus professional self-regulation in promoting ethical IT practices (CLO X)
-* **8.3-LO3 (Evaluate):** Evaluate the ethical implications of IT workforce policies, including H-1B visa programs and offshore outsourcing, from multiple stakeholder perspectives (CLO X)
+* MLO-8.1 (Apply): **Apply knowledge of key IT regulations (GDPR, CCPA, COPPA, HIPAA) to determine which laws govern specific data handling scenarios and identify compliance obligations** *(CLO X)*
+* MLO-8.2 (Analyze): **Analyze the strengths and limitations of government regulation versus professional self-regulation in promoting ethical IT practices** *(CLO X)*
+* MLO-8.3 (Evaluate): **Evaluate the ethical implications of IT workforce policies, including H-1B visa programs and offshore outsourcing, from multiple stakeholder perspectives** *(CLO X)*
 
 ---
 
@@ -79,9 +79,9 @@ One of the biggest challenges facing IT professionals is that there is no single
 
 This patchwork creates real compliance challenges. A healthcare company that operates a website accessible in the EU, collects data from California residents, and serves patients under 13 may simultaneously need to comply with HIPAA, GDPR, CCPA, and COPPA. The ethical dimension of this complexity is significant: smaller organizations with fewer legal and compliance resources face a disproportionate burden, while large corporations can afford teams of lawyers to manage multi-jurisdictional compliance.
 
-### Think About It 💭
+### Think About It 8.1 💭
 
-> **Think About It:** You run a small online tutoring business based in Arizona. Most of your students are in the US, but a few are in Europe, and some are under 13. Which regulations might apply to your business? Do you think it is fair that a small business faces the same regulatory complexity as a multinational corporation? What would a more equitable regulatory system look like?
+> You run a small online tutoring business based in Arizona. Most of your students are in the US, but a few are in Europe, and some are under 13. Which regulations might apply to your business? Do you think it is fair that a small business faces the same regulatory complexity as a multinational corporation? What would a more equitable regulatory system look like?
 
 ### Quick Check 8.1 ✅
 
@@ -156,9 +156,9 @@ Marcus presents two options to the CEO, Diana Reeves. Option A: voluntarily disc
 2. Marcus discovered the problems through an internal audit. If Diana proceeds with Option B (partial disclosure), does Marcus have an obligation to report to an external authority? Consider the whistleblowing frameworks from Module 5.
 3. If you were a consumer whose data was being handled this way, would you prefer that a government regulator like the FTC enforced strict privacy rules, or that the industry self-regulated through organizations like the DAA? What does your preference reveal about the strengths and weaknesses of self-regulation?
 
-### Think About It 💭
+### Think About It 8.2 💭
 
-> **Think About It:** Many social media companies have established internal "trust and safety" teams to moderate content and enforce community standards. This is a form of self-regulation. In your experience as a social media user, do you believe these teams are effective at protecting users from harmful content? What incentives might lead a company's self-regulation to fall short?
+> Many social media companies have established internal "trust and safety" teams to moderate content and enforce community standards. This is a form of self-regulation. In your experience as a social media user, do you believe these teams are effective at protecting users from harmful content? What incentives might lead a company's self-regulation to fall short?
 
 ### Quick Check 8.2 ✅
 
@@ -255,9 +255,7 @@ Most real-world regulatory approaches fall somewhere between these poles. The ch
 
 The rapid development and deployment of artificial intelligence systems has triggered what may be the most significant regulatory debate in the history of technology. As you learned in Module 3, AI systems raise fundamental questions about fairness, transparency, accountability, and human oversight. Now those questions are being translated into law.
 
-**The EU AI Act**
-
-The **EU AI Act**, which entered into force in August 2024, is the world's first comprehensive legal framework specifically designed to regulate AI. It takes a **risk-tiered approach**, classifying AI systems by the level of risk they pose:
+**The EU AI Act**, which entered into force in August 2024, is the world's first comprehensive legal framework specifically designed to regulate AI. It takes a **risk-tiered approach**, classifying AI systems by the level of risk they pose:
 
 * **Unacceptable risk:** AI practices that are banned outright, including social scoring by governments, real-time remote biometric identification in public spaces (with limited exceptions for law enforcement), and AI systems that manipulate human behavior to cause harm. These applications are prohibited because the EU determined that no regulatory safeguard can make them acceptable.
 * **High risk:** AI systems used in critical areas such as employment decisions, credit scoring, law enforcement, education, and healthcare. These systems are permitted but must meet strict requirements: risk assessments, high-quality training data, transparency to users, human oversight mechanisms, and accuracy and robustness standards. Organizations deploying high-risk AI must register in an EU database and maintain detailed documentation.
@@ -296,9 +294,9 @@ The difference between the EU and US approaches to AI regulation is not just a p
 
 Neither approach is inherently right or wrong. Each reflects legitimate ethical priorities, and each carries genuine risks. The EU risks over-regulation that stifles beneficial AI development. The US risks under-regulation that allows harmful AI systems to operate without adequate oversight until after damage has occurred.
 
-### Think About It 💭
+### Think About It 8.4 💭
 
-> **Think About It:** The EU AI Act bans social scoring (government systems that rate citizens based on their behavior and assign consequences). China has implemented systems that some observers describe as social scoring. The US has not banned the practice but has not implemented it either. Where do you think the line should be drawn between using data to improve public safety and using data to control citizens? Who should decide where that line falls?
+> The EU AI Act bans social scoring (government systems that rate citizens based on their behavior and assign consequences). China has implemented systems that some observers describe as social scoring. The US has not banned the practice but has not implemented it either. Where do you think the line should be drawn between using data to improve public safety and using data to control citizens? Who should decide where that line falls?
 
 ### Quick Check 8.4 ✅
 

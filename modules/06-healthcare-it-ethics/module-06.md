@@ -13,13 +13,13 @@ This module examines the ethical challenges that arise when IT meets healthcare.
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab analysis
 * **CLOs addressed:** CLO VI
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **6.1-LO1 (Understand):** Explain the key provisions of HIPAA and the ethical foundations of health data privacy, including Protected Health Information, the Privacy Rule, and the Security Rule (CLO VI)
-* **6.2-LO2 (Apply):** Apply ethical frameworks to evaluate real-world healthcare IT scenarios involving mobile health technologies, telemedicine, and clinical information systems (CLO VI)
-* **6.3-LO3 (Analyze):** Analyze the ethical challenges of operating mobile and wireless technologies in healthcare environments, including AI-assisted diagnostics and algorithmic bias in clinical settings (CLO VI)
+* MLO-6.1 (Understand): **Explain the key provisions of HIPAA and the ethical foundations of health data privacy, including Protected Health Information, the Privacy Rule, and the Security Rule** *(CLO VI)*
+* MLO-6.2 (Apply): **Apply ethical frameworks to evaluate real-world healthcare IT scenarios involving mobile health technologies, telemedicine, and clinical information systems** *(CLO VI)*
+* MLO-6.3 (Analyze): **Analyze the ethical challenges of operating mobile and wireless technologies in healthcare environments, including AI-assisted diagnostics and algorithmic bias in clinical settings** *(CLO VI)*
 
 ---
 
@@ -72,9 +72,9 @@ When PHI is compromised, HIPAA's **Breach Notification Rule** requires covered e
 
 The consequences of a HIPAA violation can be severe. Civil penalties range from $100 to $50,000 per violation, with annual maximums up to $1.5 million per violation category. Criminal penalties can include fines up to $250,000 and prison time for individuals who knowingly obtain or disclose PHI. The HHS Office for Civil Rights maintains a public breach portal listing all breaches affecting 500 or more individuals, and that list has grown significantly in recent years as healthcare organizations become more frequent targets for cyberattacks.
 
-### Think About It 💭
+### Think About It 6.1 💭
 
-You work as an IT support technician at a small medical clinic. While troubleshooting a printer issue, you see a patient's lab results on a screen. The patient is someone you know personally. HIPAA's minimum necessary standard says you should not have seen that information at all. But you did. What are your ethical obligations at this point? Does it matter whether you tell anyone what you saw?
+> You work as an IT support technician at a small medical clinic. While troubleshooting a printer issue, you see a patient's lab results on a screen. The patient is someone you know personally. HIPAA's minimum necessary standard says you should not have seen that information at all. But you did. What are your ethical obligations at this point? Does it matter whether you tell anyone what you saw?
 
 ### Quick Check 6.1 ✅
 
@@ -202,9 +202,9 @@ But telemedicine also raises ethical questions that the healthcare system is sti
 
 * **Cross-state licensing.** In the United States, medical licenses are issued by individual states. A physician licensed in Arizona cannot typically treat a patient located in California without a California license. Telemedicine complicates this because the patient and provider can be anywhere. Some states created temporary interstate practice agreements during the pandemic, but long-term solutions are still being developed. The ethical tension is between expanding patient access and maintaining the regulatory oversight that licensing provides.
 
-### Think About It 💭
+### Think About It 6.3 💭
 
-Imagine you are a patient living in a rural community 90 miles from the nearest specialist. Your doctor recommends a telemedicine consultation with a cardiologist. You have a slow internet connection and share your home with family members. What concerns would you have about this arrangement? How would you want the healthcare system to address them?
+> Imagine you are a patient living in a rural community 90 miles from the nearest specialist. Your doctor recommends a telemedicine consultation with a cardiologist. You have a slow internet connection and share your home with family members. What concerns would you have about this arrangement? How would you want the healthcare system to address them?
 
 ### Quick Check 6.3 ✅
 
@@ -276,9 +276,9 @@ Training and running AI models requires enormous computational resources. Large 
 
 This connects to the green computing concepts discussed in Module 3. Healthcare organizations that adopt AI have an ethical responsibility to consider the environmental impact alongside the clinical benefit. Choosing more efficient models, using renewable energy for data centers, and avoiding unnecessary AI deployment when simpler tools would work are all part of that responsibility.
 
-### Think About It 💭
+### Think About It 6.4 💭
 
-You learn that the AI system your hospital uses to prioritize patients in the emergency department was trained primarily on data from suburban hospitals. Your hospital serves a predominantly low-income, urban community with high rates of chronic disease. What concerns would you raise about this system, and who should you raise them with? Think about the AI ethics principles of fairness and accountability from Module 3.
+> You learn that the AI system your hospital uses to prioritize patients in the emergency department was trained primarily on data from suburban hospitals. Your hospital serves a predominantly low-income, urban community with high rates of chronic disease. What concerns would you raise about this system, and who should you raise them with? Think about the AI ethics principles of fairness and accountability from Module 3.
 
 ### Quick Check 6.4 ✅
 

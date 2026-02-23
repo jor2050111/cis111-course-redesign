@@ -13,13 +13,13 @@ This module examines whistleblowing from both ethical and legal perspectives. Yo
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab analysis
 * **CLOs addressed:** CLO V, CLO VII
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **5.1-LO1 (Understand):** Explain the concept of whistleblowing, distinguish between internal and external whistleblowing, and describe the ethical criteria that justify whistleblowing in IT contexts (CLO V)
-* **5.2-LO2 (Apply):** Apply legal and ethical frameworks to evaluate whistleblower protections and determine appropriate courses of action in a whistleblowing scenario (CLO V)
-* **5.3-LO3 (Analyze):** Analyze the fiduciary responsibilities organizations hold regarding private information and examine the ethical tensions between employer loyalty and the duty to protect data subjects (CLO VII)
+* MLO-5.1 (Understand): **Explain the concept of whistleblowing, distinguish between internal and external whistleblowing, and describe the ethical criteria that justify whistleblowing in IT contexts** *(CLO V)*
+* MLO-5.2 (Apply): **Apply legal and ethical frameworks to evaluate whistleblower protections and determine appropriate courses of action in a whistleblowing scenario** *(CLO V)*
+* MLO-5.3 (Analyze): **Analyze the fiduciary responsibilities organizations hold regarding private information and examine the ethical tensions between employer loyalty and the duty to protect data subjects** *(CLO VII)*
 
 ---
 
@@ -57,9 +57,9 @@ Not every disclosure is ethically justified. Leaking confidential information fo
 
 **Motivation.** While not every ethicist agrees that motivation matters, some frameworks consider it relevant. Is the whistleblower acting out of genuine concern for public safety or justice, or primarily out of personal grievance, financial reward, or revenge? The answer may not change whether the information should be disclosed, but it can affect how the whistleblower's actions are judged.
 
-### Think About It 💭
+### Think About It 5.1 💭
 
-You discover that your IT department has been storing customer credit card numbers in plain text, a serious security vulnerability that violates industry standards. You report it to your manager, who says, "We know, but fixing it would cost too much and delay our product launch. Keep this to yourself." What would you do next? Which of the ethical criteria above support your decision?
+> You discover that your IT department has been storing customer credit card numbers in plain text, a serious security vulnerability that violates industry standards. You report it to your manager, who says, "We know, but fixing it would cost too much and delay our product launch. Keep this to yourself." What would you do next? Which of the ethical criteria above support your decision?
 
 ### Quick Check 5.1 ✅
 
@@ -187,9 +187,9 @@ This is not a simple choice. Reporting the breach externally could cost you your
 
 The ethical frameworks from Module 1 can help sort through this tension. A utilitarian analysis weighs the harm of concealment (potential identity theft for 500,000 people) against the harm of disclosure (financial and reputational damage to the company). A deontological analysis asks whether there is a duty to be honest with the people whose data was compromised, regardless of the consequences. Social contract theory asks what rules a fair society would agree to: would rational people agree to a system where companies can hide data breaches that put them at risk?
 
-### Think About It 💭
+### Think About It 5.3 💭
 
-You work at a company that sells a popular fitness tracking app. The app collects users' location data, heart rate, sleep patterns, and exercise routines. You discover that the company has been selling aggregated (but not fully anonymized) user health data to insurance companies. The privacy policy technically allows it in a vague clause buried on page 12. Is the company fulfilling its fiduciary duty to users? Does the fact that it is technically "legal" make it ethical? What would you want to know if you were one of the app's users?
+> You work at a company that sells a popular fitness tracking app. The app collects users' location data, heart rate, sleep patterns, and exercise routines. You discover that the company has been selling aggregated (but not fully anonymized) user health data to insurance companies. The privacy policy technically allows it in a vague clause buried on page 12. Is the company fulfilling its fiduciary duty to users? Does the fact that it is technically "legal" make it ethical? What would you want to know if you were one of the app's users?
 
 ### Quick Check 5.3 ✅
 
@@ -268,9 +268,9 @@ Artificial intelligence is changing the whistleblowing landscape in two importan
 
 These AI-related scenarios are not hypothetical. Reports from former employees at major technology companies have described exactly these situations: AI surveillance systems used to monitor internal dissent, and AI models trained on data that was collected under one set of promises and used for entirely different purposes.
 
-### Think About It 💭
+### Think About It 5.4 💭
 
-Imagine you work at a company that uses AI-powered tools to monitor all employee emails and chat messages. You have just discovered evidence that the company is violating customer privacy. You want to report it, but you know the monitoring system might flag your communications with a lawyer or a regulator. How does the existence of AI surveillance change your approach to whistleblowing? What steps would you take to protect yourself?
+> Imagine you work at a company that uses AI-powered tools to monitor all employee emails and chat messages. You have just discovered evidence that the company is violating customer privacy. You want to report it, but you know the monitoring system might flag your communications with a lawyer or a regulator. How does the existence of AI surveillance change your approach to whistleblowing? What steps would you take to protect yourself?
 
 ### Quick Check 5.4 ✅
 

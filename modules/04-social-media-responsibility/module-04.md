@@ -13,13 +13,13 @@ This module examines social media through four lenses: platform ethics and data 
 * **Deliverables:** Discussion post, Quick Checks, Skills Lab analysis
 * **CLOs addressed:** CLO IV
 
-## Learning Objectives 🎯
+### Module Learning Objectives *(MLO)* 🎯
 
-By the end of this module, you will be able to:
+By the end of this module, **you will be able to**:
 
-* **4.1-LO1 (Understand):** Explain the economic, legal, and ethical dimensions of social media data collection and targeted advertising (CLO IV)
-* **4.2-LO2 (Analyze):** Analyze how content moderation practices and recommendation algorithms raise ethical concerns about bias, autonomy, and public trust (CLO IV)
-* **4.3-LO3 (Apply):** Apply ethical frameworks to evaluate real-world social media scenarios involving hiring practices, cyberabuse, and user privacy (CLO IV)
+* MLO-4.1 (Understand): **Explain the economic, legal, and ethical dimensions of social media data collection and targeted advertising** *(CLO IV)*
+* MLO-4.2 (Apply): **Apply ethical frameworks to evaluate real-world social media scenarios involving hiring practices, cyberabuse, and user privacy** *(CLO IV)*
+* MLO-4.3 (Analyze): **Analyze how content moderation practices and recommendation algorithms raise ethical concerns about bias, autonomy, and public trust** *(CLO IV)*
 
 ---
 
@@ -51,9 +51,9 @@ Critics raise a different set of concerns. Targeted advertising can exploit vuln
 
 There are also concerns about **discriminatory advertising**. In 2019, the U.S. Department of Housing and Urban Development charged Facebook with violating the Fair Housing Act by allowing advertisers to exclude users from seeing housing ads based on race, religion, and national origin. The platform's targeting tools, designed to be helpful, enabled illegal discrimination.
 
-### Think About It 💭
+### Think About It 4.1 💭
 
-You open a social media app and see an ad for a product you were just talking about with a friend. You never searched for it online. How does this experience make you feel? Using the concept of informed consent, explain whether you think the platform acted ethically, even if its data collection followed the terms you agreed to.
+> You open a social media app and see an ad for a product you were just talking about with a friend. You never searched for it online. How does this experience make you feel? Using the concept of informed consent, explain whether you think the platform acted ethically, even if its data collection followed the terms you agreed to.
 
 ### Quick Check 4.1 ✅
 
@@ -136,9 +136,9 @@ Second, social media screening can introduce illegal discrimination into the hir
 
 Some states and cities have passed laws restricting employer access to applicants' social media accounts. These laws typically prohibit employers from requiring candidates to share passwords or friend/follow requests. However, they generally do not prevent employers from viewing publicly available content.
 
-### Think About It 💭
+### Think About It 4.3 💭
 
-Imagine you are a hiring manager reviewing two finalists for an IT position. Both are equally qualified on paper. You look at their public social media profiles. One candidate posts about volunteer work and professional development. The other has no social media presence at all. Would the absence of a social media profile influence your decision? Should it? What ethical principles guide your answer?
+> Imagine you are a hiring manager reviewing two finalists for an IT position. Both are equally qualified on paper. You look at their public social media profiles. One candidate posts about volunteer work and professional development. The other has no social media presence at all. Would the absence of a social media profile influence your decision? Should it? What ethical principles guide your answer?
 
 ### Cyberabuse, Harassment, and Cyberstalking
 
@@ -182,9 +182,9 @@ Deepfakes create multiple ethical problems on social media. They can be used to 
 
 The threat to trust is particularly concerning. If any image or video could be fake, people may begin to distrust authentic evidence. A real video of misconduct can be dismissed as "probably a deepfake." This erosion of shared reality makes it harder for society to hold powerful institutions accountable.
 
-### Think About It 💭
+### Think About It 4.4 💭
 
-Think about the last time you spent more time on social media than you intended. What feature or design element kept you scrolling? Knowing that these features are intentionally designed to maximize your time on the platform, do you think the platform has an ethical obligation to help you limit your usage? Why or why not?
+> Think about the last time you spent more time on social media than you intended. What feature or design element kept you scrolling? Knowing that these features are intentionally designed to maximize your time on the platform, do you think the platform has an ethical obligation to help you limit your usage? Why or why not?
 
 ### AI Recommendation Systems and Autonomy
 
