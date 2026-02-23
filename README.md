@@ -37,17 +37,17 @@ cis111-course-redesign/
 ├── README.md                          # This file
 ├── modules/
 │   ├── 01-ethics-and-ethical-theories/
-│   ├── 02-corporate-responsibility/
-│   ├── 03-social-media-and-privacy/
-│   ├── 04-whistleblowing-and-accountability/
-│   ├── 05-software-liability-and-secure-coding/
-│   ├── 06-government-regulation-and-self-regulation/
-│   ├── 07-intellectual-property-and-fair-use/
-│   ├── 08-freedom-of-expression-and-defamation/
-│   ├── 09-privacy-and-workplace-monitoring/
-│   ├── 10-cybersecurity-and-risk-assessment/
-│   ├── 11-identity-theft-and-cybercrime/
-│   └── 12-professional-ethics-and-codes-of-conduct/
+│   ├── 02-professional-business-ethics/
+│   ├── 03-corporate-governance-csr-and-ai-ethics/
+│   ├── 04-social-media-responsibility/
+│   ├── 05-whistleblowing-and-accountability/
+│   ├── 06-healthcare-it-ethics/
+│   ├── 07-software-liability-and-secure-coding/
+│   ├── 08-government-regulation-and-self-regulation/
+│   ├── 09-intellectual-property-and-fair-use/
+│   ├── 10-freedom-of-expression-and-workplace-privacy/
+│   ├── 11-cybersecurity-identity-theft-and-risk-assessment/
+│   └── 12-professional-ethics-and-capstone/
 ├── assets/
 │   ├── images/
 │   │   ├── screenshots/
@@ -152,4 +152,4 @@ Jorge.Vega@PhoenixCollege.edu
 
 **Last Updated:** February 2026
 
-**Status:** Initial Setup / Active Development
+**Status:** All 12 Modules Complete
