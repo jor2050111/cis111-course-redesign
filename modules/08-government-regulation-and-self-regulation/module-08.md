@@ -79,7 +79,7 @@ One of the biggest challenges facing IT professionals is that there is no single
 
 This patchwork creates real compliance challenges. A healthcare company that operates a website accessible in the EU, collects data from California residents, and serves patients under 13 may simultaneously need to comply with HIPAA, GDPR, CCPA, and COPPA. The ethical dimension of this complexity is significant: smaller organizations with fewer legal and compliance resources face a disproportionate burden, while large corporations can afford teams of lawyers to manage multi-jurisdictional compliance.
 
-### Think About It 8.1 💭
+### Think About It 8.1 🧠
 
 > You run a small online tutoring business based in Arizona. Most of your students are in the US, but a few are in Europe, and some are under 13. Which regulations might apply to your business? Do you think it is fair that a small business faces the same regulatory complexity as a multinational corporation? What would a more equitable regulatory system look like?
 
@@ -156,7 +156,7 @@ Marcus presents two options to the CEO, Diana Reeves. Option A: voluntarily disc
 2. Marcus discovered the problems through an internal audit. If Diana proceeds with Option B (partial disclosure), does Marcus have an obligation to report to an external authority? Consider the whistleblowing frameworks from Module 5.
 3. If you were a consumer whose data was being handled this way, would you prefer that a government regulator like the FTC enforced strict privacy rules, or that the industry self-regulated through organizations like the DAA? What does your preference reveal about the strengths and weaknesses of self-regulation?
 
-### Think About It 8.2 💭
+### Think About It 8.2 🧠
 
 > Many social media companies have established internal "trust and safety" teams to moderate content and enforce community standards. This is a form of self-regulation. In your experience as a social media user, do you believe these teams are effective at protecting users from harmful content? What incentives might lead a company's self-regulation to fall short?
 
@@ -294,7 +294,7 @@ The difference between the EU and US approaches to AI regulation is not just a p
 
 Neither approach is inherently right or wrong. Each reflects legitimate ethical priorities, and each carries genuine risks. The EU risks over-regulation that stifles beneficial AI development. The US risks under-regulation that allows harmful AI systems to operate without adequate oversight until after damage has occurred.
 
-### Think About It 8.4 💭
+### Think About It 8.4 🧠
 
 > The EU AI Act bans social scoring (government systems that rate citizens based on their behavior and assign consequences). China has implemented systems that some observers describe as social scoring. The US has not banned the practice but has not implemented it either. Where do you think the line should be drawn between using data to improve public safety and using data to control citizens? Who should decide where that line falls?
 

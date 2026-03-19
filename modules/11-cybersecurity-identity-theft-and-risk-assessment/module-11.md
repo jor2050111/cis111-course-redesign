@@ -77,7 +77,7 @@ Common types of exploits include:
 | **Zero-day exploit** | Targets a previously unknown vulnerability before a patch is available | All three |
 | **Insider threat** | An authorized user intentionally or accidentally causes harm | All three |
 
-### Think About It 11.1 💭
+### Think About It 11.1 🧠
 
 > Think about the devices and accounts you use every day: your phone, email, social media, banking apps, school accounts. How many of these use multi-factor authentication? How many share the same password? If an attacker compromised one of your accounts today, what other accounts or data could they reach from there?
 
@@ -164,7 +164,7 @@ Several federal laws provide the legal framework for prosecuting identity theft 
 
 * **State breach notification laws** require organizations to notify affected individuals when their personal data has been compromised. All 50 states now have breach notification laws, though the specific requirements (what constitutes a "breach," how quickly notification must occur, and what information must be provided) vary significantly from state to state.
 
-### Think About It 11.2 💭
+### Think About It 11.2 🧠
 
 > The CFAA's broad language has led to debates about whether activities like sharing a password with a friend or using a work computer for personal tasks could technically be federal crimes. Where do you think the line should be between legitimate security protection and overcriminalization of everyday computer use?
 
@@ -250,7 +250,7 @@ A standard risk assessment follows these steps:
 
 The **National Institute of Standards and Technology (NIST) Cybersecurity Framework** is widely used as a comprehensive approach to managing cybersecurity risk. It organizes security functions into five categories: Identify, Protect, Detect, Respond, and Recover. Each category contains subcategories and references to specific security controls. The framework is voluntary but has become a de facto standard, particularly for organizations that work with the U.S. government.
 
-### Think About It 11.3 💭
+### Think About It 11.3 🧠
 
 > Think about a small business you are familiar with, such as a local restaurant, a tutoring service, or a small retail shop. What digital assets does that business have (customer data, financial records, online ordering systems)? If you were conducting a risk assessment for that business, what would you identify as the three most significant risks? How would your recommendations differ from those for a large corporation?
 
@@ -378,7 +378,7 @@ Artificial intelligence is transforming cybersecurity in ways that are both prom
 
 * **Over-reliance on automation.** AI enhances human analysts; it does not replace them. Organizations that reduce their security teams based on AI capabilities may find themselves vulnerable when AI systems encounter threats they were not trained to handle.
 
-### Think About It 11.4 💭
+### Think About It 11.4 🧠
 
 > The same AI voice cloning technology that enables fraud (replicating a CEO's voice for a fake phone call) also has legitimate uses in accessibility and entertainment. How should society balance the benefits of this technology against its potential for harm? Should there be restrictions on who can use voice cloning tools and for what purposes?
 

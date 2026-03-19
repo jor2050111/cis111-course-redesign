@@ -60,7 +60,7 @@ The board has an ethical role that goes beyond financial oversight. It sets the 
 
 In technology companies, governance decisions carry unusual weight because the products affect so many people. A board's decision to rush a product to market, cut a safety team, or delay addressing a known bias in an algorithm is a governance decision with ethical consequences for millions.
 
-### Think About It 3.1 💭
+### Think About It 3.1 🧠
 
 > Think about a company whose products you use every day. Who are its stakeholders? If the company had to choose between increasing profits for shareholders and protecting user privacy, which group's interests should take priority? What ethical framework from Module 1 supports your answer?
 
@@ -168,7 +168,7 @@ Training is how organizations translate ethical policies into employee behavior.
 
 Some organizations go further by including **ethical criteria in performance appraisals**. This means that employees are evaluated not just on what they achieved but on how they achieved it. When ethical behavior is part of how promotions and raises are determined, employees have a concrete incentive to act with integrity.
 
-### Think About It 3.3 💭
+### Think About It 3.3 🧠
 
 > Think about a job you have held or an organization you have been part of. Did the organization have a code of ethics or a set of core values? If so, did people actually follow it, or was it just words on a wall? What made the difference between a code that influenced behavior and one that did not?
 
@@ -245,7 +245,7 @@ AI governance is not just about fairness and accountability. It also involves en
 
 **Green computing** refers to the practice of designing, manufacturing, using, and disposing of computing resources in environmentally responsible ways. For AI specifically, green computing raises questions about whether the benefits of ever-larger models justify their environmental costs, and whether companies have an obligation to measure and disclose the carbon footprint of their AI systems.
 
-### Think About It 3.4 💭
+### Think About It 3.4 🧠
 
 > You use AI-powered tools every day, from search engines to voice assistants to recommendation algorithms. Pick one AI tool you use regularly. Who built it? What data does it use? If it produced a biased or harmful result, who would you hold responsible, and why?
 

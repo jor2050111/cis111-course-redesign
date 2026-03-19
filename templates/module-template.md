@@ -29,7 +29,7 @@ By the end of this module, **you will be able to**:
 
 [Use **bold** for key terms on first mention.]
 
-### Think About It N.1 💭
+### Think About It N.1 🧠
 
 > [Reflection question connecting this concept to the student's own experience or observations]
 
@@ -58,7 +58,7 @@ By the end of this module, **you will be able to**:
 2. [Question asking students to consider a specific stakeholder's perspective]
 3. [Question asking what the student would do and why]
 
-### Think About It N.2 💭
+### Think About It N.2 🧠
 
 > [Reflection question about the case study or related personal experience]
 
@@ -73,7 +73,7 @@ By the end of this module, **you will be able to**:
 
 [Content for third section.]
 
-### Think About It N.3 💭
+### Think About It N.3 🧠
 
 > [Reflection question]
 

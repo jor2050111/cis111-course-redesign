@@ -55,7 +55,7 @@ A **trade secret** is confidential business information that provides a competit
 
 The **Defend Trade Secrets Act (DTSA)** of 2016 created a federal cause of action for trade secret theft, giving companies a powerful legal tool to pursue employees or competitors who misappropriate confidential information. For IT workers, this is especially relevant: the code you write, the systems you build, and the data you access at work may all be classified as trade secrets by your employer.
 
-### Think About It 9.1 💭
+### Think About It 9.1 🧠
 
 > You create a mobile app on your own time using your own equipment. Your employer claims it belongs to them because it is related to the company's business. What type of IP protection is most relevant here, and who do you think should own the app? What facts would you need to know to decide?
 
@@ -125,7 +125,7 @@ The ethical arguments for open source are compelling. Proponents argue that soft
 
 However, open source raises its own ethical questions. Companies sometimes build profitable products on top of free open source code without contributing back to the community. Volunteer open source developers often burn out maintaining critical infrastructure that millions of people and businesses depend on. The **Creative Commons (CC)** licensing system extends similar principles to non-software works like textbooks (including this one), photographs, and music.
 
-### Think About It 9.2 💭
+### Think About It 9.2 🧠
 
 > Many of the tools you use every day, from web browsers to operating systems to programming languages, are built on open source code. Should companies that profit from open source software be ethically obligated to contribute back to the projects they depend on? Why or why not?
 
@@ -171,7 +171,7 @@ While copyright and patent disputes get most of the headlines, trademark violati
 
 **Cybersquatting** is the practice of registering domain names that incorporate well-known trademarks with the intent to profit from them, typically by selling the domain to the trademark holder at an inflated price. The **Anticybersquatting Consumer Protection Act (ACPA)** of 1999 and the **Uniform Domain-Name Dispute-Resolution Policy (UDRP)** administered by the Internet Corporation for Assigned Names and Numbers (ICANN) provide legal remedies for trademark holders whose names have been cybersquatted.
 
-### Think About It 9.3 💭
+### Think About It 9.3 🧠
 
 > A friend tells you they pirate all their software because they cannot afford to buy it. They argue that they are not hurting anyone since they would never have paid for it anyway. How would you respond? Does it matter whether the software is made by a large corporation or an independent developer?
 

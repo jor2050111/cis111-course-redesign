@@ -51,7 +51,7 @@ A **utilitarian** analysis weighs the harm that hate speech causes to targeted c
 
 There is no consensus. Reasonable people, applying sound ethical reasoning, land on different sides of this debate. Your goal is not to find the "right" answer but to analyze the competing values clearly.
 
-### Think About It 10.1 💭
+### Think About It 10.1 🧠
 
 > You manage the IT infrastructure for a mid-sized company. An employee uses their work email to send messages containing hateful language directed at a coworker's religion. The messages do not rise to the level of a legal threat. As an IT professional, what is your responsibility? Does it matter that the speech occurred on company systems?
 
@@ -116,7 +116,7 @@ The review platform pushes back, arguing that unmasking anonymous reviewers will
 2. Apply the veil of ignorance from social contract theory (Module 1). If you did not know whether you would be Dr. Chen or the anonymous reviewer, what rules about unmasking anonymous speakers would you design? *(Evaluate)*
 3. As the IT administrator for the review platform, you receive the subpoena for user data. What ethical considerations should guide your response, beyond simply complying with the legal requirement? *(Evaluate)*
 
-### Think About It 10.2 💭
+### Think About It 10.2 🧠
 
 > Have you ever left an anonymous review online, either positive or negative? Would you have written the same review if your full name were attached to it? What does your answer tell you about the relationship between anonymity and honesty?
 
@@ -165,7 +165,7 @@ These limitations mean that AI content moderation disproportionately affects cer
 
 **AI-generated disinformation at scale.** Large language models can now produce convincing fake news articles, social media posts, and comments in seconds. This makes it possible for a small number of actors to flood platforms with disinformation at a volume that overwhelms both human and AI moderation systems. The ethical implications for IT professionals are significant: if you build or maintain systems that host user content, you must consider how those systems can be weaponized.
 
-### Think About It 10.3 💭
+### Think About It 10.3 🧠
 
 > Imagine a deepfake video surfaces showing your company's CEO making racist remarks at a private event. The video is completely fabricated, but it goes viral before your team can respond. What steps should your IT and communications teams take? How would you verify the video is fake, and how would you communicate that to the public?
 

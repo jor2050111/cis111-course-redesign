@@ -73,7 +73,7 @@ The (ISC)² code is built on four mandatory canons, listed in order of priority:
 
 The priority ordering is critical. When canons conflict, you resolve the conflict by following the higher-ranked canon. For example, if your employer asks you to cover up a data breach (Canon 3: serve your principal), the (ISC)² code says you must prioritize Canon 1 (protect society and public trust) instead. This gives security professionals explicit authorization to push back against unethical instructions.
 
-### Think About It 12.1 💭
+### Think About It 12.1 🧠
 
 > Imagine you hold a CISSP certification and your employer tells you to delay notifying customers about a data breach until after a major product launch. The (ISC)² code ranks protecting society above serving your employer. How does having that explicit priority ordering change how you would handle the situation compared to not having a code at all?
 
@@ -147,7 +147,7 @@ Priya raises the issue at a team meeting, citing the ACM code's principle to avo
 
 3. If you were Priya, what would you do next? Identify which professional code principles and which ethical frameworks from this course support your decision.
 
-### Think About It 12.2 💭
+### Think About It 12.2 🧠
 
 > Advisory ethics boards are becoming common at tech companies. If an ethics board has no authority to block a product launch, does it serve a meaningful purpose? What would make an internal ethics review process genuinely effective?
 
@@ -201,7 +201,7 @@ Some of the most recognized IT certifications include:
 
 Certifications create a form of **professional accountability** that sits between voluntary codes and mandatory licensing. If you hold a CISSP and act unethically, you can lose your credential, which has real career consequences. But certifications do not carry the legal weight of a license, and many IT workers hold no certifications at all.
 
-### Think About It 12.3 💭
+### Think About It 12.3 🧠
 
 > In Module 2, you learned about the ethical responsibilities of IT workers across six professional relationships. Do you think a formal licensing requirement would make IT professionals more accountable in those relationships, or would it simply add bureaucracy without changing behavior? What evidence from your own experience supports your view?
 
@@ -253,7 +253,7 @@ Here is a practical framework for IT professionals who find themselves asked to 
 
 This is not a clean, comfortable process. Ethical dilemmas in professional life rarely are. But having a structured approach, grounded in professional codes and ethical frameworks, is far better than improvising under pressure.
 
-### Think About It 12.4 💭
+### Think About It 12.4 🧠
 
 > The practical framework above describes raising ethical concerns internally before considering external action. What factors might make a professional decide to skip internal escalation and go directly to external disclosure? Under what circumstances would that be ethically justified?
 
