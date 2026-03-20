@@ -79,7 +79,7 @@ One of the biggest challenges facing IT professionals is that there is no single
 
 This patchwork creates real compliance challenges. A healthcare company that operates a website accessible in the EU, collects data from California residents, and serves patients under 13 may simultaneously need to comply with HIPAA, GDPR, CCPA, and COPPA. The ethical dimension of this complexity is significant: smaller organizations with fewer legal and compliance resources face a disproportionate burden, while large corporations can afford teams of lawyers to manage multi-jurisdictional compliance.
 
-### Think About It 8.1 💭
+### Think About It 8.1 🧠
 
 > You run a small online tutoring business based in Arizona. Most of your students are in the US, but a few are in Europe, and some are under 13. Which regulations might apply to your business? Do you think it is fair that a small business faces the same regulatory complexity as a multinational corporation? What would a more equitable regulatory system look like?
 
@@ -156,7 +156,7 @@ Marcus presents two options to the CEO, Diana Reeves. Option A: voluntarily disc
 2. Marcus discovered the problems through an internal audit. If Diana proceeds with Option B (partial disclosure), does Marcus have an obligation to report to an external authority? Consider the whistleblowing frameworks from Module 5.
 3. If you were a consumer whose data was being handled this way, would you prefer that a government regulator like the FTC enforced strict privacy rules, or that the industry self-regulated through organizations like the DAA? What does your preference reveal about the strengths and weaknesses of self-regulation?
 
-### Think About It 8.2 💭
+### Think About It 8.2 🧠
 
 > Many social media companies have established internal "trust and safety" teams to moderate content and enforce community standards. This is a form of self-regulation. In your experience as a social media user, do you believe these teams are effective at protecting users from harmful content? What incentives might lead a company's self-regulation to fall short?
 
@@ -294,7 +294,7 @@ The difference between the EU and US approaches to AI regulation is not just a p
 
 Neither approach is inherently right or wrong. Each reflects legitimate ethical priorities, and each carries genuine risks. The EU risks over-regulation that stifles beneficial AI development. The US risks under-regulation that allows harmful AI systems to operate without adequate oversight until after damage has occurred.
 
-### Think About It 8.4 💭
+### Think About It 8.4 🧠
 
 > The EU AI Act bans social scoring (government systems that rate citizens based on their behavior and assign consequences). China has implemented systems that some observers describe as social scoring. The US has not banned the practice but has not implemented it either. Where do you think the line should be drawn between using data to improve public safety and using data to control citizens? Who should decide where that line falls?
 
@@ -346,15 +346,15 @@ The company's CEO, Raj Anand, has asked his leadership team to prepare a complia
 
 8. Evaluate the following claim: "If HireRight AI meets all legal compliance requirements in both the US and EU, it has fulfilled its ethical obligations." Do you agree or disagree? Support your position with at least one ethical framework from Module 1 and specific examples from the scenario.
 
-### Rubric - Skills Lab 8A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Regulatory identification and application** | Accurately identifies all applicable regulations with specific compliance obligations correctly explained for each | Identifies most applicable regulations with generally correct compliance obligations | Identifies some regulations but with gaps or inaccuracies in compliance obligations | Identifies one or two regulations with minimal or incorrect explanation of obligations | No meaningful regulatory analysis attempted |
-| **Self-regulation vs. government regulation analysis** | Thoroughly analyzes strengths and limitations of both approaches with specific evidence from the scenario | Addresses both approaches with reasonable analysis tied to the scenario | Discusses one approach adequately but neglects the other | Mentions self-regulation or government regulation without meaningful analysis | No analysis of regulatory approaches |
-| **Workforce ethics analysis** | Comprehensively addresses both offshoring and H-1B ethics with specific, actionable recommendations grounded in ethical principles | Addresses both workforce issues with reasonable analysis and some recommendations | Addresses one workforce issue adequately but neglects the other | Mentions workforce ethics superficially without substantive analysis | No discussion of workforce ethics |
-| **Critical evaluation and recommendation** | Memo and final evaluation demonstrate sophisticated ethical reasoning, address counterarguments, and integrate multiple module concepts | Memo and evaluation are clear and reasonably supported by module concepts | Memo or evaluation is present but lacks depth or strong connection to module content | Memo or evaluation is vague, unsupported, or disconnected from the scenario | No memo or evaluation provided |
-| **Writing and professionalism** | Writing is clear, well-organized, and uses regulatory, ethical, and technical terminology accurately throughout | Writing is clear with mostly accurate terminology and adequate organization | Writing is understandable but disorganized or imprecise in key areas | Writing is unclear or contains frequent errors that impede understanding | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

@@ -51,7 +51,7 @@ Critics raise a different set of concerns. Targeted advertising can exploit vuln
 
 There are also concerns about **discriminatory advertising**. In 2019, the U.S. Department of Housing and Urban Development charged Facebook with violating the Fair Housing Act by allowing advertisers to exclude users from seeing housing ads based on race, religion, and national origin. The platform's targeting tools, designed to be helpful, enabled illegal discrimination.
 
-### Think About It 4.1 💭
+### Think About It 4.1 🧠
 
 > You open a social media app and see an ad for a product you were just talking about with a friend. You never searched for it online. How does this experience make you feel? Using the concept of informed consent, explain whether you think the platform acted ethically, even if its data collection followed the terms you agreed to.
 
@@ -136,7 +136,7 @@ Second, social media screening can introduce illegal discrimination into the hir
 
 Some states and cities have passed laws restricting employer access to applicants' social media accounts. These laws typically prohibit employers from requiring candidates to share passwords or friend/follow requests. However, they generally do not prevent employers from viewing publicly available content.
 
-### Think About It 4.3 💭
+### Think About It 4.3 🧠
 
 > Imagine you are a hiring manager reviewing two finalists for an IT position. Both are equally qualified on paper. You look at their public social media profiles. One candidate posts about volunteer work and professional development. The other has no social media presence at all. Would the absence of a social media profile influence your decision? Should it? What ethical principles guide your answer?
 
@@ -182,7 +182,7 @@ Deepfakes create multiple ethical problems on social media. They can be used to 
 
 The threat to trust is particularly concerning. If any image or video could be fake, people may begin to distrust authentic evidence. A real video of misconduct can be dismissed as "probably a deepfake." This erosion of shared reality makes it harder for society to hold powerful institutions accountable.
 
-### Think About It 4.4 💭
+### Think About It 4.4 🧠
 
 > Think about the last time you spent more time on social media than you intended. What feature or design element kept you scrolling? Knowing that these features are intentionally designed to maximize your time on the platform, do you think the platform has an ethical obligation to help you limit your usage? Why or why not?
 
@@ -244,11 +244,11 @@ An investigative report reveals the following findings:
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder identification** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what they stand to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss important interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
-| **Framework application** | Applies three frameworks accurately with clear reasoning and specific references to the scenario details | Applies frameworks correctly with adequate reasoning and some scenario references | Applies frameworks but with gaps in reasoning or limited connection to the specific scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
-| **Recommendation quality** | Recommendations are specific, actionable, and well-supported by multiple frameworks with explicit reasoning for each | Recommendations are clear and supported by at least one framework each | Recommendations are present but vague or weakly connected to ethical frameworks | Recommendations are generic or unsupported by ethical reasoning | No recommendations provided |
-| **Critical reasoning** | Demonstrates sophisticated analysis that acknowledges complexity, considers counterarguments, and avoids oversimplification | Shows solid critical thinking with some acknowledgment of competing perspectives | Shows basic reasoning but tends toward oversimplification or one-sided analysis | Reasoning is superficial or relies on unsupported assertions | No critical reasoning demonstrated |
-| **Writing and professionalism** | Writing is clear, organized, and uses ethical terminology accurately throughout; well-structured with clear headings | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in ethical terminology | Writing is unclear or contains frequent errors in terminology and organization | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

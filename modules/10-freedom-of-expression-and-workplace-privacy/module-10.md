@@ -51,7 +51,7 @@ A **utilitarian** analysis weighs the harm that hate speech causes to targeted c
 
 There is no consensus. Reasonable people, applying sound ethical reasoning, land on different sides of this debate. Your goal is not to find the "right" answer but to analyze the competing values clearly.
 
-### Think About It 10.1 💭
+### Think About It 10.1 🧠
 
 > You manage the IT infrastructure for a mid-sized company. An employee uses their work email to send messages containing hateful language directed at a coworker's religion. The messages do not rise to the level of a legal threat. As an IT professional, what is your responsibility? Does it matter that the speech occurred on company systems?
 
@@ -116,7 +116,7 @@ The review platform pushes back, arguing that unmasking anonymous reviewers will
 2. Apply the veil of ignorance from social contract theory (Module 1). If you did not know whether you would be Dr. Chen or the anonymous reviewer, what rules about unmasking anonymous speakers would you design? *(Evaluate)*
 3. As the IT administrator for the review platform, you receive the subpoena for user data. What ethical considerations should guide your response, beyond simply complying with the legal requirement? *(Evaluate)*
 
-### Think About It 10.2 💭
+### Think About It 10.2 🧠
 
 > Have you ever left an anonymous review online, either positive or negative? Would you have written the same review if your full name were attached to it? What does your answer tell you about the relationship between anonymity and honesty?
 
@@ -165,7 +165,7 @@ These limitations mean that AI content moderation disproportionately affects cer
 
 **AI-generated disinformation at scale.** Large language models can now produce convincing fake news articles, social media posts, and comments in seconds. This makes it possible for a small number of actors to flood platforms with disinformation at a volume that overwhelms both human and AI moderation systems. The ethical implications for IT professionals are significant: if you build or maintain systems that host user content, you must consider how those systems can be weaponized.
 
-### Think About It 10.3 💭
+### Think About It 10.3 🧠
 
 > Imagine a deepfake video surfaces showing your company's CEO making racist remarks at a private event. The video is completely fabricated, but it goes viral before your team can respond. What steps should your IT and communications teams take? How would you verify the video is fake, and how would you communicate that to the public?
 
@@ -285,15 +285,15 @@ The company's legal counsel has confirmed that all of these measures are legal i
 6. The CEO pushes back on your revised policy, saying: "Our competitors monitor everything. If we don't, we'll lose our edge." Write a 200-250 word response defending your policy recommendations. Reference at least two ethical frameworks and address the CEO's concern about competitive pressure directly.
 7. Reflect on the role of the IT professional in this scenario. As the person implementing the system, what ethical responsibilities do you have beyond following the CEO's instructions? Connect your answer to the professional ethics concepts from Module 2.
 
-### Rubric - Skills Lab 10A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
-|----------|-------------|-----------------|----------------|--------------|-----------------|
-| Stakeholder Analysis | All key stakeholders identified with specific, well-reasoned descriptions of interests and concerns | Most stakeholders identified with reasonable descriptions | Some stakeholders identified but descriptions lack depth | Lists stakeholders without meaningful analysis | Missing or inaccurate |
-| Ethical Reasoning | Thorough analysis using multiple ethical frameworks correctly applied to specific monitoring measures | Solid analysis with at least one framework correctly applied | Basic analysis with partial framework application | Superficial analysis with frameworks misapplied | No ethical framework applied |
-| Policy Quality | Policy is specific, actionable, and clearly balances business needs with employee rights; addresses all required elements | Policy addresses most required elements with reasonable balance | Policy is present but vague or missing key elements | Policy is incomplete or heavily one-sided | No policy provided |
-| Professional Communication | Employee notification and CEO response are clear, professional, and persuasive | Communication is clear and mostly professional | Communication is understandable but lacks polish | Communication is unclear or unprofessional | Missing or incomprehensible |
-| Writing Quality | Well-organized, precise language, consistent use of ethical terminology | Generally clear with minor issues | Understandable but disorganized | Unclear or poorly organized | Unreadable or off-topic |
+|---|---|---|---|---|---|
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

@@ -59,7 +59,7 @@ These clauses raise significant ethical questions. Most users never read EULAs. 
 
 Courts have sometimes found that particularly egregious liability limitations are **unconscionable**, meaning they are so one-sided that they are unenforceable. However, in practice, most EULA limitations hold up in court. This means that software vendors enjoy a level of liability protection that manufacturers of physical products do not.
 
-### Think About It 7.1 💭
+### Think About It 7.1 🧠
 
 > You install a popular antivirus program that promises "comprehensive protection against all known threats." A new strain of ransomware encrypts your files, and the antivirus software fails to detect it. The EULA says the company is not liable for any damages. Do you think the company has an ethical obligation to compensate you, even if the EULA says otherwise? What if the same ransomware affected a hospital and disrupted patient care?
 
@@ -191,7 +191,7 @@ Patch management raises its own ethical questions. How quickly must a vendor rel
 
 The 2017 Equifax data breach, which exposed the personal information of approximately 147 million people, illustrates the consequences of failed patch management. The vulnerability that attackers exploited (in the Apache Struts web framework) had a patch available for two months before the breach occurred. Equifax knew about the patch but failed to apply it. The ethical failure was not in the existence of the vulnerability. It was in the organizational decision-making that left a known flaw unpatched in a system containing sensitive personal data.
 
-### Think About It 7.3 💭
+### Think About It 7.3 🧠
 
 > Imagine you are a security researcher who discovers a critical vulnerability in a widely used open source library. The maintainer of the library is a single volunteer who responds to emails slowly and has no formal patching process. Meanwhile, you know that millions of applications depend on this library. Would you follow responsible disclosure (and wait, potentially for months, while users remain vulnerable), or would you choose a different approach? What factors would influence your decision?
 
@@ -264,7 +264,7 @@ When traditional software causes harm, there is usually a clear chain of respons
 
 The ethical obligations for AI system testing and release decisions include rigorous testing across diverse populations and scenarios, ongoing monitoring after deployment, transparent communication about the system's limitations, and clear mechanisms for users to report problems and seek recourse. Organizations that rush AI systems to market without adequate testing are making the same kind of ethical error as organizations that ship software with known defects: they are transferring risk to users for their own benefit.
 
-### Think About It 7.4 💭
+### Think About It 7.4 🧠
 
 > Self-driving vehicle companies argue that autonomous cars do not need to be perfect; they only need to be safer than human drivers. If a self-driving car is statistically involved in fewer accidents per mile than a human driver, is that sufficient to justify deployment, even knowing that the AI will still cause some deaths? Who should make that decision: the company, government regulators, or the public? And if an autonomous vehicle does cause a death, who should be held liable: the manufacturer, the software developer, the owner, or no one?
 
@@ -329,15 +329,15 @@ Evaluate the cost/benefit trade-offs and formulate a recommendation:
 
 8. Write a recommendation (200-300 words) to TransitTech's board of directors. State whether they should deploy on schedule, deploy with the manual mode mitigation, or delay to fix the defect. Support your recommendation with at least two ethical frameworks and reference specific concepts from this module.
 
-### Rubric - Skills Lab 7A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Product liability application** | Accurately applies all three liability theories with clear reasoning tied to the scenario's specific facts | Applies liability theories correctly with adequate reasoning | Applies at least one theory correctly but with gaps | Attempts liability analysis but with significant conceptual errors | No liability analysis attempted |
-| **Ethical obligation analysis** | Thoroughly examines developer and organizational obligations using multiple concepts (CMMI, whistleblowing, secure development) | Addresses obligations with reference to relevant concepts | Identifies some obligations but analysis lacks depth | Mentions obligations without meaningful analysis | No discussion of ethical obligations |
-| **Cost/benefit reasoning** | Identifies both financial and non-financial factors, acknowledges quantification challenges, and explains why those challenges matter ethically | Addresses financial and non-financial factors with reasonable analysis | Includes some cost/benefit reasoning but omits key factors | Cost/benefit analysis is superficial or one-sided | No cost/benefit analysis |
-| **Recommendation quality** | Recommendation is specific, well-supported by ethical frameworks, and addresses counterarguments | Recommendation is clear and supported by at least one framework | Recommendation is present but weakly supported | Recommendation is vague or unsupported | No recommendation provided |
-| **Writing and professionalism** | Writing is clear, well-organized, and uses ethical and technical terminology accurately throughout | Writing is clear with mostly accurate terminology | Writing is understandable but disorganized or imprecise | Writing is unclear or contains frequent errors | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

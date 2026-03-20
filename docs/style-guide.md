@@ -43,7 +43,7 @@
 ## Module Overview 🧭
 ## Learning Objectives 🎯
 ### Case Study N.X - [Title] 📋
-### Think About It 💭      (or use blockquote format inline)
+### Think About It 🧠      (or use blockquote format inline)
 ### Quick Check N.X ✅
 ## N.5 Skills Lab NA - [Title]  (NO ICON)
 ## N.6 Summary and Retrieval 💡
@@ -76,7 +76,7 @@
 
 * Use for "Think About It" prompts:
   ```markdown
-  > **Think About It:** 💭 Your reflection question here
+  > **Think About It:** 🧠 Your reflection question here
   ```
 * Use for important callouts or notable quotes (with attribution)
 

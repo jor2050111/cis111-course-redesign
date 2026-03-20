@@ -47,7 +47,7 @@ The following table highlights the key differences.
 
 Understanding this distinction matters because it prevents two common mistakes. The first mistake is assuming that your personal morals are enough to guide professional conduct. They are not. IT work creates situations your personal experience never prepared you for. The second mistake is assuming that professional standards override everything. They do not. When a professional obligation requires something you believe is genuinely harmful, you have a responsibility to speak up. Later in this module, you will examine how to handle those conflicts.
 
-### Think About It 2.1 💭
+### Think About It 2.1 🧠
 
 > Think about a job you have held, whether in IT or another field. Was there ever a moment when what your employer expected conflicted with what you personally felt was right? How did you handle it? Looking back, would you handle it differently now?
 
@@ -109,7 +109,7 @@ The broadest ethical relationship extends beyond your employer, your clients, an
 
 **The digital divide** is another. Not everyone has equal access to technology. When you design systems that require high-speed internet, expensive devices, or advanced technical skills, you may be excluding people who are already disadvantaged. Ethical IT practice considers accessibility and inclusion as design requirements, not afterthoughts.
 
-### Think About It 2.2 💭
+### Think About It 2.2 🧠
 
 > A vendor you work with regularly sends your IT department a $200 gift basket every holiday season. Your company has no formal policy on vendor gifts. Is accepting the gift ethical? Does your answer change if the vendor is currently bidding on a new contract with your company?
 
@@ -166,7 +166,7 @@ Using unlicensed software on a work computer is both illegal and unethical. It v
 
 IT users often have access to data that does not belong to them personally. A human resources assistant can see salary information. A customer service representative can see billing records. An intern with database access might be able to view confidential project files. The ethical obligation is clear: access only the data you need for your job, and never use organizational data for personal purposes.
 
-### Think About It 2.3 💭
+### Think About It 2.3 🧠
 
 > You are working from home and your personal laptop breaks down. You still have your company-issued laptop. Your child needs to submit a school assignment by midnight. Is it ethical to let your child use your company laptop for 30 minutes to complete the assignment? What factors would influence your decision?
 
@@ -262,11 +262,11 @@ You have the technical access to generate this report. However, several things c
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder identification** | Identifies all major stakeholders with specific, accurate descriptions of their interests and risks | Identifies most stakeholders with reasonable descriptions | Identifies some stakeholders but descriptions lack specificity | Lists stakeholders without meaningful description | Missing or inaccurate |
-| **Professional relationship analysis** | Correctly maps all relevant professional relationships to specific ethical obligations from the module | Maps most relationships correctly with adequate explanation | Maps some relationships but with gaps in reasoning | Attempts to identify relationships but with significant errors | No relationship analysis attempted |
-| **Framework application** | Applies ethical frameworks accurately with clear reasoning and specific references to the scenario | Applies frameworks correctly with adequate reasoning | Applies frameworks but with gaps in reasoning or accuracy | Attempts to apply frameworks but with significant errors | Missing or not recognizable as framework application |
-| **Recommendation quality** | Response to Marcus is clear, professional, specific, and well-grounded in ethical reasoning | Response is clear and supported by at least one ethical principle | Response is present but weakly supported or unprofessional in tone | Response is vague, unsupported, or inappropriate | No recommendation provided |
-| **Writing and professionalism** | Writing is clear, organized, and uses ethical terminology accurately throughout | Writing is clear with mostly accurate terminology | Writing is understandable but disorganized or imprecise | Writing is unclear or contains frequent errors | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

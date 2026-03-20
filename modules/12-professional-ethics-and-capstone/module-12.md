@@ -73,7 +73,7 @@ The (ISC)² code is built on four mandatory canons, listed in order of priority:
 
 The priority ordering is critical. When canons conflict, you resolve the conflict by following the higher-ranked canon. For example, if your employer asks you to cover up a data breach (Canon 3: serve your principal), the (ISC)² code says you must prioritize Canon 1 (protect society and public trust) instead. This gives security professionals explicit authorization to push back against unethical instructions.
 
-### Think About It 12.1 💭
+### Think About It 12.1 🧠
 
 > Imagine you hold a CISSP certification and your employer tells you to delay notifying customers about a data breach until after a major product launch. The (ISC)² code ranks protecting society above serving your employer. How does having that explicit priority ordering change how you would handle the situation compared to not having a code at all?
 
@@ -147,7 +147,7 @@ Priya raises the issue at a team meeting, citing the ACM code's principle to avo
 
 3. If you were Priya, what would you do next? Identify which professional code principles and which ethical frameworks from this course support your decision.
 
-### Think About It 12.2 💭
+### Think About It 12.2 🧠
 
 > Advisory ethics boards are becoming common at tech companies. If an ethics board has no authority to block a product launch, does it serve a meaningful purpose? What would make an internal ethics review process genuinely effective?
 
@@ -201,7 +201,7 @@ Some of the most recognized IT certifications include:
 
 Certifications create a form of **professional accountability** that sits between voluntary codes and mandatory licensing. If you hold a CISSP and act unethically, you can lose your credential, which has real career consequences. But certifications do not carry the legal weight of a license, and many IT workers hold no certifications at all.
 
-### Think About It 12.3 💭
+### Think About It 12.3 🧠
 
 > In Module 2, you learned about the ethical responsibilities of IT workers across six professional relationships. Do you think a formal licensing requirement would make IT professionals more accountable in those relationships, or would it simply add bureaucracy without changing behavior? What evidence from your own experience supports your view?
 
@@ -253,7 +253,7 @@ Here is a practical framework for IT professionals who find themselves asked to 
 
 This is not a clean, comfortable process. Ethical dilemmas in professional life rarely are. But having a structured approach, grounded in professional codes and ethical frameworks, is far better than improvising under pressure.
 
-### Think About It 12.4 💭
+### Think About It 12.4 🧠
 
 > The practical framework above describes raising ethical concerns internally before considering external action. What factors might make a professional decide to skip internal escalation and go directly to external disclosure? Under what circumstances would that be ethically justified?
 
@@ -306,14 +306,14 @@ Propose a complex IT ethics scenario based on current events or emerging technol
 7. **Formulate a recommendation.** In 400-500 words, state and defend your recommendation for how the central decision in the scenario should be resolved. Your recommendation must reference at least two ethical frameworks, at least one professional code, and at least one legal or regulatory concept from the course. Address the strongest counterargument to your position.
 8. **Professional reflection.** In 200-250 words, reflect on your own development as an ethical thinker over the course of this semester. How has your approach to IT ethics changed? Which frameworks or concepts do you find most useful? What questions are you still working through?
 
-### Rubric - Skills Lab 12A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
-|----------|-------------|-----------------|----------------|--------------|-----------------|
-| **Ethical Landscape Analysis** | Thoroughly identifies the core ethical tension with precise stakeholder mapping and connections to 4+ course concepts | Clearly identifies the ethical tension with stakeholders and connections to 3-4 course concepts | Identifies the basic ethical issue with some stakeholders and 2-3 course concepts | Vaguely identifies an issue with minimal stakeholder or course concept connections | No meaningful ethical analysis present |
-| **Framework Application** | Applies two frameworks accurately and insightfully, with specific reasoning tied to scenario details; clearly identifies agreement and disagreement between frameworks | Applies two frameworks correctly with adequate reasoning and some comparison | Applies frameworks but with gaps in reasoning, limited comparison, or inaccuracies | Attempts framework application but with significant errors or only one framework | No recognizable framework application |
-| **Professional Code Application** | Identifies specific code provisions relevant to the scenario and explains clearly how they apply; demonstrates understanding of code structure and priorities | Identifies relevant code provisions with reasonable application to the scenario | References a code but application is general or lacks specific provisions | Mentions a code without meaningful application | No professional code referenced |
-| **Recommendation Quality** | Recommendation is specific, well-defended using multiple frameworks and legal/regulatory concepts, and addresses the strongest counterargument | Recommendation is clear, supported by at least one framework and one other course concept | Recommendation is present but support is thin or relies on opinion rather than course concepts | Recommendation is vague, unsupported, or does not engage with course material | No recommendation provided |
+|---|---|---|---|---|---|
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies two frameworks accurately and insightfully with specific reasoning tied to scenario details; clearly identifies where frameworks agree and disagree | Applies two frameworks correctly with adequate reasoning and some comparison | Applies frameworks but with gaps in reasoning, limited comparison, or inaccuracies | Attempts framework application but with significant errors or applies only one framework | No recognizable framework application |
+| **Course Concept Synthesis** | Accurately connects the scenario to four or more course concepts from different modules with detailed, well-reasoned analysis; professional code provisions are specific and clearly applied | Connects the scenario to three or four course concepts with adequate reasoning; professional code application is reasonable | References two or three course concepts but connections are surface-level or partially inaccurate; professional code application is general | Mentions one or two course concepts without meaningful connection; professional code is referenced but not applied | No course concepts or professional codes referenced |
+| **Recommendation Quality** | Recommendation is specific, well-defended using multiple frameworks and legal or regulatory concepts, and addresses the strongest counterargument | Recommendation is clear and supported by at least one framework and one other course concept | Recommendation is present but support is thin or relies on opinion rather than course concepts | Recommendation is vague, unsupported, or does not engage with course material | No recommendation provided |
 | **Writing Quality and Professional Reflection** | Writing is clear, well-organized, and uses ethical and professional terminology accurately; reflection shows genuine growth and self-awareness | Writing is clear with mostly accurate terminology; reflection addresses development meaningfully | Writing is understandable but disorganized; reflection is superficial | Writing is unclear; reflection is missing or off-topic | Unreadable, off-topic, or no reflection |
 
 ### Submission Guidelines

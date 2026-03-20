@@ -77,7 +77,7 @@ Common types of exploits include:
 | **Zero-day exploit** | Targets a previously unknown vulnerability before a patch is available | All three |
 | **Insider threat** | An authorized user intentionally or accidentally causes harm | All three |
 
-### Think About It 11.1 💭
+### Think About It 11.1 🧠
 
 > Think about the devices and accounts you use every day: your phone, email, social media, banking apps, school accounts. How many of these use multi-factor authentication? How many share the same password? If an attacker compromised one of your accounts today, what other accounts or data could they reach from there?
 
@@ -164,7 +164,7 @@ Several federal laws provide the legal framework for prosecuting identity theft 
 
 * **State breach notification laws** require organizations to notify affected individuals when their personal data has been compromised. All 50 states now have breach notification laws, though the specific requirements (what constitutes a "breach," how quickly notification must occur, and what information must be provided) vary significantly from state to state.
 
-### Think About It 11.2 💭
+### Think About It 11.2 🧠
 
 > The CFAA's broad language has led to debates about whether activities like sharing a password with a friend or using a work computer for personal tasks could technically be federal crimes. Where do you think the line should be between legitimate security protection and overcriminalization of everyday computer use?
 
@@ -250,7 +250,7 @@ A standard risk assessment follows these steps:
 
 The **National Institute of Standards and Technology (NIST) Cybersecurity Framework** is widely used as a comprehensive approach to managing cybersecurity risk. It organizes security functions into five categories: Identify, Protect, Detect, Respond, and Recover. Each category contains subcategories and references to specific security controls. The framework is voluntary but has become a de facto standard, particularly for organizations that work with the U.S. government.
 
-### Think About It 11.3 💭
+### Think About It 11.3 🧠
 
 > Think about a small business you are familiar with, such as a local restaurant, a tutoring service, or a small retail shop. What digital assets does that business have (customer data, financial records, online ordering systems)? If you were conducting a risk assessment for that business, what would you identify as the three most significant risks? How would your recommendations differ from those for a large corporation?
 
@@ -378,7 +378,7 @@ Artificial intelligence is transforming cybersecurity in ways that are both prom
 
 * **Over-reliance on automation.** AI enhances human analysts; it does not replace them. Organizations that reduce their security teams based on AI capabilities may find themselves vulnerable when AI systems encounter threats they were not trained to handle.
 
-### Think About It 11.4 💭
+### Think About It 11.4 🧠
 
 > The same AI voice cloning technology that enables fraud (replicating a CEO's voice for a fake phone call) also has legitimate uses in accessibility and entertainment. How should society balance the benefits of this technology against its potential for harm? Should there be restrictions on who can use voice cloning tools and for what purposes?
 
@@ -438,15 +438,15 @@ MCC recently experienced the following incident: A phishing email that appeared 
 
 7. Draft a breach notification letter (150-200 words) to the affected students. Include what happened, what data was potentially exposed, what MCC is doing in response, and what steps students should take to protect themselves. Your letter should be clear, honest, and written for a non-technical audience.
 
-### Rubric - Skills Lab 11A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **CIA Triad analysis** | Accurately identifies compromised CIA components at each incident stage with clear reasoning | Identifies most compromised components with adequate reasoning | Identifies some compromised components but misses key stages | Superficial or partially incorrect CIA analysis | No CIA analysis attempted |
-| **Security policy formulation** | Policies are specific, technically enforceable, and directly address vulnerabilities revealed by the incident | Policies are reasonable and address most identified vulnerabilities | Policies are present but vague or only partially connected to the incident | Policies are generic and not tailored to the scenario | No policy recommendations provided |
-| **Incident response plan** | Comprehensive plan covering all four NIST phases with specific, actionable steps appropriate to the scenario | Covers all four phases with mostly specific actions | Covers some phases but lacks detail or specificity | Plan is incomplete or generic | No incident response plan provided |
-| **Identity theft analysis** | Correctly identifies specific identity theft risks tied to the types of data exposed, with prevention recommendations | Identifies most identity theft risks with some prevention guidance | Identifies some risks but analysis is surface-level | Minimal awareness of identity theft implications | No identity theft analysis |
-| **Notification letter** | Clear, honest, appropriately detailed for a non-technical audience, includes all required elements | Covers most elements with generally clear language | Includes some elements but is unclear or overly technical | Vague or missing key information | No notification letter provided |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

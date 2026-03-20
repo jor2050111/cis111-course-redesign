@@ -60,7 +60,7 @@ The board has an ethical role that goes beyond financial oversight. It sets the 
 
 In technology companies, governance decisions carry unusual weight because the products affect so many people. A board's decision to rush a product to market, cut a safety team, or delay addressing a known bias in an algorithm is a governance decision with ethical consequences for millions.
 
-### Think About It 3.1 💭
+### Think About It 3.1 🧠
 
 > Think about a company whose products you use every day. Who are its stakeholders? If the company had to choose between increasing profits for shareholders and protecting user privacy, which group's interests should take priority? What ethical framework from Module 1 supports your answer?
 
@@ -168,7 +168,7 @@ Training is how organizations translate ethical policies into employee behavior.
 
 Some organizations go further by including **ethical criteria in performance appraisals**. This means that employees are evaluated not just on what they achieved but on how they achieved it. When ethical behavior is part of how promotions and raises are determined, employees have a concrete incentive to act with integrity.
 
-### Think About It 3.3 💭
+### Think About It 3.3 🧠
 
 > Think about a job you have held or an organization you have been part of. Did the organization have a code of ethics or a set of core values? If so, did people actually follow it, or was it just words on a wall? What made the difference between a code that influenced behavior and one that did not?
 
@@ -245,7 +245,7 @@ AI governance is not just about fairness and accountability. It also involves en
 
 **Green computing** refers to the practice of designing, manufacturing, using, and disposing of computing resources in environmentally responsible ways. For AI specifically, green computing raises questions about whether the benefits of ever-larger models justify their environmental costs, and whether companies have an obligation to measure and disclose the carbon footprint of their AI systems.
 
-### Think About It 3.4 💭
+### Think About It 3.4 🧠
 
 > You use AI-powered tools every day, from search engines to voice assistants to recommendation algorithms. Pick one AI tool you use regularly. Who built it? What data does it use? If it produced a biased or harmful result, who would you hold responsible, and why?
 
@@ -298,11 +298,11 @@ Dr. Osei presented her findings to the CEO and the board of directors. The CEO a
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder identification** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
-| **CSR and governance analysis** | Accurately applies CSR principles and identifies specific governance failures with clear reasoning tied to the scenario | Applies CSR principles correctly with adequate reasoning | References CSR but with gaps in reasoning or connection to the scenario | Attempts CSR analysis but with significant errors or vague connections | No CSR or governance analysis attempted |
-| **AI ethics application** | Applies AI ethics principles accurately, identifies specific violations, and explains their impact on affected stakeholders | Applies AI ethics principles correctly with adequate explanation | References AI ethics principles but application is incomplete or partially inaccurate | Mentions AI ethics principles without meaningful application | No AI ethics principles applied |
-| **Recommendation quality** | Recommendation is clear, specific, and well-supported by CSR, governance, and AI ethics reasoning with explicit connections to the scenario | Recommendation is clear and supported by at least two analytical frameworks | Recommendation is present but only weakly supported by one framework | Recommendation is vague, generic, or unsupported | No recommendation provided |
-| **Writing and professionalism** | Writing is clear, well-organized, and uses ethical and governance terminology accurately throughout | Writing is clear with mostly accurate terminology | Writing is understandable but disorganized or imprecise in terminology | Writing is unclear or contains frequent errors in terminology | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

@@ -72,7 +72,7 @@ When PHI is compromised, HIPAA's **Breach Notification Rule** requires covered e
 
 The consequences of a HIPAA violation can be severe. Civil penalties range from $100 to $50,000 per violation, with annual maximums up to $1.5 million per violation category. Criminal penalties can include fines up to $250,000 and prison time for individuals who knowingly obtain or disclose PHI. The HHS Office for Civil Rights maintains a public breach portal listing all breaches affecting 500 or more individuals, and that list has grown significantly in recent years as healthcare organizations become more frequent targets for cyberattacks.
 
-### Think About It 6.1 💭
+### Think About It 6.1 🧠
 
 > You work as an IT support technician at a small medical clinic. While troubleshooting a printer issue, you see a patient's lab results on a screen. The patient is someone you know personally. HIPAA's minimum necessary standard says you should not have seen that information at all. But you did. What are your ethical obligations at this point? Does it matter whether you tell anyone what you saw?
 
@@ -202,7 +202,7 @@ But telemedicine also raises ethical questions that the healthcare system is sti
 
 * **Cross-state licensing.** In the United States, medical licenses are issued by individual states. A physician licensed in Arizona cannot typically treat a patient located in California without a California license. Telemedicine complicates this because the patient and provider can be anywhere. Some states created temporary interstate practice agreements during the pandemic, but long-term solutions are still being developed. The ethical tension is between expanding patient access and maintaining the regulatory oversight that licensing provides.
 
-### Think About It 6.3 💭
+### Think About It 6.3 🧠
 
 > Imagine you are a patient living in a rural community 90 miles from the nearest specialist. Your doctor recommends a telemedicine consultation with a cardiologist. You have a slow internet connection and share your home with family members. What concerns would you have about this arrangement? How would you want the healthcare system to address them?
 
@@ -276,7 +276,7 @@ Training and running AI models requires enormous computational resources. Large 
 
 This connects to the green computing concepts discussed in Module 3. Healthcare organizations that adopt AI have an ethical responsibility to consider the environmental impact alongside the clinical benefit. Choosing more efficient models, using renewable energy for data centers, and avoiding unnecessary AI deployment when simpler tools would work are all part of that responsibility.
 
-### Think About It 6.4 💭
+### Think About It 6.4 🧠
 
 > You learn that the AI system your hospital uses to prioritize patients in the emergency department was trained primarily on data from suburban hospitals. Your hospital serves a predominantly low-income, urban community with high rates of chronic disease. What concerns would you raise about this system, and who should you raise them with? Think about the AI ethics principles of fairness and accountability from Module 3.
 
@@ -336,15 +336,15 @@ However, VRMC's medical staff has raised several concerns:
 
 8. Propose three specific contract modifications that would address the ethical concerns you identified. For each modification, explain which ethical principle it protects and why it matters for patient care.
 
-### Rubric - Skills Lab 6A
+### Rubric
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder and HIPAA Analysis** | Identifies all major stakeholders with specific interests; accurately applies HIPAA concepts including business associate status, Security Rule safeguards, and ePHI protections | Identifies most stakeholders with reasonable descriptions; applies HIPAA concepts correctly with minor gaps | Identifies some stakeholders; applies HIPAA concepts with gaps or limited specificity | Lists stakeholders without meaningful description; HIPAA references are vague or inaccurate | Missing or inaccurate stakeholder identification; no HIPAA application |
-| **Ethical Framework Application** | Applies utilitarian and deontological frameworks accurately with clear reasoning tied to specific scenario details; demonstrates understanding of each framework's logic | Applies both frameworks correctly with adequate reasoning and some scenario-specific detail | Applies frameworks but with gaps in reasoning or loose connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | No ethical framework applied or framework is unrecognizable |
-| **Algorithmic Bias Analysis** | Thoroughly explains how training data bias affects performance for VRMC's patient population; identifies specific risks and proposes evidence-based mitigation strategies | Explains training data bias with adequate specificity; identifies risks and proposes reasonable mitigation | Mentions bias but lacks specificity about how it affects this population; mitigation is vague | Acknowledges bias exists but does not connect it to the scenario's demographics | No discussion of algorithmic bias |
-| **Recommendation Quality** | Recommendation is clear, specific, and supported by multiple ethical frameworks with explicit reasoning; contract modifications are practical and directly address identified concerns | Recommendation is clear and supported by at least one framework; modifications are reasonable | Recommendation is present but weakly supported; modifications are vague or not clearly connected to concerns | Recommendation is vague or unsupported; modifications are missing or impractical | No recommendation provided |
-| **Writing and Professionalism** | Writing is clear, well-organized, and uses healthcare IT and ethical terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology; organization is generally logical | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

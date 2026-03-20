@@ -57,7 +57,7 @@ Not every disclosure is ethically justified. Leaking confidential information fo
 
 **Motivation.** While not every ethicist agrees that motivation matters, some frameworks consider it relevant. Is the whistleblower acting out of genuine concern for public safety or justice, or primarily out of personal grievance, financial reward, or revenge? The answer may not change whether the information should be disclosed, but it can affect how the whistleblower's actions are judged.
 
-### Think About It 5.1 💭
+### Think About It 5.1 🧠
 
 > You discover that your IT department has been storing customer credit card numbers in plain text, a serious security vulnerability that violates industry standards. You report it to your manager, who says, "We know, but fixing it would cost too much and delay our product launch. Keep this to yourself." What would you do next? Which of the ethical criteria above support your decision?
 
@@ -187,7 +187,7 @@ This is not a simple choice. Reporting the breach externally could cost you your
 
 The ethical frameworks from Module 1 can help sort through this tension. A utilitarian analysis weighs the harm of concealment (potential identity theft for 500,000 people) against the harm of disclosure (financial and reputational damage to the company). A deontological analysis asks whether there is a duty to be honest with the people whose data was compromised, regardless of the consequences. Social contract theory asks what rules a fair society would agree to: would rational people agree to a system where companies can hide data breaches that put them at risk?
 
-### Think About It 5.3 💭
+### Think About It 5.3 🧠
 
 > You work at a company that sells a popular fitness tracking app. The app collects users' location data, heart rate, sleep patterns, and exercise routines. You discover that the company has been selling aggregated (but not fully anonymized) user health data to insurance companies. The privacy policy technically allows it in a vague clause buried on page 12. Is the company fulfilling its fiduciary duty to users? Does the fact that it is technically "legal" make it ethical? What would you want to know if you were one of the app's users?
 
@@ -268,7 +268,7 @@ Artificial intelligence is changing the whistleblowing landscape in two importan
 
 These AI-related scenarios are not hypothetical. Reports from former employees at major technology companies have described exactly these situations: AI surveillance systems used to monitor internal dissent, and AI models trained on data that was collected under one set of promises and used for entirely different purposes.
 
-### Think About It 5.4 💭
+### Think About It 5.4 🧠
 
 > Imagine you work at a company that uses AI-powered tools to monitor all employee emails and chat messages. You have just discovered evidence that the company is violating customer privacy. You want to report it, but you know the monitoring system might flag your communications with a lawyer or a regulator. How does the existence of AI surveillance change your approach to whistleblowing? What steps would you take to protect yourself?
 
@@ -323,11 +323,11 @@ Kenji now faces a decision. He believes DataStream is violating the trust of mil
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder identification** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
-| **Whistleblowing criteria analysis** | Applies all ethical criteria accurately with clear reasoning tied to specific facts in the scenario | Applies most criteria correctly with adequate reasoning | References criteria but application is incomplete or partially inaccurate | Mentions criteria without meaningful application to the scenario | No criteria analysis attempted |
-| **Legal framework application** | Accurately identifies relevant laws, explains their applicability, and analyzes limitations specific to this scenario | Identifies relevant laws with adequate explanation of applicability | References laws but with gaps in reasoning or applicability analysis | Mentions laws without meaningful application to the scenario | No legal framework analysis attempted |
-| **Recommendation quality** | Recommendation is clear, specific, and well-supported by ethical, legal, and AI ethics reasoning with explicit connections to the scenario | Recommendation is clear and supported by at least two analytical frameworks | Recommendation is present but only weakly supported by one framework | Recommendation is vague, generic, or unsupported | No recommendation provided |
-| **Writing and professionalism** | Writing is clear, well-organized, and uses ethical, legal, and AI terminology accurately throughout | Writing is clear with mostly accurate terminology | Writing is understandable but disorganized or imprecise in terminology | Writing is unclear or contains frequent errors in terminology | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 

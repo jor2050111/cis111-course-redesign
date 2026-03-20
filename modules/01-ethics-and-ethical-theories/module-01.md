@@ -43,7 +43,7 @@ As an IT professional, you will face situations where no policy manual tells you
 
 That is what this module builds: a set of reasoning tools you can reach for when the right choice is not obvious.
 
-### Think About It 1.1 💭
+### Think About It 1.1 🧠
 
 > You are working at a small tech company. A coworker shows you a way to access a competitor's customer list through a flaw in their website. No law clearly prohibits it, and your boss would love the information. What would you do, and what is guiding that decision: your personal morals, a professional code of ethics, or the law?
 
@@ -75,7 +75,7 @@ Now consider an IT example. A social media company discovers that its recommenda
 
 **Limitations of utilitarianism.** Predicting outcomes is hard. You cannot always know who will be helped or harmed, or by how much. It can also justify harming a small group if the benefit to a larger group is big enough. In IT, this matters. A company might argue that collecting personal data without consent is fine because millions of users benefit from a better product. The people whose privacy was violated might disagree.
 
-### Think About It 1.2  💭
+### Think About It 1.2  🧠
 
 > A hospital's IT department is deciding between two new patient records systems. System A is cheaper and works well for 90% of patients, but it has accessibility problems that make it difficult for visually impaired patients to use. System B costs more but works for everyone. Using utilitarian reasoning, which system should they choose? What factors make this decision harder than it looks?
 
@@ -125,7 +125,7 @@ Now consider an IT example. You are a database administrator and you discover th
 
 **Limitations of virtue ethics.** It is vague. Two people with "good character" might still disagree about the right action. It does not provide a step-by-step method for resolving dilemmas, which makes it harder to apply in a professional setting where clear justifications are expected. Different cultures also value different virtues, so what counts as "good character" is not universal.
 
-### Think About It 1.3 💭
+### Think About It 1.3 🧠
 
 > Think about someone you admire in a professional setting, a teacher, a boss, a mentor, or a public figure. What character traits make them admirable? Would those traits help them make good ethical decisions in IT? Why or why not?
 
@@ -241,11 +241,11 @@ Metro City Council must decide whether to continue, modify, or cancel the CrimeM
 
 | Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |
 |---|---|---|---|---|---|
-| **Stakeholder identification** | Identifies all major stakeholders with specific, accurate descriptions of their interests | Identifies most stakeholders with reasonable descriptions | Identifies some stakeholders but descriptions lack specificity | Lists stakeholders without meaningful description | Missing or inaccurate |
-| **Framework application** | Applies frameworks accurately with clear reasoning and specific references to the scenario | Applies frameworks correctly with adequate reasoning | Applies frameworks but with gaps in reasoning or accuracy | Attempts to apply frameworks but with significant errors | Missing or not recognizable as framework application |
-| **Framework comparison** | Identifies specific points of agreement and conflict between frameworks with clear explanation | Notes agreement and conflict between frameworks | Mentions comparison but lacks specific examples | Comparison is superficial or inaccurate | No comparison attempted |
-| **Recommendation quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning | Recommendation is clear and supported by at least one framework | Recommendation is present but weakly supported | Recommendation is vague or unsupported | No recommendation provided |
-| **Writing and professionalism** | Writing is clear, organized, and uses ethical terminology accurately throughout | Writing is clear with mostly accurate terminology | Writing is understandable but disorganized or imprecise | Writing is unclear or contains frequent errors | Unreadable or off-topic |
+| **Stakeholder Analysis** | Identifies all major stakeholders with specific, accurate descriptions of their interests and what each stands to gain or lose | Identifies most stakeholders with reasonable descriptions of their interests | Identifies some stakeholders but descriptions lack specificity or miss key interests | Lists stakeholders without meaningful description of their interests | Missing or inaccurate |
+| **Ethical Framework Application** | Applies ethical frameworks accurately with clear reasoning and specific references to scenario details; demonstrates understanding of each framework's logic | Applies frameworks correctly with adequate reasoning and some scenario-specific references | Applies frameworks but with gaps in reasoning or limited connection to the scenario | Attempts to apply frameworks but with significant errors or confusion between them | Missing or not recognizable as framework application |
+| **Module Concept Application** | Accurately applies module-specific concepts to the scenario with detailed, well-reasoned analysis that demonstrates mastery of the material | Applies module-specific concepts correctly with adequate reasoning and clear connections to the scenario | References module concepts but application is incomplete or partially inaccurate | Mentions module concepts without meaningful application to the scenario | No application of module concepts attempted |
+| **Recommendation Quality** | Recommendation is clear, specific, and well-supported by multiple frameworks with explicit reasoning; addresses counterarguments or competing interests | Recommendation is clear and supported by at least one framework with reasonable justification | Recommendation is present but weakly supported or lacks clear connection to ethical reasoning | Recommendation is vague, generic, or unsupported by ethical reasoning | No recommendation provided |
+| **Writing and Professionalism** | Writing is clear, well-organized, and uses ethical and professional terminology accurately throughout; ideas flow logically between sections | Writing is clear with mostly accurate terminology and reasonable organization | Writing is understandable but disorganized or imprecise in terminology use | Writing is unclear, contains frequent errors, or lacks professional tone | Unreadable or off-topic |
 
 ### Submission Guidelines
 
