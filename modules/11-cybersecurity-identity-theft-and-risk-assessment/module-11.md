@@ -41,13 +41,10 @@ These principles often trade against each other. Maximizing confidentiality (com
 
 Organizations implement CIA at four levels:
 
-**Organizational level.** Clear governance, defined roles, security budgets, and a culture that treats security as everyone's responsibility. Module 3's corporate-governance principles apply: leadership that underfunds security or ignores warnings puts stakeholders at risk.
-
-**Network level.** Firewalls, **intrusion detection systems (IDS)**, **intrusion prevention systems (IPS)**, **virtual private networks (VPNs)**, and network segmentation protect data in transit and monitor for suspicious activity.
-
-**Application level.** Secure coding (Module 7), input validation, authentication, and encryption protect individual applications. SQL injection and cross-site scripting remain among the most common attack vectors.
-
-**End-user level.** The human element is consistently the weakest link. Strong passwords, **multi-factor authentication (MFA)**, security awareness training, and clear acceptable use policies help protect against social engineering and phishing. No technical infrastructure compensates fully for a user who clicks a malicious link.
+* **Organizational.** Clear governance, defined roles, security budgets, and a culture treating security as everyone's responsibility. Module 3's principles apply: leadership that underfunds security puts stakeholders at risk.
+* **Network.** Firewalls, **intrusion detection systems (IDS)**, **intrusion prevention systems (IPS)**, **VPNs**, and network segmentation protect data in transit.
+* **Application.** Secure coding (Module 7), input validation, authentication, and encryption protect individual applications. SQL injection and cross-site scripting remain common attack vectors.
+* **End-user.** The human element is consistently the weakest link. Strong passwords, **multi-factor authentication (MFA)**, security awareness training, and acceptable-use policies help against social engineering and phishing. No technical infrastructure compensates for a user who clicks a malicious link.
 
 ### The Current Threat Landscape
 
@@ -91,7 +88,7 @@ Identity theft is one of the most personal consequences of cybersecurity failure
 
 ### What Is Identity Theft?
 
-**Identity theft** is the unauthorized use of another person's **personally identifiable information (PII)**, typically for financial gain. PII includes names, Social Security numbers, dates of birth, addresses, and financial account numbers.
+**Identity theft** is the unauthorized use of another person's **personally identifiable information (PII)** for financial gain. PII includes names, SSNs, dates of birth, addresses, and financial account numbers.
 
 Identity theft takes several forms:
 
@@ -140,11 +137,11 @@ Prevention requires action at both individual and organizational levels:
 
 Several federal laws frame the prosecution of identity theft and computer crimes:
 
-* **Computer Fraud and Abuse Act (CFAA)**: The primary federal law for computer crimes. Passed in 1986 and amended repeatedly, it criminalizes unauthorized access, exceeding authorized access, trafficking in passwords, and transmitting malicious code. Critics argue its broad language can criminalize minor activities like violating a website's terms of service.
-* **Identity Theft and Assumption Deterrence Act (1998)**: Made identity theft a federal crime and established penalties for using another person's identification to commit a crime.
-* **Electronic Communications Privacy Act (ECPA)**: Governs interception of electronic communications, including the Wiretap Act and Stored Communications Act. Critics argue ECPA offers weaker protections for stored data than for real-time communications and has not kept pace with technology.
-* **CAN-SPAM Act (2003)**: Establishes rules for commercial email and gives recipients the right to opt out. Relevant to cybersecurity because phishing campaigns often violate it.
-* **State breach notification laws**: All 50 states now have them, but specific requirements (what counts as a breach, notification timeline, required content) vary widely.
+* **Computer Fraud and Abuse Act (CFAA):** Primary federal law for computer crimes. Criminalizes unauthorized access, exceeding authorized access, password trafficking, and malicious code. Critics argue its broad language can criminalize minor activities like terms-of-service violations.
+* **Identity Theft and Assumption Deterrence Act (1998):** Made identity theft a federal crime.
+* **Electronic Communications Privacy Act (ECPA):** Governs interception of electronic communications via the Wiretap Act and Stored Communications Act. Critics argue ECPA offers weaker protection for stored data than for real-time communications.
+* **CAN-SPAM Act (2003):** Rules for commercial email and the right to opt out; relevant because phishing often violates it.
+* **State breach notification laws:** All 50 states have them, with specifics varying widely.
 
 ### Think About It 11.2 🧠
 
@@ -186,7 +183,7 @@ Several factors compounded the severity. Anthem had not encrypted the Social Sec
 
 ## 11.3 Security Breaches, Risk Assessment, and Security Policies
 
-Major data breaches almost always reveal a chain of decisions, oversights, and systemic failures rather than a single moment of catastrophic error. Understanding what goes wrong, how to assess risk, and how to build security policies are interconnected skills that define competent IT security practice.
+Major breaches almost always reveal a chain of decisions and systemic failures rather than a single catastrophic error. Understanding what goes wrong, how to assess risk, and how to build security policies are interconnected skills.
 
 ### IT Security Breaches: What Goes Wrong and Why
 
@@ -316,6 +313,14 @@ The same AI capabilities that strengthen defenses empower attackers, creating an
 * **Adversarial AI.** Attackers can craft inputs that cause AI to misclassify malicious activity as benign.
 * **Bias.** AI trained on historical threat data detects familiar patterns better than novel ones, and may flag user behaviors based on demographic correlations.
 * **Over-reliance.** AI enhances human analysts; it does not replace them. Organizations that cut teams based on AI find themselves vulnerable to threats AI was not trained for.
+
+### A 2025-2026 Snapshot: AI-vs-AI Defense and Critical-Infrastructure Rules
+
+**AI-vs-AI defense matured through 2025.** Major SIEM and EDR vendors shipped autonomous-triage AI that closes simple alerts without analyst review. The 2024 AI-generated-phishing surge accelerated adoption, but 2025 incidents showed adversarial inputs manipulating commercial AI detectors, confirming no AI defense is permanent.
+
+**Regulation is catching up.** The EU AI Act's high-risk classification covers AI in critical infrastructure, with transparency, human-oversight, and post-market monitoring obligations phasing in through 2025-2026. CISA's 2025 secure-by-design guidance and updated NIST AI Risk Management Framework profiles now treat AI security tooling itself as a risk surface.
+
+Your role is **orchestrator and verifier**: when an AI security platform auto-closes an alert or recommends containment, the question is whether your team can audit what it decided, why, and whether a human had a meaningful chance to intervene.
 
 ### Think About It 11.4 🧠
 
@@ -491,4 +496,4 @@ Take a clear position and support it using at least two concepts from this modul
 
 ## Looking Ahead ⏩
 
-In Module 12, you shift from protecting systems to the professional obligations of the people who build and manage them. You will study the ACM, IEEE, and (ISC)² codes of ethics, compare what they share and where they differ, examine arguments for and against IT licensing and certification, apply the course's frameworks to emerging technologies, and complete a capstone synthesis project bringing everything together.
+In Module 12, you shift from protecting systems to the professional obligations of the people who build and manage them: the ACM, IEEE, and (ISC)² codes of ethics; arguments for and against IT licensing and certification; the course's frameworks applied to emerging technologies; and a capstone synthesis project.
