@@ -23,7 +23,7 @@
 * B5 Case Study Stakeholder Coverage: PASS — Case Study 5.1 (The Quiet Database) presents 5 stakeholders (Priya Nair, patients, MedVault executives/investors, hospital networks, HHS/OCR regulators) with competing interests and no obvious correct answer
 * B6 CLO Alignment: PASS — CLO V (whistleblower illustration and protections) addressed substantively in §5.1 (ethical criteria), §5.2 (legal frameworks), and §5.4 (practical guidance); CLO VII (fiduciary responsibilities of private information) addressed substantively in §5.3 (data as a trust, five obligations of data custodianship); both CLOs delivered in body content, not just MLO references
 * B7 Voice Consistency: PASS — second-person ("you") sustained throughout, no academic passive voice, no moralizing; tone matches Module 1 sample
-* B8 Looking Ahead: PROVISIONAL PASS — Looking Ahead currently forward-references Module 6 by number, which holds for any pairing option that places M5 immediately before M6 (Options 1 and 3). If Option 2 is selected (M5 single in W5, M6 single in W6, still adjacent), the reference also holds. Definitive PASS will be reconfirmed once `/planning/summer-2026-pairing.md` reaches a selected pairing.
+* B8 Looking Ahead: PASS — Pairing selected: Option 1 (Theme-Density). M5 is paired with M6 in Week 4. The existing forward reference to Module 6 is accurate for the selected pairing; M6 is the same-week partner module being studied alongside M5. Repo-wide forward-reference consistency falls under Section C5 after all 12 modules pass A and B.
 
 ## Notes
 
