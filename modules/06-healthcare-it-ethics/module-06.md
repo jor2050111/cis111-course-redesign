@@ -2,9 +2,9 @@
 
 In February 2024, a ransomware attack struck Change Healthcare, one of the largest health technology companies in the United States. Change Healthcare processes roughly 15 billion healthcare transactions each year, handling insurance claims, pharmacy operations, and payment systems for hospitals and clinics nationwide. The attack shut down claims processing for weeks. Physicians could not get paid. Pharmacies could not verify insurance coverage. Small medical practices that depended on timely reimbursements faced potential closure. The personal health data of over 100 million Americans was compromised. One cyberattack on one company disrupted healthcare delivery across the entire country.
 
-That incident exposed something important about modern healthcare: it runs on information technology. Electronic health records, mobile health apps, telemedicine platforms, clinical decision support tools, and AI-assisted diagnostics are now woven into how care is delivered, documented, and paid for. Every one of those systems creates ethical questions. Who has access to your health data? What happens when a clinical system gives a wrong recommendation? Is it ethical to use AI to make treatment decisions when the algorithm may perform differently for different populations? These are not theoretical concerns. They are decisions that IT professionals in healthcare settings face every day.
+That incident exposed something about modern healthcare: it runs on information technology. EHRs, mobile health apps, telemedicine, clinical decision support tools, and AI-assisted diagnostics are woven into how care is delivered, documented, and paid for. Each of those systems creates ethical questions IT professionals face every day. Who has access to your health data? What happens when a clinical system gives a wrong recommendation? Is it ethical to use AI for treatment decisions when the algorithm may perform differently for different populations?
 
-This module examines the ethical challenges that arise when IT meets healthcare. You will learn the legal foundations of health data privacy, evaluate the risks of mobile and wireless technologies in clinical settings, analyze the ethical implications of clinical IT systems and telemedicine, and consider the promise and danger of AI in healthcare. Throughout, you will apply the ethical frameworks from Part I to situations where patient safety, privacy, equity, and innovation pull in different directions.
+This module examines those ethical challenges. You will learn the legal foundations of health data privacy, evaluate the risks of mobile and wireless technologies in clinical settings, analyze clinical IT systems and telemedicine, and consider the promise and risk of AI in healthcare, applying the frameworks from Part I where patient safety, privacy, equity, and innovation pull against each other.
 
 ## Module Overview 🧭
 
@@ -25,52 +25,50 @@ By the end of this module, **you will be able to**:
 
 ## 6.1 HIPAA and the Foundations of Health Data Privacy
 
-Health data is different from other kinds of personal information. Your browsing history, your shopping preferences, and even your social media posts reveal something about you, but your health records reveal some of the most sensitive details of your life: diagnoses, mental health treatment, prescription medications, genetic test results, reproductive decisions, and substance use history. When that information is exposed, the consequences can include discrimination, social stigma, job loss, and insurance denial.
-
-That sensitivity is why the United States created a specific legal framework for protecting health data. Understanding this framework is the starting point for thinking ethically about healthcare IT.
+Health data is uniquely sensitive. Your medical records reveal diagnoses, mental health treatment, prescription medications, genetic test results, reproductive decisions, and substance use history. When that information is exposed, the consequences can include discrimination, stigma, job loss, and insurance denial. That sensitivity is why the United States created a specific legal framework for protecting it.
 
 ### The Health Insurance Portability and Accountability Act (HIPAA)
 
-Congress passed the **Health Insurance Portability and Accountability Act (HIPAA)** in 1996. While the law has several purposes, its most significant impact on IT professionals comes from its privacy and security provisions. HIPAA establishes national standards for who can access health data, how it must be protected, and what happens when protection fails.
+Congress passed the **Health Insurance Portability and Accountability Act (HIPAA)** in 1996. Its most significant impact on IT professionals comes from its privacy and security provisions, which set national standards for who can access health data, how it must be protected, and what happens when protection fails.
 
-HIPAA applies to **covered entities**, which include healthcare providers (hospitals, clinics, physicians), health plans (insurance companies, HMOs), and healthcare clearinghouses (organizations that process health data). It also applies to **business associates**, which are companies that handle health data on behalf of covered entities. This is critical for IT professionals because cloud storage providers, software vendors, billing companies, and IT service firms that work with healthcare organizations are all business associates under HIPAA. If you work in IT and your company touches health data in any way, HIPAA applies to you.
+HIPAA applies to **covered entities**, which include healthcare providers (hospitals, clinics, physicians), health plans (insurance companies, HMOs), and healthcare clearinghouses. It also applies to **business associates**, companies that handle health data on behalf of covered entities. Cloud storage providers, software vendors, billing companies, and IT service firms that work with healthcare organizations are all business associates. If you work in IT and your company touches health data, HIPAA applies to you.
 
 ### Protected Health Information (PHI)
 
-**Protected Health Information (PHI)** is the core concept in HIPAA's privacy framework. PHI is any individually identifiable health information that is created, received, maintained, or transmitted by a covered entity or business associate. This includes obvious identifiers like a patient's name, address, date of birth, and Social Security number, but it also includes less obvious ones: medical record numbers, health plan beneficiary numbers, biometric identifiers, and even photographs.
+**Protected Health Information (PHI)** is the core concept in HIPAA's privacy framework: any individually identifiable health information created, received, maintained, or transmitted by a covered entity or business associate. PHI includes obvious identifiers (name, address, date of birth, Social Security number) and less obvious ones (medical record numbers, health plan beneficiary numbers, biometric identifiers, photographs).
 
-When PHI exists in electronic form, it is called **electronic Protected Health Information (ePHI)**. Most health data today is ePHI, which means IT systems are directly responsible for its storage, transmission, and security.
+When PHI exists in electronic form, it is **electronic Protected Health Information (ePHI)**. Most health data today is ePHI, which puts IT systems directly responsible for its storage, transmission, and security.
 
-Here is an important distinction: **de-identified data** is health information that has been stripped of all 18 identifiers specified by HIPAA. De-identified data is not subject to HIPAA restrictions because it cannot be traced back to a specific person. However, research has shown that supposedly de-identified data can sometimes be re-identified by combining it with other data sources, which raises its own ethical concerns.
+**De-identified data** is health information stripped of HIPAA's 18 identifiers; HIPAA does not restrict it because it cannot be traced to a specific person. However, research has shown that supposedly de-identified data can sometimes be re-identified by combining it with other sources, raising its own ethical concerns.
 
 ### The Privacy Rule
 
-The **HIPAA Privacy Rule** governs who can access PHI and under what circumstances. The core principle is the **minimum necessary standard**: covered entities should only access, use, or disclose the minimum amount of PHI needed for a specific purpose. A hospital billing clerk does not need to see a patient's full medical history to process an insurance claim. A researcher studying treatment outcomes does not need patient names.
+The **HIPAA Privacy Rule** governs who can access PHI and when. Its core principle is the **minimum necessary standard**: covered entities should access, use, or disclose only the minimum PHI needed for a specific purpose. A billing clerk does not need a patient's full medical history to process a claim; a researcher studying treatment outcomes does not need patient names.
 
 The Privacy Rule grants patients specific rights:
 
-* **Right to access:** Patients can request copies of their own health records.
+* **Right to access:** Patients can request copies of their own records.
 * **Right to amendment:** Patients can ask for corrections to inaccurate information.
 * **Right to an accounting of disclosures:** Patients can find out who has accessed their records and why.
 * **Right to restrict disclosures:** Patients can request limits on how their information is shared.
 
-For IT professionals, the Privacy Rule means that system design matters. Access controls, role-based permissions, audit logs, and data segmentation are not just technical features. They are the mechanisms through which patient rights are protected or violated.
+For IT professionals, the Privacy Rule means system design matters. Access controls, role-based permissions, audit logs, and data segmentation are the mechanisms through which patient rights are protected or violated.
 
 ### The Security Rule
 
-While the Privacy Rule focuses on who can access PHI, the **HIPAA Security Rule** focuses on how ePHI must be protected. The Security Rule requires covered entities and business associates to implement three categories of safeguards:
+Where the Privacy Rule focuses on who can access PHI, the **HIPAA Security Rule** focuses on how ePHI must be protected. It requires three categories of safeguards:
 
-* **Administrative safeguards:** Policies, procedures, and training. This includes designating a security officer, conducting risk assessments, and training all staff who handle ePHI.
-* **Physical safeguards:** Protecting the physical infrastructure where ePHI is stored. This includes facility access controls, workstation security, and device disposal procedures.
-* **Technical safeguards:** Technology-based protections. This includes access controls, audit controls, integrity controls, and transmission security (encryption).
+* **Administrative safeguards:** Policies, procedures, and training, including a designated security officer, risk assessments, and staff training.
+* **Physical safeguards:** Protecting the infrastructure where ePHI is stored: facility access controls, workstation security, device disposal.
+* **Technical safeguards:** Technology-based protections: access controls, audit controls, integrity controls, and transmission security (encryption).
 
-The Security Rule does not prescribe specific technologies. Instead, it requires organizations to assess their risks and choose "reasonable and appropriate" safeguards. This flexibility is intentional because healthcare organizations range from massive hospital systems to two-person clinics, but it also means that some organizations underinvest in security, treating HIPAA compliance as a checkbox exercise rather than a genuine commitment to patient protection.
+The Security Rule does not prescribe specific technologies; it requires organizations to assess risks and choose "reasonable and appropriate" safeguards. The flexibility lets the rule cover everything from massive hospital systems to two-person clinics, but it also lets organizations treat HIPAA as a checkbox rather than a genuine commitment to patient protection.
 
 ### Breach Notification
 
-When PHI is compromised, HIPAA's **Breach Notification Rule** requires covered entities to notify affected individuals, the Department of Health and Human Services (HHS), and, for breaches affecting 500 or more individuals, the media. Notifications must occur within 60 days of discovering the breach.
+When PHI is compromised, HIPAA's **Breach Notification Rule** requires covered entities to notify affected individuals, HHS, and (for breaches affecting 500 or more) the media, within 60 days.
 
-The consequences of a HIPAA violation can be severe. Civil penalties range from $100 to $50,000 per violation, with annual maximums up to $1.5 million per violation category. Criminal penalties can include fines up to $250,000 and prison time for individuals who knowingly obtain or disclose PHI. The HHS Office for Civil Rights maintains a public breach portal listing all breaches affecting 500 or more individuals, and that list has grown significantly in recent years as healthcare organizations become more frequent targets for cyberattacks.
+Penalties can be severe. Civil fines range from $100 to $50,000 per violation, up to $1.5 million per category annually. Criminal penalties include fines up to $250,000 and prison time for individuals who knowingly obtain or disclose PHI. The HHS Office for Civil Rights maintains a public portal of breaches affecting 500 or more, and the list has grown rapidly as healthcare has become a frequent cyberattack target.
 
 ### Think About It 6.1 🧠
 
@@ -88,37 +86,33 @@ The consequences of a HIPAA violation can be severe. Civil penalties range from 
 
 ## 6.2 Mobile Health and Wireless Technology Ethics
 
-Healthcare is no longer confined to hospitals and clinics. Mobile health technology, commonly called **mHealth**, has expanded where and how health data is collected, shared, and used. Smartphones, wearable fitness trackers, remote patient monitoring devices, and health apps have made it possible to track everything from your heart rate to your blood glucose levels in real time. That convenience brings genuine benefits, but it also creates ethical challenges that the healthcare industry is still working through.
+Healthcare is no longer confined to hospitals and clinics. **Mobile health (mHealth)** technology, smartphones, wearables, remote monitoring devices, and health apps, has expanded where and how health data is collected. The convenience brings real benefits and real ethical challenges.
 
 ### The mHealth Landscape
 
-The term mHealth covers a broad range of technologies. At one end are **consumer health apps**, the kind you download from an app store to track your steps, monitor your sleep, or log your meals. At the other end are **regulated medical devices**, like continuous glucose monitors, cardiac implantable devices that transmit data to physicians, and remote patient monitoring systems used after surgery.
+mHealth runs from **consumer health apps** (the kind you download to track steps, sleep, or meals) to **regulated medical devices** (continuous glucose monitors, cardiac implants, post-surgery remote monitoring). Regulated devices meet FDA standards and generally fall under HIPAA when connected to a provider's systems. Consumer apps often fall outside both: a fitness tracker recording your heart rate 24 hours a day collects sensitive data, but if it is not connected to a covered entity, HIPAA does not apply, and the app's terms of service govern.
 
-The distinction matters ethically and legally. Regulated medical devices must meet standards set by the U.S. Food and Drug Administration (FDA) and are generally subject to HIPAA when connected to a healthcare provider's systems. Consumer health apps, however, often fall outside both FDA regulation and HIPAA protection. A fitness tracker that records your heart rate 24 hours a day is collecting sensitive health data, but if it is not connected to a covered entity, HIPAA does not apply. The app's privacy practices are governed by its terms of service, which you may or may not have read.
-
-This gap means that millions of people are generating detailed health data every day with minimal legal protection. The company behind your fitness app might sell aggregated data to insurers, employers, or advertisers. It might store your data on servers with weak security. It might share your data with third parties you have never heard of. All of this can happen legally if it is disclosed somewhere in the terms of service.
+The gap is large. Apps can legally sell aggregated data to insurers, employers, or advertisers; store data on weakly secured servers; or share with third parties, as long as the practice is disclosed somewhere in the terms.
 
 ### Wearables and Continuous Monitoring
 
-**Wearable devices** like smartwatches, fitness bands, and biosensors represent a rapidly growing category of mHealth. Modern smartwatches can detect irregular heart rhythms, estimate blood oxygen levels, track menstrual cycles, and even identify falls. These features have real health value. There are documented cases of smartwatches alerting users to atrial fibrillation before they experienced symptoms, potentially saving lives.
+**Wearable devices**, smartwatches, fitness bands, biosensors, are a rapidly growing category. Modern smartwatches detect irregular heart rhythms, estimate blood oxygen, track menstrual cycles, and identify falls, with documented cases of atrial fibrillation alerts before symptoms appeared.
 
-But continuous monitoring also means continuous data collection. A wearable that tracks your location, heart rate, sleep patterns, and activity levels around the clock creates an extraordinarily detailed picture of your daily life. If that data is shared with an employer, it could be used to make decisions about your job. If shared with an insurance company, it could affect your premiums. The ethical question is whether users truly understand the implications of wearing a device that never stops watching.
+But continuous monitoring means continuous data collection. A wearable that tracks location, heart rate, sleep, and activity around the clock creates a detailed picture of daily life. Shared with an employer, it could shape job decisions; shared with an insurer, premiums. The ethical question is whether users truly understand what they have agreed to.
 
 ### BYOD in Clinical Settings
 
-**Bring Your Own Device (BYOD)** policies allow healthcare workers to use their personal smartphones and tablets for work purposes. A nurse might use a personal phone to look up drug interactions. A physician might use a personal tablet to access a patient's electronic health record from home. BYOD can improve efficiency and convenience, but it creates serious security and privacy risks.
+**Bring Your Own Device (BYOD)** policies let healthcare workers use personal smartphones and tablets for work. A nurse might look up drug interactions on a personal phone; a physician might access an EHR from a personal tablet at home. BYOD improves efficiency but creates serious security and privacy risks.
 
-Personal devices may lack the encryption, password protections, or remote-wipe capabilities required for ePHI. They connect to unsecured home Wi-Fi networks and public hotspots. They are shared with family members. They are lost or stolen more easily than organization-issued devices. Each of these scenarios represents a potential HIPAA violation and a breach of patient trust.
+Personal devices may lack the encryption, passcode strength, or remote-wipe capability required for ePHI. They connect to unsecured Wi-Fi, are shared with family, and are lost or stolen more easily than organization-issued devices. Each scenario is a potential HIPAA violation and a breach of patient trust.
 
-The ethical challenge for healthcare organizations is balancing the productivity benefits of BYOD against the duty to protect patient data. Some hospitals have banned personal devices entirely. Others allow BYOD but require mobile device management (MDM) software that gives the organization control over work-related data on the device. Neither approach is perfect. Banning BYOD can slow down care delivery. Requiring MDM raises its own privacy concerns, since healthcare workers may object to their employer having control over their personal device.
+The organizational challenge is balancing BYOD productivity against the duty to protect patient data. Some hospitals ban personal devices entirely. Others allow BYOD but require mobile device management (MDM) software giving the organization control over work-related data on the device. Banning BYOD can slow care delivery; requiring MDM raises its own privacy concerns, since employees may object to employer control over personal devices.
 
 ### Patient Consent for Health Data Collection
 
-Consent is a foundational principle in both healthcare ethics and data privacy. But in the mHealth space, consent is complicated by the sheer volume of data being collected and the difficulty of explaining what that data might be used for.
+Consent is foundational to healthcare ethics and data privacy, but in mHealth it is complicated by the volume of data collected and the difficulty of explaining its possible uses.
 
-When a patient agrees to use a remote monitoring device prescribed by their doctor, they typically understand that their health data will be shared with their care team. But do they understand that the device manufacturer might also access that data? That a third-party analytics company might process it? That de-identified versions of it might be sold for research?
-
-Meaningful consent requires that the person understands what they are agreeing to and has a genuine choice. In healthcare, patients often feel they cannot refuse a technology their doctor recommends, especially if it is presented as part of their treatment. This power imbalance makes the consent process more ethically charged than consent in other technology contexts.
+A patient who agrees to a doctor-prescribed remote monitoring device typically understands the data will be shared with their care team. But do they understand the device manufacturer might also access it, that a third-party analytics company might process it, or that de-identified versions might be sold for research? Meaningful consent requires understanding and a genuine choice. Patients often feel they cannot refuse a technology their doctor recommends, and that power imbalance makes the consent process more ethically charged than in other technology contexts.
 
 ### Case Study 6.1 - Wellness Program Wearables at Midland Manufacturing 📋
 
@@ -158,49 +152,43 @@ An internal investigation reveals that VitaTrack's "aggregate reports" include d
 
 ## 6.3 Clinical IT Systems and Patient Safety
 
-Inside hospitals and clinics, IT systems play a direct role in patient care. When these systems work well, they reduce errors, improve coordination, and save lives. When they fail or are poorly designed, the consequences fall on patients. This section examines three major categories of clinical IT and the ethical obligations they create, then looks at how telemedicine is expanding the reach of healthcare while raising new ethical questions.
+Inside hospitals and clinics, IT systems play a direct role in patient care. When they work, they reduce errors and save lives; when they fail, the consequences fall on patients. Three clinical-IT categories carry the heaviest ethical weight, and telemedicine is rapidly expanding the reach of all three.
 
 ### Electronic Health Records (EHRs)
 
-**Electronic Health Records (EHRs)** are digital versions of a patient's medical chart. Unlike paper charts that stayed in one office, EHRs can be shared across providers, pharmacies, labs, and insurance companies. A primary care physician in Phoenix can see the results of a blood test ordered by a specialist in Tucson. An emergency room doctor treating an unconscious patient can access their medication list and allergy information.
+**Electronic Health Records (EHRs)** are digital versions of a patient's medical chart. Unlike paper charts confined to one office, EHRs can be shared across providers, pharmacies, labs, and insurance companies. A primary care physician in Phoenix can see lab results ordered by a specialist in Tucson; an ER doctor treating an unconscious patient can pull a medication list and allergy history.
 
-The potential benefits are significant. EHRs reduce duplicate tests, catch dangerous drug interactions, and give providers a more complete picture of a patient's health history. The federal government recognized this potential and invested heavily through the HITECH Act of 2009, which offered financial incentives to healthcare providers who adopted EHR systems. Today, the vast majority of hospitals and physician practices use EHRs.
+EHRs reduce duplicate tests, catch dangerous drug interactions, and give providers a more complete picture of a patient's history. The federal government invested heavily through the HITECH Act of 2009, which offered financial incentives for adoption, and most hospitals and physician practices now use EHRs.
 
-But EHR adoption has also created problems. **Interoperability**, the ability of different EHR systems to exchange data, remains a major challenge. A hospital using one EHR vendor may not be able to share records seamlessly with a clinic using a different vendor. This means that the promise of a complete, portable medical record has not been fully realized. Patients who see multiple providers may still find that their records are fragmented, leading to repeated tests, missed information, and potential safety gaps.
+Adoption created problems. **Interoperability**, the ability of different EHR systems to exchange data, remains a challenge: a hospital using one vendor may not share records seamlessly with a clinic using another, and patients seeing multiple providers still find records fragmented.
 
-EHRs also create ethical concerns around **alert fatigue**. EHR systems generate automated alerts for drug interactions, allergy warnings, and other clinical issues. In theory, these alerts prevent errors. In practice, providers receive so many alerts that they begin ignoring them. Studies have found that clinicians override 50% to 90% of EHR alerts. When providers routinely dismiss warnings, the system designed to improve safety becomes a source of risk. IT professionals who design, configure, and maintain EHR systems have an ethical responsibility to ensure that alerts are clinically relevant and not so frequent that they lose their effectiveness.
+EHRs also create **alert fatigue**. Systems generate automated alerts for drug interactions and allergies, but providers receive so many that 50% to 90% are overridden. When warnings are routinely dismissed, the safety system itself becomes a source of risk. IT professionals who design and configure EHR systems must keep alerts clinically meaningful and not so frequent that they get tuned out.
 
 ### Clinical Decision Support Systems (CDSS)
 
-A **Clinical Decision Support System (CDSS)** is software that helps healthcare providers make clinical decisions. CDSS tools analyze patient data and provide evidence-based recommendations. For example, a CDSS might flag that a patient's lab results suggest a specific condition, recommend a particular medication dosage based on the patient's weight and kidney function, or alert a provider that a treatment protocol should be adjusted based on new clinical guidelines.
+A **Clinical Decision Support System (CDSS)** is software that helps providers make clinical decisions. CDSS tools analyze patient data and surface evidence-based recommendations: flagging that lab results suggest a condition, recommending a medication dose based on weight and kidney function, or alerting a provider that a protocol has been updated.
 
-CDSS can reduce medical errors and improve the consistency of care. But these systems also raise important ethical questions. First, who is responsible when a CDSS gives a wrong recommendation and a provider follows it? The provider is still legally and ethically responsible for the treatment decision, but if the software presented inaccurate information, the software vendor may share some responsibility. The lines of accountability are not always clear.
-
-Second, CDSS systems are only as good as the data and rules they are built on. If the underlying clinical evidence is incomplete, outdated, or biased toward certain populations, the recommendations will reflect those gaps. A CDSS trained primarily on data from adult male patients, for example, might give less accurate recommendations for women or children.
-
-Third, there is the risk of **automation complacency**. When providers rely heavily on a CDSS, they may reduce their own independent clinical judgment. If the system becomes a crutch rather than a tool, providers may miss things the system does not flag. The ethical obligation is to use CDSS as a supplement to clinical expertise, not a replacement for it.
+CDSS can reduce errors and improve consistency, but it raises three ethical issues. First, accountability: when a CDSS gives a wrong recommendation and a provider follows it, the provider remains legally and ethically responsible for the decision, but if the software presented inaccurate information the vendor shares responsibility, and the lines are not always clear. Second, the data and rules underneath: a CDSS trained primarily on adult male patients gives less accurate recommendations for women or children, and any incomplete or outdated evidence base shows up in recommendations. Third, **automation complacency**: when providers lean heavily on CDSS, independent clinical judgment can erode, and providers may miss what the system does not flag. CDSS must supplement clinical expertise, not replace it.
 
 ### Computerized Provider Order Entry (CPOE)
 
-**Computerized Provider Order Entry (CPOE)** systems allow physicians to enter medical orders electronically: prescriptions, lab tests, imaging studies, and treatment instructions. Before CPOE, these orders were handwritten, and illegible handwriting was a well-documented source of medication errors. CPOE systems eliminate that problem and add safety checks, such as verifying dosages, checking for drug interactions, and flagging allergies.
+**Computerized Provider Order Entry (CPOE)** systems let physicians enter medical orders electronically: prescriptions, labs, imaging, and treatment instructions. Before CPOE, these were handwritten, and illegible handwriting was a documented source of medication errors. CPOE eliminates that and adds safety checks for dosage, interactions, and allergies.
 
-CPOE has measurably reduced certain types of medication errors. However, the systems have also introduced new types of errors. Drop-down menus can lead to wrong selections when drug names look similar. Copy-and-paste functions can carry forward outdated or incorrect information from previous orders. And the time required to enter orders electronically has been a consistent source of frustration for physicians, who report spending more time on documentation and less time with patients.
-
-The ethical dimension is this: CPOE systems were adopted primarily to improve patient safety, and they have succeeded in some areas. But when the same systems create new error pathways and reduce face-to-face patient interaction, the net benefit is not as straightforward as it first appears. IT professionals who build and maintain these systems have an obligation to monitor for unintended consequences and design interfaces that support, rather than hinder, quality care.
+CPOE has reduced certain medication errors and introduced new ones. Drop-down menus produce wrong selections when drug names look similar. Copy-and-paste carries forward outdated information. And documentation time is a persistent source of physician frustration. IT professionals who build and maintain these systems must monitor for unintended consequences and design interfaces that support quality care.
 
 ### Telemedicine Ethics
 
-**Telemedicine** uses telecommunications technology to deliver healthcare remotely. Video consultations, remote patient monitoring, and digital health platforms expanded dramatically during the COVID-19 pandemic, when in-person visits became difficult or impossible. Telemedicine allows patients in rural areas to see specialists hundreds of miles away. It reduces travel time for elderly and disabled patients. It can lower costs for both patients and providers.
+**Telemedicine** delivers healthcare through telecommunications technology. Video consultations, remote monitoring, and digital health platforms expanded dramatically during the COVID-19 pandemic and now let patients in rural areas see distant specialists, reduce travel for elderly and disabled patients, and lower costs.
 
-But telemedicine also raises ethical questions that the healthcare system is still working through:
+Telemedicine raises four ethical issues:
 
-* **Access and equity.** Telemedicine requires a reliable internet connection, a device with a camera, and a level of digital literacy that not all patients have. Older adults, low-income patients, and those in rural areas with limited broadband access may be excluded from the very technology designed to reach them. This is the **digital divide** applied to healthcare, and it means that telemedicine can widen health disparities even as it closes geographic ones.
+* **Access and equity.** It requires reliable internet, a camera-equipped device, and digital literacy. Older adults, low-income patients, and those in rural areas with limited broadband may be excluded from the very technology built to reach them, the **digital divide** in healthcare.
 
-* **Informed consent.** Patients using telemedicine should understand the limitations of a remote visit. A physician cannot perform a physical examination through a video call. Certain conditions require in-person evaluation. Patients need to know what telemedicine can and cannot do, and they need to consent specifically to the remote format.
+* **Informed consent.** A physician cannot examine a patient through a video call, and some conditions require in-person evaluation. Consent must be specific to the remote format.
 
-* **Privacy and security.** Telemedicine sessions transmit sensitive health information over the internet. If the platform is not properly encrypted, or if the patient is in a location where others can overhear the conversation, patient privacy is compromised. During the pandemic, HHS temporarily relaxed HIPAA enforcement for telehealth, allowing providers to use platforms like FaceTime and Zoom that were not fully HIPAA-compliant. While that flexibility increased access, it also increased risk.
+* **Privacy and security.** Sessions transmit sensitive health data over the internet. Inadequate encryption or a household where others can overhear compromises patient privacy. The pandemic-era HHS relaxation of HIPAA enforcement for FaceTime and Zoom increased access and increased risk.
 
-* **Cross-state licensing.** In the United States, medical licenses are issued by individual states. A physician licensed in Arizona cannot typically treat a patient located in California without a California license. Telemedicine complicates this because the patient and provider can be anywhere. Some states created temporary interstate practice agreements during the pandemic, but long-term solutions are still being developed. The ethical tension is between expanding patient access and maintaining the regulatory oversight that licensing provides.
+* **Cross-state licensing.** Licenses are issued by individual states, so a physician licensed in Arizona generally cannot treat a patient in California without a California license. Telemedicine complicates this; long-term solutions are still developing.
 
 ### Think About It 6.3 🧠
 
@@ -218,63 +206,55 @@ But telemedicine also raises ethical questions that the healthcare system is sti
 
 ## 6.4 AI in Healthcare: Promise, Risk, and Accountability
 
-Artificial intelligence is entering healthcare at a rapid pace. AI systems can analyze medical images, predict patient deterioration, recommend treatment options, accelerate drug discovery, and identify patterns in health data that human clinicians might miss. The potential to improve care and save lives is real. But so are the risks. This section examines the ethical dimensions of AI in healthcare, building on the AI ethics principles you studied in Module 3: fairness, transparency, accountability, explainability, and human oversight.
+AI is entering healthcare rapidly. Systems analyze medical images, predict patient deterioration, recommend treatments, accelerate drug discovery, and identify patterns clinicians might miss. The sections that follow build on the Module 3 AI ethics principles, fairness, transparency, accountability, explainability, and human oversight.
 
 ### AI-Assisted Diagnostics
 
-Some of the most visible uses of AI in healthcare involve diagnostics. AI systems have demonstrated the ability to detect certain cancers in medical images with accuracy that matches or exceeds human radiologists. Algorithms can analyze retinal scans for signs of diabetic retinopathy, read pathology slides for evidence of cancer, and identify skin lesions that may be melanoma.
+Diagnostic AI is among the most visible uses. Systems have detected certain cancers in medical images with accuracy matching or exceeding human radiologists, analyzed retinal scans for diabetic retinopathy, read pathology slides, and identified suspicious skin lesions. They train on labeled image datasets and return probability-based assessments such as "this mammogram has a 94% probability of malignant lesion in a specific quadrant." AI processes images faster than humans, does not tire, and serves as a second set of eyes; in communities with physician shortages, it could extend specialist reach.
 
-These systems work by training on large datasets of labeled medical images. The algorithm learns to associate visual patterns with specific diagnoses. When presented with a new image, it provides a probability-based assessment. A system might report that a mammogram has a 94% probability of showing a malignant lesion in a specific quadrant.
-
-The benefits are compelling. AI can process images faster than humans, never gets tired, and can serve as a second set of eyes that catches what a busy radiologist might miss. In areas with physician shortages, AI diagnostics could extend the reach of specialists to underserved communities.
-
-But there are critical ethical questions. What happens when the AI is wrong? A **false negative**, where the system says a scan is normal when it is not, can delay treatment and allow a disease to progress. A **false positive**, where the system flags something that turns out to be benign, can cause unnecessary anxiety, additional testing, and medical procedures with their own risks. In both cases, the patient bears the consequence.
+But when AI is wrong, the patient bears it. A **false negative** can delay treatment; a **false positive** triggers unnecessary anxiety, testing, and procedures with their own risks.
 
 ### Algorithmic Bias in Healthcare AI
 
-One of the most significant ethical challenges in healthcare AI is **algorithmic bias**: the tendency of AI systems to perform differently for different populations based on the data they were trained on.
+**Algorithmic bias** is the tendency of AI systems to perform differently for different populations based on the data they trained on, and it is one of the largest ethical challenges in healthcare AI.
 
-Healthcare AI bias is not hypothetical. A widely reported 2019 study examined an algorithm used by hospitals across the United States to identify patients who would benefit from additional care. The algorithm used healthcare spending as a proxy for healthcare needs. Because of systemic inequities, Black patients historically had lower healthcare spending than white patients with the same level of illness. The result was that the algorithm systematically underestimated the health needs of Black patients. The researchers found that correcting this bias would have more than doubled the number of Black patients identified for additional care.
+Healthcare AI bias is not hypothetical. A 2019 study (Obermeyer et al.) found that a widely used U.S. hospital algorithm flagging patients for extra care used healthcare spending as a proxy for need. Because Black patients historically had lower spending than white patients with the same illness severity, the algorithm underestimated Black patients' needs; correcting it would have more than doubled the number flagged.
 
-Bias can enter healthcare AI at multiple points:
+Bias enters at multiple points:
 
-* **Training data.** If the dataset used to train an AI system underrepresents certain racial, ethnic, age, or gender groups, the system will perform less accurately for those groups. Most clinical research data has historically overrepresented white male patients, which means AI systems trained on that data may be less effective for women, people of color, and older adults.
+* **Training data.** If the dataset underrepresents racial, ethnic, age, or gender groups, the system performs less accurately for them. Clinical research has historically overrepresented white male patients.
+* **Feature selection.** Zip code can act as a proxy for race or socioeconomic status even when race is not explicitly included.
+* **Outcome definitions.** How the algorithm defines "success" or "need" shapes recommendations, as the healthcare-spending example shows.
 
-* **Feature selection.** The choice of which variables to include in an algorithm can introduce bias. Using zip code as a feature, for example, can function as a proxy for race or socioeconomic status, even if race is not explicitly included.
-
-* **Outcome definitions.** How the algorithm defines "success" or "need" shapes its recommendations. The healthcare spending example above shows how a seemingly neutral metric can embed existing inequities.
-
-The ethical obligation is clear: AI systems in healthcare must be tested across diverse populations before deployment, monitored for disparate performance after deployment, and corrected when bias is found. The AI ethics principles from Module 3, especially fairness and accountability, are directly applicable here.
+Healthcare AI must be tested across diverse populations before deployment, monitored for disparate performance after, and corrected when bias is found. Module 3's fairness and accountability principles apply directly.
 
 ### Liability When AI Causes Patient Harm
 
-When a physician makes a diagnostic error, there are well-established legal frameworks for determining responsibility. Medical malpractice law requires the patient to show that the physician deviated from the standard of care and that the deviation caused harm. But when an AI system contributes to a diagnostic error, the question of liability becomes more complicated.
+Medical malpractice law has well-established frameworks for physician error: the patient must show the physician deviated from the standard of care and that the deviation caused harm. AI complicates this.
 
-Consider this scenario: An AI system analyzes a chest X-ray and reports no abnormalities. The radiologist, trusting the AI's assessment, spends less time reviewing the image and agrees with the AI's conclusion. Six months later, the patient is diagnosed with lung cancer that was visible on the original X-ray. Who is responsible?
+Consider: an AI analyzes a chest X-ray and reports no abnormalities. The radiologist, trusting the AI, spends less time reviewing the image and agrees. Six months later, the patient is diagnosed with lung cancer visible on the original X-ray. Who is responsible?
 
-There are several possible answers, and legal frameworks are still developing:
+* **The physician** remains responsible for the final clinical decision. AI is a tool; the physician has a duty to exercise independent judgment.
+* **The AI developer** may share responsibility if the system was marketed for a purpose it was not validated for, or if known limitations were not disclosed.
+* **The healthcare organization** may be responsible for deployment decisions, clinician training, and ongoing performance monitoring.
 
-* **The physician** remains responsible for the final clinical decision. AI is a tool, and the physician has a duty to exercise independent judgment.
-* **The AI developer** may bear some responsibility if the system was marketed for a purpose it was not validated for, or if known limitations were not disclosed.
-* **The healthcare organization** may be responsible for how it deployed the AI system, whether it provided adequate training to clinicians, and whether it monitored the system's performance.
-
-From a deontological perspective, the physician has a duty of care to the patient that cannot be delegated to a machine. From a utilitarian perspective, the question is whether AI-assisted reading, even with its errors, produces better overall outcomes than human-only reading. Both perspectives point to the importance of **human oversight**: AI should support clinical decisions, not replace the human judgment behind them.
+A deontological view holds the physician's duty of care cannot be delegated to a machine. A utilitarian view asks whether AI-assisted reading, even with errors, produces better aggregate outcomes than human-only reading. Both point to **human oversight**: AI supports clinical decisions; it does not replace the judgment behind them.
 
 ### Informed Consent for AI-Assisted Treatment
 
-Should patients know when AI is involved in their care? This question is increasingly relevant as AI systems are integrated into diagnostic and treatment workflows.
+Should patients be told when AI is involved in their care? The question matters more as AI integrates into diagnostic and treatment workflows.
 
-Some argue that patients have a right to know. Informed consent is a cornerstone of medical ethics. If a patient consents to a radiologist reviewing their scan, but the actual analysis was performed by an algorithm, the patient's consent may not cover what actually happened. From a deontological perspective, failing to disclose AI involvement in care could violate the duty of honesty and transparency.
+One side argues patients have a right to know. Informed consent is a cornerstone of medical ethics. If a patient consents to a radiologist reviewing a scan but an algorithm did the analysis, the consent may not cover what happened, and a deontological view treats nondisclosure as a violation of honesty.
 
-Others argue that disclosing every tool used in care delivery is impractical and could cause unnecessary anxiety. Patients are not told which specific laboratory machine processed their blood work or which version of a software system generated their MRI images. AI, from this perspective, is just another clinical tool.
+The other side argues disclosing every tool is impractical and may cause unnecessary anxiety. Patients are not told which lab machine processed their blood work; AI is just another tool.
 
-There is no consensus yet, and practices vary widely. What is clear is that the ethical principles of **transparency** and **human oversight** both point toward giving patients meaningful information about how their care decisions are made, especially when AI plays a significant role.
+No consensus yet. What is clear: **transparency** and **human oversight** point toward giving patients meaningful information about how care decisions get made when AI plays a major role.
 
 ### Green Computing and Healthcare AI
 
-Training and running AI models requires enormous computational resources. Large language models and complex imaging algorithms consume significant energy, generate heat that must be cooled, and rely on hardware with environmental costs. As healthcare systems adopt more AI tools, the environmental footprint of that technology is an emerging ethical concern.
+Training and running AI models takes enormous compute. Large language models and complex imaging algorithms consume energy and rely on hardware with environmental costs. As healthcare adopts more AI, the environmental footprint is an ethical concern.
 
-This connects to the green computing concepts discussed in Module 3. Healthcare organizations that adopt AI have an ethical responsibility to consider the environmental impact alongside the clinical benefit. Choosing more efficient models, using renewable energy for data centers, and avoiding unnecessary AI deployment when simpler tools would work are all part of that responsibility.
+Per Module 3's green-computing principles, healthcare organizations must weigh environmental impact alongside clinical benefit: choose efficient models, use renewable-powered data centers, and avoid AI when simpler tools work.
 
 ### Think About It 6.4 🧠
 
@@ -358,53 +338,53 @@ However, VRMC's medical staff has raised several concerns:
 
 ### Key Concepts
 
-* **HIPAA provides the legal foundation for health data privacy** in the United States. The Privacy Rule governs who can access PHI. The Security Rule governs how ePHI must be protected. The Breach Notification Rule requires disclosure when PHI is compromised. Together, they create a framework that IT professionals in healthcare must understand and implement.
+* **HIPAA is the legal foundation for U.S. health data privacy.** The Privacy Rule governs PHI access; the Security Rule requires administrative, physical, and technical safeguards for ePHI; the Breach Notification Rule requires disclosure when PHI is compromised.
 
-* **Mobile health technologies create a gap between legal protection and ethical responsibility.** Consumer health apps and wearables often fall outside HIPAA's reach, even though they collect sensitive health data. Meaningful patient consent is difficult to achieve when data collection is continuous and the implications are complex.
+* **mHealth creates a gap between legal protection and ethical responsibility.** Consumer health apps and wearables often fall outside HIPAA. Meaningful patient consent is hard to achieve when data collection is continuous and downstream uses are opaque.
 
-* **Clinical IT systems improve patient safety but also introduce new risks.** EHRs improve data access and coordination but suffer from interoperability challenges and alert fatigue. CDSS and CPOE systems reduce certain errors while creating new ones. IT professionals have an ethical responsibility to design, monitor, and maintain these systems with patient safety as the primary concern.
+* **Clinical IT systems improve safety but introduce new risks.** EHRs raise interoperability and alert-fatigue issues. CDSS and CPOE reduce some errors and create others. IT professionals must design and maintain these systems with patient safety as the primary concern.
 
-* **Telemedicine expands access but raises equity, consent, and privacy concerns.** The digital divide means that patients who could benefit most from remote care may lack the technology to use it. Consent for telemedicine must address the limitations of remote evaluation. Cross-state licensing creates regulatory complications that are still being resolved.
+* **Telemedicine expands access but raises equity, consent, and privacy concerns.** The digital divide can exclude the patients who could benefit most. Consent must cover remote-format limitations. Cross-state licensing remains unresolved.
 
-* **AI in healthcare holds enormous promise but demands careful ethical oversight.** Algorithmic bias can cause AI systems to perform less accurately for underrepresented populations. Liability for AI-related harm is shared among developers, healthcare organizations, and clinicians. Informed consent, transparency, and human oversight are essential safeguards.
+* **AI in healthcare requires careful ethical oversight.** Algorithmic bias causes disparate performance for underrepresented populations. Liability is shared among developers, organizations, and clinicians. Informed consent, transparency, and human oversight are essential safeguards.
 
 ### Key Terms
 
 **Section 6.1**
 
-* **HIPAA (Health Insurance Portability and Accountability Act):** Federal law establishing national standards for the protection of health information.
-* **Protected Health Information (PHI):** Individually identifiable health information created, received, maintained, or transmitted by a covered entity or business associate.
-* **Electronic Protected Health Information (ePHI):** PHI that exists in electronic form.
+* **HIPAA:** Federal law setting national standards for health information protection.
+* **Protected Health Information (PHI):** Individually identifiable health information held or transmitted by a covered entity or business associate.
+* **Electronic PHI (ePHI):** PHI in electronic form.
 * **Covered entity:** A healthcare provider, health plan, or healthcare clearinghouse subject to HIPAA.
-* **Business associate:** A company that handles PHI on behalf of a covered entity, also subject to HIPAA.
-* **Privacy Rule:** HIPAA provision governing who can access, use, and disclose PHI.
-* **Security Rule:** HIPAA provision requiring administrative, physical, and technical safeguards to protect ePHI.
-* **Minimum necessary standard:** The principle that only the minimum amount of PHI needed for a specific purpose should be accessed or disclosed.
-* **Breach Notification Rule:** HIPAA requirement that covered entities notify affected individuals and HHS when PHI is compromised.
+* **Business associate:** A company handling PHI on behalf of a covered entity; also subject to HIPAA.
+* **Privacy Rule:** HIPAA provision governing PHI access, use, and disclosure.
+* **Security Rule:** HIPAA provision requiring administrative, physical, and technical safeguards for ePHI.
+* **Minimum necessary standard:** Access or disclose only the minimum PHI needed for a specific purpose.
+* **Breach Notification Rule:** HIPAA requirement to notify affected individuals and HHS after a PHI breach.
 
 **Section 6.2**
 
-* **mHealth (mobile health):** The use of mobile devices and wireless technologies to support healthcare delivery and health data collection.
-* **BYOD (Bring Your Own Device):** A policy allowing employees to use personal devices for work purposes, creating security and privacy challenges in healthcare.
-* **Consumer health app:** A health-related application that may not be subject to FDA regulation or HIPAA protection.
+* **mHealth:** Use of mobile devices and wireless tech for healthcare delivery and data collection.
+* **BYOD:** Policy allowing employees to use personal devices for work, creating security and privacy challenges.
+* **Consumer health app:** A health-related app that may fall outside FDA regulation and HIPAA.
 
 **Section 6.3**
 
-* **Electronic Health Record (EHR):** A digital version of a patient's medical chart that can be shared across providers and healthcare organizations.
-* **Interoperability:** The ability of different IT systems to exchange and use data, a persistent challenge in healthcare IT.
-* **Alert fatigue:** The tendency for clinicians to ignore or override system-generated alerts due to their high volume, reducing the safety benefit of the alert system.
-* **Clinical Decision Support System (CDSS):** Software that analyzes patient data and provides evidence-based clinical recommendations to healthcare providers.
-* **Computerized Provider Order Entry (CPOE):** A system allowing physicians to enter medical orders electronically, reducing handwriting errors while introducing new workflow challenges.
-* **Telemedicine:** The use of telecommunications technology to deliver healthcare services remotely.
-* **Digital divide:** The gap between populations with access to digital technology and those without, which in healthcare can widen rather than narrow health disparities.
+* **Electronic Health Record (EHR):** Digital medical chart shareable across providers and organizations.
+* **Interoperability:** The ability of different IT systems to exchange and use data.
+* **Alert fatigue:** Clinicians ignoring system-generated alerts due to their high volume.
+* **Clinical Decision Support System (CDSS):** Software analyzing patient data and surfacing evidence-based recommendations.
+* **Computerized Provider Order Entry (CPOE):** Electronic order entry for prescriptions, labs, imaging, and treatments.
+* **Telemedicine:** Remote healthcare delivery via telecommunications technology.
+* **Digital divide:** The gap between people with and without access to digital technology, which can widen health disparities.
 
 **Section 6.4**
 
-* **AI-assisted diagnostics:** The use of artificial intelligence to analyze medical data (images, lab results, patient records) and support diagnostic decisions.
-* **Algorithmic bias:** The tendency of AI systems to perform differently for different populations based on unrepresentative training data or biased feature selection.
-* **False negative:** An AI or test result that incorrectly indicates the absence of a condition, potentially delaying treatment.
-* **False positive:** An AI or test result that incorrectly indicates the presence of a condition, potentially causing unnecessary intervention.
-* **Automation complacency:** The tendency of human professionals to reduce independent judgment when relying on automated systems, increasing the risk of missed errors.
+* **AI-assisted diagnostics:** AI used to analyze medical data and support diagnostic decisions.
+* **Algorithmic bias:** AI systems performing differently across populations due to unrepresentative training data or biased features.
+* **False negative:** A missed positive (a diseased patient flagged normal).
+* **False positive:** A spurious positive (a healthy patient flagged abnormal).
+* **Automation complacency:** Reduced independent judgment when humans rely on automated systems.
 
 ### Retrieval Practice
 
@@ -448,4 +428,4 @@ Consider this trade-off between access to care and data privacy. To what extent 
 
 ## Looking Ahead ⏩
 
-In Module 7, you will shift from the healthcare environment to the broader question of software liability and secure coding. When software defects cause harm, who bears responsibility: the developer, the company, or the user? You will examine product liability frameworks applied to software, learn about secure coding principles as an ethical obligation, and apply cost/benefit analysis to IT decision-making, building directly on the risk-assessment thinking you practiced in this module.
+In Module 7, you turn from healthcare to software liability and secure coding. When software defects cause harm, who bears responsibility, the developer, the company, or the user? You will examine product-liability frameworks applied to software, learn secure coding as an ethical obligation, and apply cost/benefit analysis to IT decisions, building on the risk thinking you practiced here.
