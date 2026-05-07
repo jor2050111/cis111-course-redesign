@@ -1,8 +1,36 @@
 # CIS111 Summer 2026 Pairing Options
 
 **Generated:** 2026-05-07
-**Status:** Awaiting instructor selection
+**Status:** SELECTED — Option 1 (Theme-Density), 2026-05-07
 **Term:** May 26 - July 30, 2026 (8 weeks 5 days instructional + 5 days finals)
+
+---
+
+## Selection
+
+**Selected option:** Option 1 — Theme-Density.
+**Selected on:** 2026-05-07.
+**Selected by:** Instructor (Jorge Vega).
+
+**Selected schedule (binding for Summer 2026):**
+
+| Week | Dates | Module(s) | Notes |
+|------|-------|-----------|-------|
+| 1 | May 26 - 31 | M1 | Foundation single, partial week |
+| 2 | Jun 1 - 7 | M2 + M3 | Paired (Part I close) |
+| 3 | Jun 8 - 14 | M4 | Single |
+| 4 | Jun 15 - 21 | M5 + M6 | Paired (stakeholder-protection) |
+| 5 | Jun 22 - 28 | M7 | Single |
+| 6 | Jun 29 - Jul 5 | M8 | Single, July 4 light week |
+| 7 | Jul 6 - 12 | M9 + M10 | Paired (rights in digital contexts) |
+| 8 | Jul 13 - 19 | M11 | Single |
+| 9 | Jul 20 - 25 | M12 | Capstone, partial week |
+
+**Implications for downstream work:**
+
+* Looking Ahead forward references in each module body should resolve against this schedule. Cross-module forward-reference consistency is enforced under Section C5 of `rubrics/redesign-acceptance.md` after all 12 modules pass A and B individually.
+* Polish-loop pairing partners (when polishing one module, also schedule its same-week partner soon after to keep the pair synchronized): M2/M3, M5/M6, M9/M10.
+* Canvas push (later phase) organizes by selected week, not by module.
 
 This document presents three concrete pairing options for fitting the existing 12 CIS111 modules into the 9 academic week-slots of the Summer 2026 instructional period. Each option uses a distinct strategy and a different fit-count to maximize the choice space. No option is recommended. Selection is an instructor decision based on cohort, prior summer-term experience, and capstone scope.
 
