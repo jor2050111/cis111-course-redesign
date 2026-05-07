@@ -86,33 +86,33 @@ Penalties can be severe. Civil fines range from $100 to $50,000 per violation, u
 
 ## 6.2 Mobile Health and Wireless Technology Ethics
 
-Healthcare is no longer confined to hospitals and clinics. **Mobile health (mHealth)** technology, smartphones, wearables, remote monitoring devices, and health apps, has expanded where and how health data is collected. The convenience brings real benefits and real ethical challenges.
+Healthcare is no longer confined to hospitals and clinics. **Mobile health (mHealth)** technology has expanded where and how health data is collected. The convenience brings real benefits and real ethical challenges.
 
 ### The mHealth Landscape
 
-mHealth runs from **consumer health apps** (the kind you download to track steps, sleep, or meals) to **regulated medical devices** (continuous glucose monitors, cardiac implants, post-surgery remote monitoring). Regulated devices meet FDA standards and generally fall under HIPAA when connected to a provider's systems. Consumer apps often fall outside both: a fitness tracker recording your heart rate 24 hours a day collects sensitive data, but if it is not connected to a covered entity, HIPAA does not apply, and the app's terms of service govern.
+mHealth runs from **consumer health apps** (the kind you download to track steps, sleep, or meals) to **regulated medical devices** (continuous glucose monitors, cardiac implants, post-surgery remote monitoring). Regulated devices meet FDA standards and generally fall under HIPAA when connected to a provider's systems. Consumer apps often fall outside both: a fitness tracker recording your heart rate around the clock collects sensitive data, but if it is not connected to a covered entity, HIPAA does not apply, and the app's terms of service govern.
 
 The gap is large. Apps can legally sell aggregated data to insurers, employers, or advertisers; store data on weakly secured servers; or share with third parties, as long as the practice is disclosed somewhere in the terms.
 
 ### Wearables and Continuous Monitoring
 
-**Wearable devices**, smartwatches, fitness bands, biosensors, are a rapidly growing category. Modern smartwatches detect irregular heart rhythms, estimate blood oxygen, track menstrual cycles, and identify falls, with documented cases of atrial fibrillation alerts before symptoms appeared.
+**Wearable devices**, smartwatches, fitness bands, biosensors, are a rapidly growing category. Modern smartwatches detect irregular heart rhythms, estimate blood oxygen, track menstrual cycles, and identify falls, and have alerted users to atrial fibrillation before symptoms appeared.
 
-But continuous monitoring means continuous data collection. A wearable that tracks location, heart rate, sleep, and activity around the clock creates a detailed picture of daily life. Shared with an employer, it could shape job decisions; shared with an insurer, premiums. The ethical question is whether users truly understand what they have agreed to.
+Continuous monitoring means continuous data collection. A wearable that tracks location, heart rate, sleep, and activity creates a detailed picture of daily life. Shared with an employer, it could shape job decisions; shared with an insurer, premiums. The question is whether users understand what they have agreed to.
 
 ### BYOD in Clinical Settings
 
-**Bring Your Own Device (BYOD)** policies let healthcare workers use personal smartphones and tablets for work. A nurse might look up drug interactions on a personal phone; a physician might access an EHR from a personal tablet at home. BYOD improves efficiency but creates serious security and privacy risks.
+**Bring Your Own Device (BYOD)** policies let healthcare workers use personal smartphones and tablets for work: a nurse looking up drug interactions, a physician accessing an EHR from home. BYOD improves efficiency but creates serious security and privacy risks.
 
-Personal devices may lack the encryption, passcode strength, or remote-wipe capability required for ePHI. They connect to unsecured Wi-Fi, are shared with family, and are lost or stolen more easily than organization-issued devices. Each scenario is a potential HIPAA violation and a breach of patient trust.
+Personal devices often lack the encryption, passcode strength, or remote-wipe capability required for ePHI. They connect to unsecured Wi-Fi, are shared with family, and are lost or stolen more easily than organization-issued devices. Each scenario is a potential HIPAA violation.
 
-The organizational challenge is balancing BYOD productivity against the duty to protect patient data. Some hospitals ban personal devices entirely. Others allow BYOD but require mobile device management (MDM) software giving the organization control over work-related data on the device. Banning BYOD can slow care delivery; requiring MDM raises its own privacy concerns, since employees may object to employer control over personal devices.
+Organizations balance BYOD productivity against the duty to protect patient data. Some hospitals ban personal devices entirely. Others allow BYOD with mobile device management (MDM) software that controls work-related data on the device. Bans slow care delivery; MDM raises its own privacy concerns, since employees may object to employer control over a personal device.
 
 ### Patient Consent for Health Data Collection
 
 Consent is foundational to healthcare ethics and data privacy, but in mHealth it is complicated by the volume of data collected and the difficulty of explaining its possible uses.
 
-A patient who agrees to a doctor-prescribed remote monitoring device typically understands the data will be shared with their care team. But do they understand the device manufacturer might also access it, that a third-party analytics company might process it, or that de-identified versions might be sold for research? Meaningful consent requires understanding and a genuine choice. Patients often feel they cannot refuse a technology their doctor recommends, and that power imbalance makes the consent process more ethically charged than in other technology contexts.
+A patient agreeing to a doctor-prescribed monitoring device understands the data will go to their care team. But do they understand the manufacturer may also access it, a third-party analytics company may process it, or that de-identified versions may be sold for research? Meaningful consent requires understanding and a genuine choice. Patients often feel they cannot refuse a technology their doctor recommends, and that power imbalance makes consent more ethically charged than in other contexts.
 
 ### Case Study 6.1 - Wellness Program Wearables at Midland Manufacturing 📋
 
@@ -162,19 +162,19 @@ EHRs reduce duplicate tests, catch dangerous drug interactions, and give provide
 
 Adoption created problems. **Interoperability**, the ability of different EHR systems to exchange data, remains a challenge: a hospital using one vendor may not share records seamlessly with a clinic using another, and patients seeing multiple providers still find records fragmented.
 
-EHRs also create **alert fatigue**. Systems generate automated alerts for drug interactions and allergies, but providers receive so many that 50% to 90% are overridden. When warnings are routinely dismissed, the safety system itself becomes a source of risk. IT professionals who design and configure EHR systems must keep alerts clinically meaningful and not so frequent that they get tuned out.
+EHRs also create **alert fatigue**. Systems generate so many drug-interaction and allergy alerts that providers override 50% to 90% of them, and the safety system itself becomes a source of risk. IT professionals who design and configure EHRs must keep alerts clinically meaningful, not so frequent they are tuned out.
 
 ### Clinical Decision Support Systems (CDSS)
 
-A **Clinical Decision Support System (CDSS)** is software that helps providers make clinical decisions. CDSS tools analyze patient data and surface evidence-based recommendations: flagging that lab results suggest a condition, recommending a medication dose based on weight and kidney function, or alerting a provider that a protocol has been updated.
+A **Clinical Decision Support System (CDSS)** is software that helps providers make clinical decisions, surfacing evidence-based recommendations: flagging that lab results suggest a condition, recommending a dose based on weight and kidney function, or alerting that a protocol has been updated.
 
-CDSS can reduce errors and improve consistency, but it raises three ethical issues. First, accountability: when a CDSS gives a wrong recommendation and a provider follows it, the provider remains legally and ethically responsible for the decision, but if the software presented inaccurate information the vendor shares responsibility, and the lines are not always clear. Second, the data and rules underneath: a CDSS trained primarily on adult male patients gives less accurate recommendations for women or children, and any incomplete or outdated evidence base shows up in recommendations. Third, **automation complacency**: when providers lean heavily on CDSS, independent clinical judgment can erode, and providers may miss what the system does not flag. CDSS must supplement clinical expertise, not replace it.
+CDSS reduces errors and improves consistency but raises three issues. First, accountability: when CDSS gives a wrong recommendation and the provider follows it, the provider is responsible, but if the software presented inaccurate information, the vendor shares responsibility. Second, the data and rules underneath: a CDSS trained primarily on adult male patients gives less accurate recommendations for women or children. Third, **automation complacency**: heavy reliance erodes independent clinical judgment, and providers may miss what the system does not flag. CDSS supplements clinical expertise; it does not replace it.
 
 ### Computerized Provider Order Entry (CPOE)
 
-**Computerized Provider Order Entry (CPOE)** systems let physicians enter medical orders electronically: prescriptions, labs, imaging, and treatment instructions. Before CPOE, these were handwritten, and illegible handwriting was a documented source of medication errors. CPOE eliminates that and adds safety checks for dosage, interactions, and allergies.
+**Computerized Provider Order Entry (CPOE)** systems let physicians enter medical orders electronically: prescriptions, labs, imaging, and treatment instructions. Before CPOE, illegible handwriting was a documented source of medication errors. CPOE eliminates that and adds safety checks for dosage, interactions, and allergies.
 
-CPOE has reduced certain medication errors and introduced new ones. Drop-down menus produce wrong selections when drug names look similar. Copy-and-paste carries forward outdated information. And documentation time is a persistent source of physician frustration. IT professionals who build and maintain these systems must monitor for unintended consequences and design interfaces that support quality care.
+CPOE has reduced some medication errors and introduced new ones: drop-down menus produce wrong selections when drug names look similar, copy-and-paste carries forward outdated information, and documentation time is a persistent source of physician frustration. IT professionals must monitor for unintended consequences and design interfaces that support quality care.
 
 ### Telemedicine Ethics
 
@@ -220,25 +220,23 @@ But when AI is wrong, the patient bears it. A **false negative** can delay treat
 
 Healthcare AI bias is not hypothetical. A 2019 study (Obermeyer et al.) found that a widely used U.S. hospital algorithm flagging patients for extra care used healthcare spending as a proxy for need. Because Black patients historically had lower spending than white patients with the same illness severity, the algorithm underestimated Black patients' needs; correcting it would have more than doubled the number flagged.
 
-Bias enters at multiple points:
+Bias enters at three points:
 
-* **Training data.** If the dataset underrepresents racial, ethnic, age, or gender groups, the system performs less accurately for them. Clinical research has historically overrepresented white male patients.
+* **Training data.** If the dataset underrepresents racial, ethnic, age, or gender groups, the system performs less accurately for them.
 * **Feature selection.** Zip code can act as a proxy for race or socioeconomic status even when race is not explicitly included.
-* **Outcome definitions.** How the algorithm defines "success" or "need" shapes recommendations, as the healthcare-spending example shows.
+* **Outcome definitions.** How the algorithm defines "success" or "need" shapes recommendations, as the spending example shows.
 
-Healthcare AI must be tested across diverse populations before deployment, monitored for disparate performance after, and corrected when bias is found. Module 3's fairness and accountability principles apply directly.
+Healthcare AI must be tested across diverse populations before deployment, monitored after, and corrected when bias is found. Module 3's fairness and accountability principles apply directly.
 
 ### Liability When AI Causes Patient Harm
 
-Medical malpractice law has well-established frameworks for physician error: the patient must show the physician deviated from the standard of care and that the deviation caused harm. AI complicates this.
+Medical malpractice frameworks require showing the physician deviated from the standard of care and that the deviation caused harm. AI complicates this. An AI analyzes a chest X-ray and reports no abnormalities; the radiologist, trusting the AI, spends less time reviewing and agrees. Six months later, the patient is diagnosed with lung cancer visible on the original X-ray. Who is responsible?
 
-Consider: an AI analyzes a chest X-ray and reports no abnormalities. The radiologist, trusting the AI, spends less time reviewing the image and agrees. Six months later, the patient is diagnosed with lung cancer visible on the original X-ray. Who is responsible?
+* **The physician** remains responsible for the final clinical decision. AI is a tool; the physician has a duty of independent judgment.
+* **The AI developer** shares responsibility if the system was marketed for a purpose it was not validated for, or if known limitations were not disclosed.
+* **The healthcare organization** is responsible for deployment decisions, clinician training, and ongoing performance monitoring.
 
-* **The physician** remains responsible for the final clinical decision. AI is a tool; the physician has a duty to exercise independent judgment.
-* **The AI developer** may share responsibility if the system was marketed for a purpose it was not validated for, or if known limitations were not disclosed.
-* **The healthcare organization** may be responsible for deployment decisions, clinician training, and ongoing performance monitoring.
-
-A deontological view holds the physician's duty of care cannot be delegated to a machine. A utilitarian view asks whether AI-assisted reading, even with errors, produces better aggregate outcomes than human-only reading. Both point to **human oversight**: AI supports clinical decisions; it does not replace the judgment behind them.
+A deontological view holds the duty of care cannot be delegated to a machine. A utilitarian view asks whether AI-assisted reading, even with errors, produces better aggregate outcomes than human-only reading. Both point to **human oversight**: AI supports clinical decisions; it does not replace the judgment behind them.
 
 ### Informed Consent for AI-Assisted Treatment
 
@@ -250,11 +248,23 @@ The other side argues disclosing every tool is impractical and may cause unneces
 
 No consensus yet. What is clear: **transparency** and **human oversight** point toward giving patients meaningful information about how care decisions get made when AI plays a major role.
 
+### A 2025-2026 Snapshot: Regulation, Ambient Scribes, and Adaptive AI
+
+Two regulatory anchors and one deployment trend define clinical AI ethics in 2025-2026.
+
+**FDA's Predetermined Change Control Plan (PCCP) framework**, finalized in late 2024 / early 2025, lets AI-enabled medical devices update post-market under a pre-authorized plan. It closes a long-standing gap and raises a new question: when a model has changed since deployment, can a clinician still know what they are interpreting?
+
+**The EU AI Act** classifies AI used in healthcare diagnosis or triage as high-risk, with transparency, human-oversight, and post-market monitoring obligations phasing in through 2025-2026.
+
+**Ambient AI scribes** (tools that listen to patient-clinician conversations and draft clinical notes) deployed across U.S. health systems through 2024-2025, raising consent and PHI questions about whether patients know the room is recorded, where audio is processed, and how long it is kept.
+
+Your role is **orchestrator and verifier**: when a clinical AI produces a draft note, triage score, or diagnostic suggestion, ask whether the clinician can see what changed, what the limits are, and what the patient was told.
+
 ### Green Computing and Healthcare AI
 
-Training and running AI models takes enormous compute. Large language models and complex imaging algorithms consume energy and rely on hardware with environmental costs. As healthcare adopts more AI, the environmental footprint is an ethical concern.
+Training and running AI models takes enormous compute. Large language models and complex imaging algorithms consume energy and rely on hardware with environmental costs. As healthcare adopts more AI, the footprint is an ethical concern.
 
-Per Module 3's green-computing principles, healthcare organizations must weigh environmental impact alongside clinical benefit: choose efficient models, use renewable-powered data centers, and avoid AI when simpler tools work.
+Per Module 3's green-computing principles, healthcare organizations must weigh environmental impact alongside clinical benefit: efficient models, renewable-powered data centers, and avoiding AI when simpler tools work.
 
 ### Think About It 6.4 🧠
 
@@ -428,4 +438,4 @@ Consider this trade-off between access to care and data privacy. To what extent 
 
 ## Looking Ahead ⏩
 
-In Module 7, you turn from healthcare to software liability and secure coding. When software defects cause harm, who bears responsibility, the developer, the company, or the user? You will examine product-liability frameworks applied to software, learn secure coding as an ethical obligation, and apply cost/benefit analysis to IT decisions, building on the risk thinking you practiced here.
+In Module 7, you turn from healthcare to software liability and secure coding. When software defects cause harm, who bears responsibility, the developer, the company, or the user? You will examine product-liability frameworks for software, learn secure coding as an ethical obligation, and apply cost/benefit analysis to IT decisions.
