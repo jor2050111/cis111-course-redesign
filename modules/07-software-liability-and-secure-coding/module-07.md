@@ -47,11 +47,9 @@ The trend toward SaaS delivery means that much of the software you interact with
 
 ### Liability Limitations: EULAs and Terms of Service
 
-Before you can use most software, you must agree to an **End User License Agreement (EULA)** or **Terms of Service (ToS)**. These agreements almost always limit the company's liability, with disclaimers like "the software is provided 'as is'" and caps on damages at the price you paid.
+Before you can use most software, you must agree to an **End User License Agreement (EULA)** or **Terms of Service (ToS)** that limits the company's liability. Most users never read them. Even those who do have no practical alternative: you agree or you cannot use the software.
 
-Most users never read EULAs. Even those who do often have no practical alternative: you agree or you cannot use the software. When a clause says a company bears no responsibility if its software exposes your data, is that a fair agreement or an exploitation of the power imbalance between a large company and an individual user?
-
-Courts have sometimes found egregious limitations **unconscionable** and unenforceable. In practice, most hold up, giving software vendors a level of liability protection that manufacturers of physical products do not enjoy.
+Courts have sometimes found egregious limitations **unconscionable** and unenforceable. In practice, most hold up, giving software vendors liability protection that manufacturers of physical products do not enjoy.
 
 ### Think About It 7.1 🧠
 
@@ -69,13 +67,11 @@ Courts have sometimes found egregious limitations **unconscionable** and unenfor
 
 ## 7.2 Software Quality and Development Ethics
 
-Software quality is not just a technical concern. It is an ethical one. When organizations choose how to build, test, and maintain their software, they are making decisions that affect everyone who depends on that software.
+Software quality is an ethical issue, not just a technical one. When organizations choose how to build, test, and maintain their software, they are making decisions that affect everyone who depends on it.
 
 ### What Does Software Quality Mean?
 
-**Software quality** refers to the degree to which software meets its specified requirements and satisfies user needs. From an ethical standpoint, quality also means the software does not cause unnecessary harm, performs honestly, and communicates its limitations transparently.
-
-Quality is not binary. A game with a minor graphical glitch has different quality obligations than a medical device that controls insulin dosing. Potential for harm shapes the ethical standard.
+**Software quality** is the degree to which software meets its requirements and satisfies user needs. From an ethical standpoint, quality also means the software does not cause unnecessary harm, performs honestly, and communicates its limitations. A game with a minor graphical glitch has different quality obligations than a medical device that controls insulin dosing. Potential for harm shapes the standard.
 
 ### The Capability Maturity Model Integration (CMMI)
 
@@ -93,19 +89,17 @@ Most organizations operate at Level 1 or 2. Higher levels produce more predictab
 
 ### Development Methodologies and Their Ethical Dimensions
 
-How software is built shapes whether it is built well. Three dominant development methodologies each carry distinct ethical implications:
+How software is built shapes whether it is built well. Three dominant methodologies each carry distinct ethical implications:
 
-**Waterfall** is a sequential process: requirements, then design, then coding, then testing, then deployment. Its strength is thoroughness in planning and documentation. Its ethical risk is rigidity: if requirements change or new risks emerge during development, waterfall makes it difficult to adapt. Software built under waterfall may be well-documented but slow to respond to discovered vulnerabilities.
+**Waterfall** is a sequential process: requirements, then design, then coding, then testing, then deployment. Its strength is documentation and planning rigor. Its ethical risk is rigidity: if new risks emerge mid-development, waterfall makes adaptation difficult.
 
-**Agile** is an iterative approach that delivers working software in short cycles (typically two-week "sprints"). Its ethical strength is adaptability: if a security flaw is discovered, agile teams can prioritize a fix in the next sprint. Its ethical risk is that pressure to ship quickly can lead teams to cut corners on testing, documentation, or security reviews. When a product owner says "ship it now, fix it later," ethical problems follow.
+**Agile** delivers working software in short cycles (typically two-week "sprints"). Its ethical strength is adaptability: security flaws can be addressed in the next sprint. Its ethical risk is that pressure to ship quickly leads teams to cut corners on testing or security reviews. "Ship it now, fix it later" is an ethical problem.
 
-**DevOps** extends agile by integrating development and operations teams through automation, continuous integration, and continuous delivery (CI/CD). DevOps enables rapid deployment of patches, which is an ethical advantage. However, speed without adequate safety checks creates ethical liability. The 2024 CrowdStrike incident is a cautionary example: an automated deployment pipeline pushed a flawed update to millions of machines because the pipeline's testing safeguards were insufficient.
+**DevOps** integrates development and operations through automation, continuous integration, and continuous delivery (CI/CD). DevOps enables rapid patch deployment, an ethical advantage. The 2024 CrowdStrike incident shows the other side: an automated pipeline pushed a flawed update to millions of machines because its testing safeguards were insufficient. Speed without adequate safety checks creates ethical liability.
 
 ### Technical Debt and Ethical Implications
 
-**Technical debt** is the accumulated cost of shortcuts taken during software development. When a team writes quick-and-dirty code to meet a deadline, they take on technical debt. The code works now but will be harder to maintain, harder to secure, and more likely to break in the future.
-
-Technical debt is a business decision, but it is also an ethical one. When organizations knowingly accumulate technical debt without a plan to address it, they transfer risk from themselves to their users. Users bear the consequences of crashes, data loss, and security breaches, while the organization benefited from the faster delivery that created the debt.
+**Technical debt** is the accumulated cost of shortcuts taken during software development. Quick-and-dirty code meets a deadline but will be harder to maintain, harder to secure, and more likely to break. When organizations accumulate technical debt without a plan to address it, they transfer risk to users: users bear the consequences of crashes, data loss, and security breaches while the organization captured the benefit of faster delivery.
 
 ### Case Study 7.1 - The MedTrack Patient Monitoring Dilemma 📋
 
@@ -141,11 +135,11 @@ Priya is uncomfortable with this plan. She knows that in critical care, a missed
 
 ## 7.3 Secure Coding and Vulnerability Management
 
-Secure coding is not an optional enhancement or an afterthought added before release. It is a fundamental ethical obligation for anyone who writes, reviews, or deploys software. When developers fail to follow secure coding practices, they create vulnerabilities that expose users to data theft, financial loss, and even physical danger.
+Secure coding is not an afterthought. It is a fundamental ethical obligation for anyone who writes, reviews, or deploys software. Failures in secure coding create vulnerabilities that expose users to data theft, financial loss, and physical danger.
 
 ### What Is Secure Coding?
 
-**Secure coding** is the practice of writing software that protects against security vulnerabilities by design. The core principle: every input is potentially malicious, every connection is potentially hostile, and every assumption about how the software will be used is potentially wrong. These are design constraints from the start, not afterthoughts.
+**Secure coding** is the practice of writing software that protects against security vulnerabilities by design. The core principle: every input is potentially malicious, every connection is potentially hostile, every assumption about software use is potentially wrong. These are design constraints from the start.
 
 The **Open Web Application Security Project (OWASP)** maintains the OWASP Top 10, a regularly updated list of the most critical web application security risks.
 
@@ -195,7 +189,7 @@ The 2017 Equifax breach exposed the personal information of approximately 147 mi
 
 ## 7.4 Cost/Benefit Analysis and Safety-Critical Systems
 
-Every IT decision involves trade-offs. Cost/benefit analysis is a legitimate and necessary tool. But when that analysis is applied to decisions that affect human safety, the ethical stakes increase dramatically.
+Every IT decision involves trade-offs, and cost/benefit analysis is a legitimate tool for navigating them. But when applied to decisions affecting human safety, the ethical stakes increase dramatically.
 
 ### Risk Assessment Frameworks in IT
 
@@ -205,27 +199,25 @@ Every IT decision involves trade-offs. Cost/benefit analysis is a legitimate and
 
 A very likely threat with minimal impact (a minor website glitch) receives lower priority than an unlikely but catastrophic one (a complete data center failure). The **NIST Risk Management Framework** provides structured processes for evaluating and prioritizing risks.
 
-**Cost/benefit analysis** weighs the cost of a security measure or improvement against the expected benefit, usually expressed as reduced risk. If a $50,000 security upgrade reduces expected annual losses from breaches by $200,000, the calculation favors the investment.
+**Cost/benefit analysis** weighs the cost of a security measure or improvement against the expected benefit, expressed as reduced risk. A $50,000 security upgrade that reduces expected annual losses from breaches by $200,000 clearly favors the investment.
 
 ### The Ethical Dimensions of Cost/Benefit Analysis
 
-Cost/benefit analysis becomes ethically problematic when it reduces human safety, privacy, or well-being to a dollar figure. The most infamous example is the Ford Pinto case: Ford calculated that paying settlements for burn injuries and deaths was cheaper than a recall. The math may have been accurate. The ethics were indefensible.
+Cost/benefit analysis becomes ethically problematic when it reduces human safety to a dollar figure. The Ford Pinto case is the classic example: Ford calculated that paying settlements for burn injuries and deaths was cheaper than a recall. The math may have been accurate. The ethics were indefensible.
 
-Similar reasoning appears in IT. An organization might calculate that the cost of a comprehensive security audit exceeds the expected financial loss from a breach, and conclude that skipping it is "rational." But this omits what is difficult to quantify: the human suffering caused by identity theft, the erosion of public trust, and the disproportionate impact on vulnerable populations with fewer resources to recover from fraud.
+The same logic appears in IT. An organization might conclude that skipping a security audit is "rational" because its cost exceeds expected breach losses. But this omits what is hard to quantify: human suffering from identity theft, erosion of public trust, and disproportionate impact on vulnerable populations with fewer resources to recover.
 
 Ethical cost/benefit analysis requires acknowledging what the numbers leave out:
 
-* **Who bears the risk?** The people who benefit from cost savings (executives, shareholders) are often not the people who suffer when things go wrong (users, patients, the public). When risk-bearers and decision-makers are different groups, there is an ethical obligation to give extra weight to those who bear the risk.
+* **Who bears the risk?** Those who benefit from cost savings (executives, shareholders) are often not those who suffer the consequences (users, patients, the public). That gap creates an ethical obligation to give extra weight to the interests of those who bear the risk.
 
-* **What is being valued?** A patient whose medical records are exposed suffers harm that credit monitoring services cannot fully address.
+* **What is being valued?** A patient whose medical records are exposed suffers harm credit monitoring cannot fully address.
 
-* **What alternatives exist?** Cost/benefit analysis is useful when comparing options. It becomes dangerous when used to frame the cheapest option as the only "rational" choice.
+* **What alternatives exist?** Cost/benefit analysis becomes dangerous when it frames the cheapest option as the only "rational" choice.
 
 ### Safety-Critical Systems
 
-A **safety-critical system** is any system whose failure could result in death, serious injury, or significant environmental damage. Examples include aviation software, medical devices, nuclear power plant controls, autonomous vehicle systems, and industrial control systems.
-
-Safety-critical systems demand a fundamentally different approach to quality and testing. The standard of "good enough" for a social media app is wholly inadequate for software controlling a passenger aircraft. Key principles include:
+A **safety-critical system** is any system whose failure could result in death, serious injury, or significant environmental damage: aviation software, medical devices, nuclear plant controls, autonomous vehicles. These systems demand standards that make "good enough" wholly inadequate. Key principles include:
 
 * **Redundancy:** Critical functions are backed by independent secondary systems.
 * **Formal verification:** Mathematical methods prove that software meets its specifications.
@@ -236,7 +228,7 @@ When failure means someone could die, the obligation to get it right is not meas
 
 ### AI Liability: Who Is Responsible When AI Causes Harm?
 
-As you explored in Module 3, AI ethics principles (fairness, transparency, accountability, explainability, and human oversight) establish the framework for AI accountability. Module 7 applies that accountability question to liability specifically.
+Module 3 established AI ethics principles: fairness, transparency, accountability, explainability, and human oversight. Module 7 applies the accountability principle to liability specifically.
 
 When traditional software causes harm, there is usually a clear chain: the developer wrote the code, the company shipped the product, the failure can be traced to specific decisions. AI complicates this chain in several ways:
 
@@ -244,11 +236,21 @@ When traditional software causes harm, there is usually a clear chain: the devel
 
 * **Training data:** AI systems learn from data. If that data is biased or unrepresentative, the outputs will reflect those flaws. Who is liable: the team that collected the data, the team that built the model, or the organization that deployed it without adequate testing?
 
-* **Evolving behavior:** Some AI systems continue to learn after deployment. A system that performs well during testing may behave differently after months of real-world interaction, challenging the assumption that a product's behavior is fixed at the time of sale.
+* **Evolving behavior:** Some AI systems continue to learn after deployment. A system that performs well during testing may behave differently after months of real-world interaction, challenging the assumption that product behavior is fixed at the time of sale.
 
-* **Multiple parties:** An AI system might involve a foundation model built by one company, fine-tuned by a second, deployed by a third. When harm occurs, liability could fall on any of them. Current law does not provide clear answers.
+* **Multiple parties:** A foundation model built by one company, fine-tuned by a second, deployed by a third creates a liability chain that current law does not clearly resolve.
 
 Organizations that rush AI systems to market without adequate testing are making the same ethical error as those that ship software with known defects: transferring risk to users for their own benefit.
+
+### AI-Generated Code and the Orchestrator-Verifier Role
+
+The liability question has a new dimension relevant to your career: AI-assisted development tools. By 2025, tools like GitHub Copilot were generating large portions of production code. Litigation followed: Copilot faced lawsuits beginning in 2022 over training on open source code without attribution, and by 2024-2025, those cases were shaping how companies document AI-generated code provenance.
+
+More directly: security researchers in 2024 and 2025 documented cases where AI coding assistants introduced vulnerabilities (injection flaws, insecure cryptographic implementations) into production code, because the tools were trained on repositories that themselves contained vulnerable patterns. The code compiled. The tests passed. The vulnerability shipped.
+
+The emerging regulatory answer: the human developer and the deploying organization bear responsibility, not the AI tool. The EU Product Liability Directive, revised in 2024 and enacted in 2025, explicitly extended liability to software and AI-generated outputs, treating them as products for liability purposes. U.S. FTC and SEC guidance in 2025 signaled that AI-product liability claims would be evaluated against the same standards as traditional software defects.
+
+This is where the orchestrator-verifier frame from Module 3 has direct professional consequences. When you use an AI coding assistant, you are the orchestrator directing it and the verifier responsible for its output. Accepting AI-generated code without security review is not a defense against liability; it is evidence of negligence. Your obligation is not to avoid AI tools but to apply the same secure coding standards to AI-generated code that you would to code you wrote yourself.
 
 ### Think About It 7.4 🧠
 
@@ -347,30 +349,31 @@ Evaluate the cost/benefit trade-offs and formulate a recommendation:
 
 * **Cost/benefit analysis requires ethical guardrails.** Financial calculations that reduce human safety and privacy to dollar figures are incomplete and potentially dangerous. When failure means serious harm, "good enough" is not good enough.
 
-* **AI liability is an emerging and unresolved challenge.** Opacity, biased training data, evolving post-deployment behavior, and multi-party development chains make it difficult to assign responsibility when AI causes harm. Ethical AI deployment requires rigorous testing, transparent limitations, and clear accountability structures.
+* **AI liability is an emerging and rapidly developing challenge.** Opacity, biased training data, evolving behavior, and multi-party development chains make assigning responsibility difficult. The 2024 revised EU Product Liability Directive extended liability to software and AI-generated outputs. As orchestrator-verifier, you bear liability for AI-generated code you accept without adequate review. Ethical AI deployment requires rigorous testing, transparent limitations, and clear accountability structures.
 
 ### Key Terms
 
-* **Software defect (bug):** An error or unintended behavior in software that causes incorrect or unexpected results.
+* **Software defect (bug):** An error or unintended behavior that causes incorrect or unexpected results.
 * **Product liability:** Legal framework holding manufacturers responsible for harm caused by defective products.
 * **Negligence:** Liability based on failure to exercise reasonable care in developing or maintaining software.
 * **Strict liability:** Liability for a defective product regardless of how much care the manufacturer exercised.
 * **Breach of warranty:** Liability when a product fails to perform as expressly or implicitly promised.
-* **End User License Agreement (EULA):** A contract between a software provider and user that defines terms of use and typically limits the provider's liability.
-* **Software as a Service (SaaS):** A model where applications are hosted in the cloud and accessed via subscription.
+* **End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
+* **Software as a Service (SaaS):** Applications hosted in the cloud and accessed via subscription, often classified as a service rather than a product for liability purposes.
 * **Software quality:** The degree to which software meets specified requirements and user needs, including reliability, security, and usability.
-* **Capability Maturity Model Integration (CMMI):** A framework measuring the maturity of an organization's software development processes across five levels.
-* **Technical debt:** The accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
-* **Secure coding:** Writing software resistant to security vulnerabilities by design, treating inputs and connections as potentially hostile from the start.
-* **OWASP Top 10:** A regularly updated list from the Open Web Application Security Project identifying the most critical web application security risks.
-* **SQL injection:** A vulnerability where an attacker inserts malicious database commands through unvalidated input fields.
+* **Capability Maturity Model Integration (CMMI):** A framework measuring software development process maturity across five levels.
+* **Technical debt:** Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
+* **Secure coding:** Writing software resistant to vulnerabilities by design, treating all inputs and connections as potentially hostile.
+* **OWASP Top 10:** A regularly updated list of the most critical web application security risks.
+* **SQL injection:** A vulnerability where malicious database commands are inserted through unvalidated input fields.
 * **Cross-site scripting (XSS):** A vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.
-* **Responsible disclosure:** Privately reporting a vulnerability to the vendor and allowing time for a fix before public disclosure.
-* **Patch management:** The process of developing, testing, and distributing software updates that fix known vulnerabilities.
-* **Risk assessment:** A systematic process for identifying, evaluating, and prioritizing threats based on likelihood and impact.
+* **Responsible disclosure:** Privately reporting a vulnerability to the vendor and allowing time for a patch before public disclosure.
+* **Patch management:** Developing, testing, and distributing software updates that fix known vulnerabilities.
+* **Risk assessment:** Identifying, evaluating, and prioritizing threats based on likelihood and impact.
 * **Cost/benefit analysis:** Evaluating decisions by comparing financial and non-financial costs against expected benefits.
 * **Safety-critical system:** A system whose failure could result in death, serious injury, or significant environmental damage.
-* **AI liability:** The legal and ethical question of who is responsible when an artificial intelligence system causes harm.
+* **AI liability:** The legal and ethical question of who is responsible when an AI system causes harm.
+* **Orchestrator-verifier:** A professional posture in which you direct AI tools and take responsibility for verifying their outputs; the standard of care governing liability for AI-generated code.
 
 ### Retrieval Practice
 
@@ -401,15 +404,17 @@ Take a clear position and support it using at least one concept from this module
 
 ## Further Reading 📖
 
-* **OWASP Foundation: "OWASP Top 10."** The definitive and regularly updated list of the most critical web application security risks. Free online at owasp.org. Essential reference for anyone involved in software development or security.
+* **OWASP Foundation: "OWASP Top 10."** Regularly updated list of the most critical web application security risks. Free at owasp.org.
 
-* **Leveson, N. (2020). "Engineering a Safer World."** An open access book from MIT Press examining system safety engineering and its application to software-intensive systems. Chapters on the Therac-25 case and safety-critical system design are particularly relevant to this module.
+* **Leveson, N. (2020). "Engineering a Safer World."** Open access book from MIT Press on system safety engineering, with chapters on Therac-25 and safety-critical system design directly relevant to this module.
 
-* **NIST Special Publication 800-30: "Guide for Conducting Risk Assessments."** A free, comprehensive guide from the National Institute of Standards and Technology on risk assessment methodology. Useful for understanding how organizations evaluate and prioritize IT risks.
+* **NIST Special Publication 800-30: "Guide for Conducting Risk Assessments."** Free NIST guide on risk assessment methodology. Useful for understanding how organizations evaluate and prioritize IT risks.
 
-* **Krebs, B. (2024). "What We Know About the CrowdStrike Update Crash."** Journalism covering the July 2024 CrowdStrike incident, including technical details and industry analysis. Available at krebsonsecurity.com.
+* **Krebs, B. (2024). "What We Know About the CrowdStrike Update Crash."** Coverage of the July 2024 CrowdStrike incident with technical analysis. Available at krebsonsecurity.com.
 
-* **European Commission: "Proposal for an AI Liability Directive."** The EU's proposed framework for assigning liability when AI systems cause harm. Represents one of the most developed regulatory approaches to AI liability globally. Free to read at ec.europa.eu.
+* **European Commission: "EU Product Liability Directive (2024 revision)."** The revised directive, enacted in 2025, explicitly extends product liability to software and AI-generated outputs. Free at ec.europa.eu.
+
+* **CISA: "Software Bill of Materials (SBOM) Resources."** SBOM requirements, expanded to AI model components in 2025, require documentation of all software dependencies. Essential for understanding supply chain liability in AI-assisted development. Free at cisa.gov/sbom.
 
 ---
 
