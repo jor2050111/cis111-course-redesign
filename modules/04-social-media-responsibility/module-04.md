@@ -321,9 +321,9 @@ Try to answer these from memory before looking back at the module.
 
 ## 4.7 Discussion Prompt 💬
 
-**Prompt:** In 2024, several U.S. states passed laws requiring social media platforms to verify the age of users and restrict access for minors. Supporters argue that these laws protect children from harmful content, predatory advertising, and algorithmic manipulation. Opponents argue that age verification systems create privacy risks for all users, restrict young people's access to legitimate information and community, and shift responsibility from platforms to parents and users.
+**Prompt:** In 2024 and 2025, several U.S. states passed laws requiring social media platforms to verify the age of users and restrict minor access, while the EU's Digital Services Act required platforms to assess how their recommendation algorithms affect vulnerable users, including minors. Supporters of these regulatory approaches argue that platforms have demonstrated they will not voluntarily prioritize user safety over engagement, and that government intervention is the only reliable check. Opponents argue that age verification creates new privacy risks, restricts access to legitimate information, and places technical burdens on platforms that may not be effective in practice.
 
-Take a position: Should governments require social media platforms to verify user age and restrict minor access, or should platform design and parental oversight be sufficient? Use at least one ethical framework from this course to support your argument. Then, address the strongest counterargument to your position using a different framework.
+Take a position: Should governments mandate platform accountability measures like age verification and algorithmic risk assessments, or should platform self-regulation and user choice be sufficient? Use at least one ethical framework from this course to support your argument. Then, address the strongest counterargument to your position using a different framework.
 
 **Guidelines:**
 * Your initial post should be 200-300 words
