@@ -27,35 +27,35 @@ By the end of this module, **you will be able to**:
 
 ### Defining Whistleblowing
 
-**Whistleblowing** is the act of reporting illegal, unethical, or harmful activities within an organization to someone who has the power to take corrective action. A **whistleblower** is the person who makes that report. The term carries weight because whistleblowing almost always involves risk. The person reporting the problem is usually an insider, an employee or contractor who has direct knowledge of wrongdoing and chooses to speak up despite the potential consequences.
+**Whistleblowing** is the act of reporting illegal, unethical, or harmful activities within an organization to someone with the power to take corrective action. A **whistleblower** is the person who makes that report, usually an insider with direct knowledge of wrongdoing who chooses to speak up despite the consequences.
 
-Whistleblowing is not the same as ordinary workplace complaints. Complaining about a slow coffee machine in the break room is not whistleblowing. Reporting that your company is secretly dumping toxic waste is. The distinction matters because whistleblowing involves exposing conduct that causes serious harm or violates a law, regulation, or ethical standard. It is about accountability at an organizational or societal level, not personal grievances.
+Whistleblowing is distinct from ordinary workplace complaints. The distinction matters because whistleblowing exposes conduct that causes serious harm or violates a law, regulation, or ethical standard. It is about accountability at an organizational or societal level, not personal grievances.
 
-In IT, whistleblowing scenarios are common because technology professionals often have access to information that others in the organization do not see. A database administrator might discover that customer data is being sold to third parties without consent. A software engineer might find that a safety-critical system has known bugs that management has decided not to fix. A cybersecurity analyst might learn that the company is concealing a data breach from regulators and affected users. In each case, the IT professional has knowledge that the public or regulators would want to know, and the question becomes: what do you do with it?
+In IT, whistleblowing scenarios are common because technology professionals often have access to information that others in the organization do not see. A database administrator might discover that customer data is being sold without consent. A software engineer might find that a safety-critical system has known bugs management has chosen not to fix. A cybersecurity analyst might learn that the company is concealing a data breach. In each case, the IT professional has knowledge that the public or regulators would want, and the question becomes: what do you do with it?
 
 ### Internal vs. External Whistleblowing
 
-Not all whistleblowing is the same. The first and most important distinction is between **internal whistleblowing** and **external whistleblowing**.
+The most important distinction is between **internal whistleblowing** and **external whistleblowing**.
 
-**Internal whistleblowing** means reporting concerns through channels within the organization. You tell your supervisor, the compliance department, the ethics hotline, or the board of directors. The information stays inside the company, and the company has the opportunity to investigate and correct the problem.
+**Internal whistleblowing** means reporting through channels inside the organization: a supervisor, compliance department, ethics hotline, or board of directors. The information stays inside the company, which has the opportunity to investigate and correct the problem.
 
-**External whistleblowing** means reporting concerns to someone outside the organization: a government regulator, law enforcement, the media, or the public. This is a more dramatic step. It takes the information beyond the organization's control and can result in investigations, lawsuits, public scrutiny, and significant reputational damage.
+**External whistleblowing** means reporting to someone outside: a regulator, law enforcement, the media, or the public. This is a more dramatic step that takes the information beyond the organization's control and can lead to investigations, lawsuits, and reputational damage.
 
-Most ethical frameworks and legal protections assume that internal reporting should come first. The logic is straightforward: if the organization can fix the problem internally, that is usually the least harmful path. External whistleblowing becomes justified when internal channels fail, when the organization retaliates against the reporter, or when the harm is so immediate and severe that there is no time to wait for an internal response.
+Most ethical frameworks and legal protections assume internal reporting should come first: if the organization can fix the problem internally, that is usually the least harmful path. External whistleblowing becomes justified when internal channels fail, when the organization retaliates, or when the harm is so immediate and severe that waiting puts people at risk.
 
 ### Ethical Criteria for Justified Whistleblowing
 
-Not every disclosure is ethically justified. Leaking confidential information for personal revenge or competitive advantage is not whistleblowing in the ethical sense. Ethical analysis of whistleblowing typically involves several criteria that help distinguish justified disclosure from unauthorized leaking.
+Leaking confidential information for personal revenge or competitive advantage is not whistleblowing. Ethical analysis usually involves several criteria that distinguish justified disclosure from unauthorized leaking.
 
-**Severity of the harm.** The wrongdoing must involve serious harm, either actual or potential. Exposing a company that is knowingly shipping defective medical devices is different from exposing a company that is merely inefficient. The more serious the potential harm, the stronger the ethical case for speaking up.
+**Severity of the harm.** The wrongdoing must involve serious harm, either actual or potential. Exposing a company knowingly shipping defective medical devices is different from exposing one that is merely inefficient.
 
-**Exhaustion of internal channels.** Before going external, a whistleblower should generally try to resolve the issue internally. If the company has a compliance department, an ethics hotline, or a designated reporting mechanism, using those channels first demonstrates good faith. However, this criterion has limits. If internal channels are controlled by the same people responsible for the wrongdoing, or if using them would put the whistleblower at immediate risk, bypassing them may be justified.
+**Exhaustion of internal channels.** A whistleblower should generally try to resolve the issue internally first. Using a compliance department, ethics hotline, or designated reporting mechanism demonstrates good faith. This criterion has limits: if internal channels are controlled by the same people responsible for the wrongdoing, or if using them puts the whistleblower at immediate risk, bypassing them may be justified.
 
-**Reasonable belief in the truth of the claims.** The whistleblower should have a genuine, evidence-based belief that the wrongdoing is occurring. Ethical whistleblowing is based on facts and documentation, not rumors or speculation. This does not mean the whistleblower must have absolute proof, but they should have reasonable grounds for their claims.
+**Reasonable belief in the truth of the claims.** The whistleblower should have a genuine, evidence-based belief that the wrongdoing is occurring. Ethical whistleblowing rests on facts and documentation, not rumors or speculation.
 
-**Proportionality.** The act of whistleblowing should be proportionate to the harm being reported. Disclosing more information than necessary to address the wrongdoing, or disclosing information to a wider audience than necessary, raises ethical concerns even when the underlying report is valid.
+**Proportionality.** The disclosure should match the harm being reported. Disclosing more information than necessary, or to a wider audience than necessary, raises ethical concerns even when the underlying report is valid.
 
-**Motivation.** While not every ethicist agrees that motivation matters, some frameworks consider it relevant. Is the whistleblower acting out of genuine concern for public safety or justice, or primarily out of personal grievance, financial reward, or revenge? The answer may not change whether the information should be disclosed, but it can affect how the whistleblower's actions are judged.
+**Motivation.** Some frameworks consider motivation relevant. Is the whistleblower acting from concern for public safety, or primarily from personal grievance, financial reward, or revenge? The answer may not change whether the information should be disclosed, but it can affect how the whistleblower's actions are judged.
 
 ### Think About It 5.1 🧠
 
@@ -77,43 +77,43 @@ Ethical justification is one thing. Legal protection is another. Many people who
 
 ### The Sarbanes-Oxley Act (SOX)
 
-The **Sarbanes-Oxley Act of 2002 (SOX)** was passed after the collapse of Enron and WorldCom, two corporations whose massive accounting fraud destroyed billions of dollars in shareholder value and employee retirement savings. Congress recognized that employees inside these companies had known about the fraud but were afraid to speak up because they feared retaliation.
+The **Sarbanes-Oxley Act of 2002 (SOX)** was passed after the collapse of Enron and WorldCom, whose accounting fraud destroyed billions in shareholder value and retirement savings. Congress recognized that employees inside these companies had known about the fraud but feared retaliation.
 
-SOX includes specific whistleblower protections for employees of publicly traded companies. Key provisions include:
+SOX includes whistleblower protections for employees of publicly traded companies:
 
-* **Protection from retaliation.** Companies cannot fire, demote, suspend, threaten, harass, or discriminate against employees who report suspected fraud to a federal regulatory agency, law enforcement, or a person within the company who has supervisory authority.
-* **Complaint process.** Employees who believe they have been retaliated against can file a complaint with the Occupational Safety and Health Administration (OSHA). If OSHA does not act within 180 days, the employee can file a lawsuit in federal court.
+* **Protection from retaliation.** Companies cannot fire, demote, suspend, threaten, harass, or discriminate against employees who report suspected fraud to a regulatory agency, law enforcement, or a supervisor.
+* **Complaint process.** Employees who believe they were retaliated against can file with OSHA; if OSHA does not act within 180 days, they can sue in federal court.
 * **Criminal penalties.** Individuals who knowingly retaliate against a whistleblower can face fines and up to ten years in prison.
 
-SOX was groundbreaking when it passed, but it has limitations. It applies primarily to employees of publicly traded companies, which means workers at private companies, contractors, and gig workers may not be covered. The complaint process can be slow, and proving retaliation is often difficult because employers can point to other reasons for adverse employment actions.
+SOX has limitations. It applies primarily to employees of publicly traded companies, leaving workers at private companies, contractors, and gig workers with weaker or no coverage. The complaint process can be slow, and proving retaliation is often difficult because employers can point to other reasons for adverse actions.
 
 ### The Dodd-Frank Act
 
-The **Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010** expanded whistleblower protections beyond what SOX provided. Passed in response to the 2008 financial crisis, Dodd-Frank added two significant features.
+The **Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010**, passed after the 2008 financial crisis, expanded protections beyond SOX in two significant ways.
 
-**Financial incentives.** Under Dodd-Frank, whistleblowers who report securities violations to the Securities and Exchange Commission (SEC) can receive between 10% and 30% of monetary sanctions collected as a result of their information, if the sanctions exceed $1 million. Since the program's creation, the SEC has awarded over $2 billion to whistleblowers whose tips led to successful enforcement actions.
+**Financial incentives.** Whistleblowers who report securities violations to the SEC can receive 10% to 30% of monetary sanctions collected from their information, when sanctions exceed $1 million. The SEC has awarded over $2 billion under the program.
 
-**Stronger anti-retaliation provisions.** Dodd-Frank prohibits retaliation against whistleblowers and gives them the right to sue their employer directly in federal court, without first going through OSHA. It also extends protections to a broader range of workers, including some contractors and temporary employees.
+**Stronger anti-retaliation provisions.** Dodd-Frank lets whistleblowers sue their employer directly in federal court without first going through OSHA, and extends coverage to a broader range of workers, including some contractors and temporary employees.
 
-The financial incentive structure under Dodd-Frank changed the calculus for potential whistleblowers. Before Dodd-Frank, blowing the whistle was almost entirely a personal sacrifice. The financial rewards do not eliminate the risk, but they do provide some compensation for the career damage and personal stress that whistleblowers often face.
+Dodd-Frank changed the calculus for potential whistleblowers. Before it, whistleblowing was almost entirely a personal sacrifice. Financial rewards do not eliminate the risk, but they offset some of the career damage and personal cost.
 
 ### The False Claims Act
 
-The **False Claims Act (FCA)**, originally passed during the Civil War and significantly amended in 1986, allows private citizens to file lawsuits on behalf of the federal government against entities that have defrauded government programs. This is known as a **qui tam** provision, from the Latin phrase meaning "who sues on behalf of the king."
+The **False Claims Act (FCA)**, originally passed during the Civil War and amended in 1986, lets private citizens file lawsuits on behalf of the federal government against entities defrauding government programs. This is the **qui tam** provision, from the Latin for "who sues on behalf of the king."
 
-In IT, the FCA is relevant when companies defraud the government through technology contracts. For example, if a defense contractor bills the government for cybersecurity protections that were never implemented, an employee who discovers the fraud can file a qui tam lawsuit. If the government recovers funds, the whistleblower can receive 15% to 30% of the recovery.
+The FCA matters in IT when companies defraud the government through technology contracts. If a defense contractor bills for cybersecurity protections that were never implemented, an employee who discovers the fraud can file a qui tam suit and receive 15% to 30% of any recovery.
 
 ### Limitations of Legal Protections
 
-Despite these laws, whistleblowers continue to face significant risks. Understanding the limitations is essential for anyone considering whether to report wrongdoing.
+Despite these laws, whistleblowers continue to face significant risks.
 
-**Retaliation is hard to prove.** Employers rarely say, "We fired you because you blew the whistle." Instead, they point to performance issues, restructuring, or other seemingly legitimate reasons. Proving that the real reason was retaliation requires evidence that can be difficult to gather.
+**Retaliation is hard to prove.** Employers rarely say, "We fired you because you blew the whistle." They point to performance issues, restructuring, or other seemingly legitimate reasons, and gathering evidence of the real cause is difficult.
 
-**Career damage is real and lasting.** Even when whistleblowers win legal cases, many find it difficult to get hired in their industry afterward. Potential employers may view them as disloyal, disruptive, or risky to hire. Research consistently shows that whistleblowers experience higher rates of job loss, financial hardship, and mental health challenges than their peers.
+**Career damage is real and lasting.** Even whistleblowers who win legal cases often struggle to find work in their industry afterward. Research consistently shows higher rates of job loss, financial hardship, and mental health challenges among whistleblowers than among their peers.
 
-**Coverage gaps exist.** Not all workers are covered by all whistleblower laws. Independent contractors, employees of private companies, and workers in certain industries may have fewer protections. State laws vary widely, creating a patchwork of protections that depends on where you live and who you work for.
+**Coverage gaps exist.** Independent contractors, employees of private companies, and workers in some industries may have fewer protections. State laws vary widely.
 
-**International inconsistency.** Whistleblower protections vary dramatically across countries. The European Union's Whistleblower Protection Directive, adopted in 2019, requires member states to establish internal and external reporting channels and protect whistleblowers from retaliation. Other countries offer little or no protection. For IT professionals working in global organizations, the legal landscape can be confusing and unpredictable.
+**International inconsistency.** Protections vary dramatically across countries. The European Union's Whistleblower Protection Directive (2019) requires member states to establish reporting channels and protect whistleblowers; other jurisdictions offer little or none. For IT professionals in global organizations, the landscape can be unpredictable.
 
 ### Case Study 5.1 - The Quiet Database 📋
 
@@ -155,37 +155,33 @@ Whistleblowing often involves private information. Sometimes the wrongdoing bein
 
 ### What Is Fiduciary Duty?
 
-A **fiduciary duty** is a legal and ethical obligation to act in the best interest of another party. The concept comes from relationships where one party places trust in another to manage something valuable on their behalf. A doctor has a fiduciary duty to their patient. A lawyer has a fiduciary duty to their client. A financial advisor has a fiduciary duty to the person whose money they manage.
+A **fiduciary duty** is a legal and ethical obligation to act in the best interest of another party. It comes from relationships where one party trusts another to manage something valuable on their behalf: a doctor to a patient, a lawyer to a client, a financial advisor to the person whose money they manage.
 
-In IT, the concept of fiduciary duty extends to data. When an organization collects personal information from customers, patients, employees, or users, it takes on a responsibility to protect that information. The data does not belong to the organization in the way that inventory or equipment does. It belongs to the individuals it describes, and the organization holds it in trust.
-
-This idea, that data is held in trust rather than owned outright, is the foundation of data privacy law and ethics. It means that organizations have obligations that go beyond simply complying with minimum legal requirements. They have a duty to handle data with care, use it only for purposes the data subjects have agreed to, protect it from unauthorized access, and be transparent about how it is used.
+In IT, fiduciary duty extends to data. When an organization collects personal information from customers, patients, employees, or users, it takes on responsibility to protect that information. The data does not belong to the organization the way inventory or equipment does. It belongs to the individuals it describes; the organization holds it in trust. This is the foundation of data privacy law and ethics, and it means organizations have obligations beyond minimum legal compliance.
 
 ### Data as a Trust
 
-Think of it this way. When you sign up for an online service and provide your name, email address, and phone number, you are not giving that information away. You are lending it to the company for a specific purpose: to create an account, to receive a service, to complete a transaction. The company becomes the **custodian** of that data, and with custodianship comes responsibility.
+When you sign up for an online service and provide your name, email, and phone number, you are not giving that information away. You are lending it for a specific purpose. The company becomes the **custodian** of that data, and custodianship carries responsibility.
 
-**Personally identifiable information (PII)** includes any data that can be used to identify a specific individual. Names, addresses, Social Security numbers, phone numbers, email addresses, biometric data, IP addresses, and health records are all examples. The more sensitive the PII, the greater the organization's obligation to protect it.
+**Personally identifiable information (PII)** is any data that can identify a specific individual: names, addresses, Social Security numbers, phone numbers, email addresses, biometric data, IP addresses, and health records. The more sensitive the PII, the greater the organization's obligation to protect it.
 
-Organizations that collect PII owe several things to the people whose data they hold:
+Organizations that collect PII owe data subjects five things:
 
-* **Transparency.** Organizations should clearly explain what data they collect, why they collect it, how they use it, who they share it with, and how long they keep it. Privacy policies should be written in plain language, not buried in pages of legal jargon that no one reads.
-* **Purpose limitation.** Data should be used only for the purposes for which it was collected. If a customer provides their email address to receive order confirmations, using that address for marketing without explicit consent violates purpose limitation.
-* **Data minimization.** Organizations should collect only the data they actually need. Collecting data "just in case" it might be useful someday is not consistent with fiduciary responsibility.
-* **Security.** Organizations must implement reasonable technical and administrative safeguards to protect data from unauthorized access, theft, or accidental exposure.
-* **Accountability.** When something goes wrong, the organization must take responsibility. This includes notifying affected individuals, cooperating with regulators, and taking steps to prevent future incidents.
+* **Transparency.** Clearly explain what data is collected, why, how it is used, who it is shared with, and how long it is retained, in plain language.
+* **Purpose limitation.** Use data only for the purposes it was collected for. An email collected for order confirmations should not be repurposed for marketing without explicit consent.
+* **Data minimization.** Collect only what is actually needed. Collecting data "just in case" is inconsistent with fiduciary responsibility.
+* **Security.** Implement reasonable technical and administrative safeguards against unauthorized access, theft, or accidental exposure.
+* **Accountability.** When something goes wrong, take responsibility: notify affected individuals, cooperate with regulators, and act to prevent recurrence.
 
 ### When Loyalty to Your Employer Conflicts with Duty to Protect Data
 
-This is where fiduciary responsibility connects directly to whistleblowing. An IT professional has an obligation to their employer, but they also have an obligation to the people whose data the employer holds. When those two obligations conflict, the ethical tension can be intense.
+This is where fiduciary responsibility connects directly to whistleblowing. An IT professional has an obligation to their employer, but they also have an obligation to the people whose data the employer holds. When the two conflict, the ethical tension can be intense.
 
-Consider this scenario: you work for a company that has experienced a data breach affecting 500,000 customer records. Your employer decides not to disclose the breach to customers or regulators, hoping to fix the vulnerability quietly and avoid bad publicity. You know that affected customers are at risk of identity theft and that several state laws require notification within a specific timeframe.
+Consider this scenario: you work for a company that has experienced a data breach affecting 500,000 customer records. Your employer decides not to disclose the breach, hoping to fix the vulnerability quietly. You know affected customers are at risk of identity theft and that several state laws require notification within a specific timeframe.
 
-Your loyalty to your employer pulls you in one direction. Your obligation to the data subjects, the customers whose information was compromised, pulls you in another. Fiduciary responsibility says the obligation to the data subjects should take priority, because the data was entrusted to the organization for safekeeping, and the organization has failed in that duty.
+Loyalty to your employer pulls one direction. Obligation to the data subjects pulls another. Fiduciary responsibility argues the obligation to the data subjects should take priority, because the data was entrusted for safekeeping and the organization has failed in that duty.
 
-This is not a simple choice. Reporting the breach externally could cost you your job. It could damage the company financially and reputationally. Your coworkers, who had nothing to do with the decision to conceal the breach, could be harmed. But the alternative, staying silent while hundreds of thousands of people remain unaware that their personal information is compromised, carries its own ethical costs.
-
-The ethical frameworks from Module 1 can help sort through this tension. A utilitarian analysis weighs the harm of concealment (potential identity theft for 500,000 people) against the harm of disclosure (financial and reputational damage to the company). A deontological analysis asks whether there is a duty to be honest with the people whose data was compromised, regardless of the consequences. Social contract theory asks what rules a fair society would agree to: would rational people agree to a system where companies can hide data breaches that put them at risk?
+This is not a simple choice. Reporting externally could cost you your job and damage the company. Coworkers uninvolved in the cover-up could be harmed. But staying silent while hundreds of thousands of people remain unaware their information is compromised carries its own costs. The ethical frameworks from Module 1 help sort through this tension: utilitarianism weighs the harm of concealment against the harm of disclosure, deontology asks whether there is a duty to be honest with the data subjects regardless of consequences, and social contract theory asks what rules a fair society would agree to.
 
 ### Think About It 5.3 🧠
 
@@ -203,70 +199,64 @@ The ethical frameworks from Module 1 can help sort through this tension. A utili
 
 ## 5.4 Practical Guidance for Handling a Whistleblowing Situation
 
-The first three sections of this module gave you the ethical theory, the legal landscape, and the concept of fiduciary duty. This section turns to practical guidance. If you find yourself in a situation where you believe whistleblowing may be necessary, what should you actually do?
+If you find yourself in a situation where whistleblowing may be necessary, what should you actually do?
 
 ### Step 1: Document Everything
 
-Before you take any action, start collecting evidence. Documentation is the single most important thing a potential whistleblower can do. Without it, your claims may be dismissed as hearsay, and you will have no protection if your employer retaliates.
+Before taking any action, start collecting evidence. Without documentation, claims can be dismissed as hearsay and protections are weak.
 
 **What to document:**
 
 * Dates, times, and locations of events you observed
 * Names of people involved and their roles
-* Copies of relevant emails, messages, reports, or files (be aware of company policies about removing documents, and consult a lawyer before taking proprietary materials)
-* Your own written account of what you saw, heard, or discovered, written as close to the event as possible
-* Records of any internal reports you made, including who you reported to, when, and what response you received
+* Copies of relevant emails, messages, reports, or files (consult a lawyer before taking proprietary materials)
+* Your own written account, recorded as close to each event as possible
+* Records of internal reports you made: who, when, and what response you received
 
-**Where to keep documentation:** Store copies outside of company systems. A personal email, a secure cloud account, or a physical copy at home are all better than a file on your work laptop that the company can access or delete.
+**Where to keep it:** Store copies outside company systems. A personal email, a secure cloud account, or a physical copy at home is safer than a file on a work laptop the company can access or delete.
 
 ### Step 2: Use Internal Channels First (When Safe to Do So)
 
-As discussed in Section 5.1, starting with internal reporting is usually the right first step, both ethically and legally. Many whistleblower protections require or strongly encourage internal reporting before external disclosure.
+Internal reporting is usually the right first step, both ethically and legally; many whistleblower protections require or encourage it before external disclosure.
 
-Report to your direct supervisor if they are not involved in the wrongdoing. If they are, go to the next level of management, the compliance department, the ethics hotline, or the board of directors. Put your report in writing and keep a copy.
+Report to your direct supervisor if they are not involved. If they are, go up: next-level management, compliance, the ethics hotline, or the board. Put it in writing and keep a copy. If your organization has a Chief Ethics Officer (Module 3), that person is the designated resource. The company's code of ethics may also outline specific procedures and protections.
 
-If your organization has a Chief Ethics Officer (as discussed in Module 3), that person is a designated resource for exactly this kind of situation. If the company has a code of ethics, review it. It may outline specific procedures for reporting ethical concerns and describe the protections available to employees who report in good faith.
-
-However, internal reporting is not always safe or effective. You should consider skipping internal channels if:
+Consider skipping internal channels if:
 
 * The wrongdoing involves senior leadership and there is no independent reporting mechanism
 * You have already reported internally and been ignored or told to stay silent
-* You have reason to believe that reporting internally will result in the destruction of evidence
+* Reporting internally is likely to result in destruction of evidence
 * The harm is so immediate and severe that waiting for an internal response would put people at risk
 
 ### Step 3: Seek Legal Advice
 
-Before going external, consult a lawyer who specializes in whistleblower cases. This is not optional. The legal landscape is complex, and a single misstep can undermine your protections. A lawyer can help you understand which laws apply to your situation, what evidence you need, how to make a report without exposing yourself to liability, and what financial or legal protections you may be entitled to.
-
-Many whistleblower attorneys offer free initial consultations. Organizations like the Government Accountability Project and the National Whistleblower Center provide resources and referrals.
+Before going external, consult a lawyer who specializes in whistleblower cases. The legal landscape is complex, and a single misstep can undermine your protections. A lawyer can help you understand which laws apply, what evidence you need, how to file without exposing yourself to liability, and what financial or legal protections you may be entitled to. Many whistleblower attorneys offer free initial consultations; the Government Accountability Project and the National Whistleblower Center provide resources and referrals.
 
 ### Step 4: Report to the Appropriate External Authority
 
-If internal channels have failed or are not an option, the next step is external reporting. The appropriate authority depends on the nature of the wrongdoing:
+If internal channels have failed, the appropriate external authority depends on the type of wrongdoing:
 
 * **Financial fraud or securities violations:** Securities and Exchange Commission (SEC)
-* **Health data violations:** Department of Health and Human Services (HHS), Office for Civil Rights
+* **Health data violations:** Department of Health and Human Services, Office for Civil Rights
 * **Government contract fraud:** The relevant federal Inspector General, using the False Claims Act
 * **Environmental violations:** Environmental Protection Agency (EPA)
 * **General workplace safety:** Occupational Safety and Health Administration (OSHA)
 
-Filing a report with the correct agency matters. It activates specific legal protections and ensures that your complaint reaches people with the authority to investigate.
+Filing with the correct agency activates specific legal protections and routes the complaint to investigators with appropriate authority.
 
 ### Step 5: Prepare for the Personal Impact
 
-Whistleblowing is stressful, even when it is the right thing to do. Research consistently shows that whistleblowers face emotional and psychological challenges, including anxiety, isolation, and depression. Professional relationships may suffer. Family members may be affected.
-
-Having a support system matters. This includes legal representation, trusted friends or family, and potentially a therapist or counselor. Some organizations, such as the Whistleblower Network News and ExposeFacts, offer peer support communities for whistleblowers.
+Whistleblowing is stressful even when it is the right thing to do. Research consistently shows whistleblowers face anxiety, isolation, and depression, and professional and family relationships often suffer. A support system, including legal representation, trusted friends or family, and possibly a therapist, matters. Whistleblower Network News and ExposeFacts offer peer support communities.
 
 ### AI Touchpoint: Technology as Both Shield and Weapon
 
-Artificial intelligence is changing the whistleblowing landscape in two important ways, and neither is entirely positive.
+Artificial intelligence is changing the whistleblowing landscape in two ways, neither entirely positive.
 
-**AI-enabled retaliation monitoring.** Some organizations use AI-powered surveillance tools to monitor employee communications, including email, chat, and even keystrokes. These systems can flag "suspicious" behavior, such as searching for information about whistleblower protections, contacting external lawyers, or copying large amounts of data. While companies argue that these tools protect against data theft and insider threats, they can also be used to identify and retaliate against potential whistleblowers before they even make a report. The **accountability** principle from AI ethics (Module 3) raises a critical question here: who is accountable when an AI surveillance system is used to suppress legitimate whistleblowing? If the system flags an employee who is documenting evidence of fraud, and management uses that flag to fire the employee preemptively, both the technology and the people who deployed it bear responsibility.
+**AI-enabled retaliation monitoring.** Some organizations now deploy AI-powered surveillance to monitor employee email, chat, and keystrokes. These systems flag behavior such as searching for whistleblower-protection information, contacting external lawyers, or copying unusual volumes of data. Companies frame the tools as protection against data theft and insider threats, but the same flags can identify potential whistleblowers before they ever make a report. The **accountability** principle from Module 3 raises the question: who is responsible when AI surveillance is used to suppress legitimate whistleblowing? If a system flags an employee documenting evidence of fraud and management uses that flag to fire the employee preemptively, both the technology and the people who deployed it share responsibility.
 
-**AI systems trained on private data.** Many AI systems are trained on datasets that include personal information, sometimes collected without meaningful consent. When a whistleblower discovers that their company's AI models were trained on data that users never agreed to share for that purpose, the situation sits at the intersection of whistleblowing and fiduciary duty. The company has a fiduciary obligation to the data subjects, and the employee who discovers the misuse has a professional obligation to raise the issue. This connects directly to the **transparency** and **fairness** principles from Module 3. If users do not know their data is being used to train AI, the organization is failing its transparency obligation. If the resulting AI system treats certain groups unfairly because of biased or improperly sourced training data, the fairness principle is also violated.
+**AI systems trained on private data.** Many AI systems are trained on datasets that include personal information collected without meaningful consent. When a whistleblower discovers that their company's AI models were trained on data users never agreed to share for that purpose, the case sits at the intersection of whistleblowing and fiduciary duty. The **transparency** and **fairness** principles from Module 3 apply directly: if users do not know their data is being used to train AI, transparency fails. If the resulting model treats certain groups unfairly because of biased or improperly sourced training data, fairness fails too.
 
-These AI-related scenarios are not hypothetical. Reports from former employees at major technology companies have described exactly these situations: AI surveillance systems used to monitor internal dissent, and AI models trained on data that was collected under one set of promises and used for entirely different purposes.
+These scenarios are not hypothetical. Former employees at major technology companies have publicly described AI surveillance used to monitor internal dissent and AI models trained on data collected under one set of promises and used for entirely different purposes.
 
 ### Think About It 5.4 🧠
 
@@ -341,38 +331,38 @@ Kenji now faces a decision. He believes DataStream is violating the trust of mil
 
 ### Key Concepts
 
-* **Whistleblowing** is the act of reporting illegal, unethical, or harmful activities within an organization. It can be internal (through company channels) or external (to regulators, media, or the public). Ethical whistleblowing is justified when the harm is serious, internal channels have been tried or are ineffective, the whistleblower has a reasonable basis for their claims, and the disclosure is proportionate to the wrongdoing.
+* **Whistleblowing** is reporting illegal, unethical, or harmful activities. It can be internal (through company channels) or external (to regulators, media, or the public). Ethical whistleblowing is justified when harm is serious, internal channels have failed or are unsafe, the whistleblower has a reasonable evidence-based belief, and the disclosure is proportionate.
 
-* **Legal protections** for whistleblowers include the Sarbanes-Oxley Act (protecting employees of public companies who report fraud), the Dodd-Frank Act (providing financial incentives and stronger anti-retaliation provisions for reporting securities violations), and the False Claims Act (allowing private citizens to sue on behalf of the government for fraud). Despite these protections, whistleblowers continue to face career damage, retaliation that is difficult to prove, and coverage gaps depending on their employment status and location.
+* **Legal protections** include the Sarbanes-Oxley Act (employees of public companies reporting fraud), the Dodd-Frank Act (financial incentives and stronger anti-retaliation provisions for securities violations), and the False Claims Act (private citizens suing on behalf of the government). Despite these laws, whistleblowers face career damage, retaliation that is hard to prove, and coverage gaps depending on employment status and location.
 
-* **Fiduciary responsibility** in IT means that organizations holding personal data have an obligation to act in the best interest of the data subjects. This includes transparency about data use, limiting data to its intended purpose, minimizing data collection, implementing strong security, and taking accountability when things go wrong. Data is held in trust, not owned outright, and this distinction carries ethical weight.
+* **Fiduciary responsibility** in IT means organizations holding personal data must act in the best interest of the data subjects: transparency, purpose limitation, data minimization, security, and accountability. Data is held in trust, not owned.
 
-* **The tension between employer loyalty and data protection** is one of the defining ethical challenges for IT professionals. When an employer mishandles data, an IT professional's fiduciary obligation to the data subjects may conflict with their loyalty to the organization. Ethical frameworks from Module 1 and the AI ethics principles from Module 3 provide tools for working through this tension.
+* **Loyalty to employer can conflict with the duty to protect data subjects.** When an employer mishandles data, an IT professional's fiduciary obligation may take priority over loyalty. Module 1 frameworks and Module 3 AI principles help work through the tension.
 
-* **AI creates new challenges for whistleblowers.** AI-powered surveillance tools can be used to identify and suppress potential whistleblowers before they even report. AI systems trained on improperly sourced private data create new categories of wrongdoing that IT professionals may need to report. The principles of accountability and transparency from Module 3 apply directly to both situations.
+* **AI creates new whistleblowing challenges.** AI surveillance can identify and suppress potential whistleblowers before they report. AI models trained on improperly sourced data create new categories of wrongdoing. Accountability and transparency from Module 3 apply directly.
 
 ### Key Terms
 
 **Section 5.1**
-* **Whistleblowing:** The act of reporting illegal, unethical, or harmful activities within an organization to someone who can take corrective action.
-* **Whistleblower:** A person, usually an insider, who reports organizational wrongdoing.
-* **Internal whistleblowing:** Reporting concerns through channels within the organization, such as a supervisor, compliance department, or ethics hotline.
-* **External whistleblowing:** Reporting concerns to parties outside the organization, such as regulators, law enforcement, or the media.
+* **Whistleblowing:** Reporting illegal, unethical, or harmful organizational activities to someone with corrective authority.
+* **Whistleblower:** An insider who reports organizational wrongdoing.
+* **Internal whistleblowing:** Reporting through internal channels (supervisor, compliance, ethics hotline).
+* **External whistleblowing:** Reporting to outside parties (regulators, law enforcement, media).
 
 **Section 5.2**
-* **Sarbanes-Oxley Act (SOX):** A 2002 federal law that includes whistleblower protections for employees of publicly traded companies who report suspected fraud.
-* **Dodd-Frank Act:** A 2010 federal law that expanded whistleblower protections, added financial incentives for reporting securities violations, and strengthened anti-retaliation provisions.
-* **False Claims Act (FCA):** A federal law that allows private citizens to file lawsuits on behalf of the government against entities that defraud government programs.
-* **Qui tam:** A provision of the False Claims Act allowing private citizens to sue on behalf of the government and receive a portion of any recovered funds.
+* **Sarbanes-Oxley Act (SOX):** 2002 federal law with whistleblower protections for employees of publicly traded companies who report fraud.
+* **Dodd-Frank Act:** 2010 federal law that expanded whistleblower protections, added financial incentives for SEC reports, and strengthened anti-retaliation provisions.
+* **False Claims Act (FCA):** Federal law allowing private citizens to sue on behalf of the government against entities defrauding government programs.
+* **Qui tam:** FCA provision letting private citizens sue on behalf of the government and receive a portion of any recovery.
 
 **Section 5.3**
-* **Fiduciary duty:** A legal and ethical obligation to act in the best interest of another party, especially when one party has been entrusted with something valuable.
-* **Personally identifiable information (PII):** Any data that can be used to identify a specific individual, including names, addresses, Social Security numbers, and biometric data.
-* **Data minimization:** The principle that organizations should collect only the personal data they actually need for a stated purpose.
-* **Purpose limitation:** The principle that personal data should be used only for the purposes for which it was originally collected.
+* **Fiduciary duty:** A legal and ethical obligation to act in another party's best interest when entrusted with something valuable.
+* **Personally identifiable information (PII):** Data that can identify a specific individual (names, addresses, Social Security numbers, biometric data).
+* **Data minimization:** Collecting only the personal data actually needed for a stated purpose.
+* **Purpose limitation:** Using personal data only for the purposes for which it was originally collected.
 
 **Section 5.4**
-* **AI-enabled retaliation monitoring:** The use of AI-powered surveillance tools to monitor employee behavior and potentially identify or suppress whistleblowing activity.
+* **AI-enabled retaliation monitoring:** Using AI-powered surveillance to monitor employee behavior and potentially suppress whistleblowing.
 
 ### Retrieval Practice
 
@@ -415,4 +405,4 @@ Take a position and support it using at least one concept from this module (whis
 
 ## Looking Ahead ⏩
 
-In Module 6, you will shift focus to the ethical challenges of healthcare IT. You will examine how HIPAA establishes the legal framework for protecting health data, how mobile health technologies and telemedicine create new privacy risks, and how clinical IT systems like electronic health records and clinical decision support tools raise questions about patient safety and informed consent. The fiduciary concepts from this module will apply directly, because healthcare organizations hold some of the most sensitive personal data that exists, and the stakes of mishandling it are life and death.
+In Module 6, you turn to healthcare IT ethics: HIPAA's framework for protecting health data, the privacy risks of mobile health and telemedicine, and the patient-safety questions raised by electronic health records and clinical decision support. The fiduciary concepts from this module apply directly, because healthcare organizations hold some of the most sensitive data that exists, and the stakes of mishandling it are life and death.
