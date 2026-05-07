@@ -41,6 +41,7 @@
 
 **Section C (cross-module) deferral.** Per the rubric, Section C runs after all 12 modules pass A and B individually. This scorecard reports A and B only.
 
-**Branch state.** `polish/module-01` contains two commits ahead of main:
+**Branch state.** `polish/module-01` contains three commits ahead of main:
 1. `polish(module-01): mechanical pass (format compliance)` — all Section A checks PASS; B2 additions and Discussion Prompt update were already staged before the first commit, so they appear here (consistent with M3 precedent noted in module-03-scorecard.md)
-2. `polish(module-01): final scorecard, all rubric checks pass` — this file with final notes
+2. `polish(module-01): judgment pass (AI-2026 currency, voice, CLO alignment)` — all Section B checks PASS on first pass; scorecard initial draft included
+3. `polish(module-01): final scorecard, all rubric checks pass` — this file with final notes, branch state updated
