@@ -258,6 +258,12 @@ Artificial intelligence is changing the whistleblowing landscape in two ways, ne
 
 These scenarios are not hypothetical. Former employees at major technology companies have publicly described AI surveillance used to monitor internal dissent and AI models trained on data collected under one set of promises and used for entirely different purposes.
 
+**A 2025-2026 development to know: AI-driven insider-risk and HR-monitoring platforms.** During 2025 and into 2026, large enterprises rapidly expanded "insider risk management" platforms that combine AI behavioral analytics with email, chat, and file-access logs. These tools build a baseline of "normal" behavior for each employee and flag deviations, including patterns that on inspection look like early-stage whistleblowing: searching internal documents for ethics-policy language, opening unusual numbers of audit logs, or contacting external domains tied to regulators or law firms. Vendors market the systems as data-loss prevention; in practice, the same flags can identify employees preparing to report wrongdoing.
+
+Two 2025-2026 regulatory shifts matter here. The EU AI Act's high-risk provisions began phasing in through 2025, designating workplace AI for monitoring or evaluating employees as high-risk and subject to transparency, human-oversight, and impact-assessment requirements. And the EU Whistleblower Protection Directive's enforcement matured during 2024-2025, so cross-border IT employees now operate under a regulatory expectation that protected internal reporting channels exist.
+
+Your role here is **orchestrator and verifier, not passive consumer**. If you are asked to deploy or operate one of these AI compliance tools, the ethical questions are yours to surface: what "behavior" is being flagged, and could a "data exfiltration risk" flag actually be flagging an employee documenting fraud? Who reviews flags before HR or security acts on them? Are flagged employees told, or used in adverse decisions silently? AI flags are inputs to human judgment, not substitutes for it.
+
 ### Think About It 5.4 🧠
 
 > Imagine you work at a company that uses AI-powered tools to monitor all employee emails and chat messages. You have just discovered evidence that the company is violating customer privacy. You want to report it, but you know the monitoring system might flag your communications with a lawyer or a regulator. How does the existence of AI surveillance change your approach to whistleblowing? What steps would you take to protect yourself?
