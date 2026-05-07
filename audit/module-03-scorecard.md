@@ -52,7 +52,7 @@ The B2 additions in this polish pass strengthen each of these downstream touchpo
 
 **Section C (cross-module) deferral.** Per task spec, this scorecard reports A and B only. Section C runs after all 12 modules pass A and B individually.
 
-**Branch state.** `polish/module-03` contains commits ahead of main:
-1. `polish(module-03): mechanical pass (format compliance, in-band at 6499 words)` — all Section A checks PASS; B2 currency additions, orchestrator-verifier framing, and Key Terms updates included in this commit
-2. `polish(module-03): judgment pass (AI-2026 currency refreshed, voice, CLO alignment)` — Section B all PASS, scorecard drafted
-3. `polish(module-03): final scorecard, all rubric checks pass` — this file
+**Branch state.** `polish/module-03` contains three commits ahead of main:
+1. `polish(module-03): mechanical pass (format compliance, in-band at 6499 words)` — all Section A checks PASS; B2 currency additions, orchestrator-verifier framing, and Key Terms updates all captured here because edits preceded staging
+2. `polish(module-03): judgment pass (AI-2026 currency refreshed, voice, CLO alignment)` — Section B all PASS on first pass; scorecard initial draft included
+3. `polish(module-03): final scorecard, all rubric checks pass` — this file with final notes and cross-module anchor documentation
