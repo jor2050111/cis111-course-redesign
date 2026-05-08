@@ -1,0 +1,43 @@
+# Module 12 Scorecard
+
+**Date:** 2026-05-07
+**Revision Pass:** 1
+**Overall Status:** PASS
+
+## Section A: Mechanical
+
+* A1 Em-Dash Count: PASS (count: 0; three em-dashes introduced during B2 prose expansion were caught and corrected before the mechanical commit)
+* A2 Banned Words: PASS (matches: 0; all nine banned words confirmed absent in final file)
+* A3 Word Count: PASS (count: 7,366; capstone band 6,500-7,500; pre-polish was 6,951, net increase of 415 words from B2 AI-currency additions; no trim required, module entered the pass already inside band)
+* A4 Heading Icons: PASS (Module Overview 🧭, Learning Objectives 🎯, Think About It 12.1-12.4 🧠, Quick Check 12.1-12.4 ✅, Case Study 12.1 📋, Summary and Retrieval 💡, Discussion Prompt 💬, Further Reading 📖, Looking Ahead ⏩; Skills Lab 12.5 carries no icon as required; icon style consistent with M11 cross-module standard)
+* A5 List Bullets: PASS (no hyphen-style bullets; all asterisks throughout)
+* A6 MLO Format: PASS (3 of 3 MLOs match `MLO-N.X (Bloom's Level): **Verb measurable outcome** *(CLO X)*`; MLO-12.1 Analyze, MLO-12.2 Evaluate, MLO-12.3 Create, all referencing CLO XVII, consistent with the CLO-to-Module table in CLAUDE.md)
+* A7 Section Numbering: PASS (12.1-12.7 sequential; 12.5 Skills Lab, 12.6 Summary and Retrieval, 12.7 Discussion Prompt; no reserved numbers reassigned)
+
+## Section B: Judgment
+
+* B1 Schedule Consistency: PASS — Module Overview Estimated Time is 5-6 hours, appropriate for the capstone module in W9 (July 20-25, a partial 6-day week); the higher bound reflects the capstone project workload on top of standard module reading, and the addendum explicitly allows 6,500-7,500 words for Module 12 due to integration scope.
+* B2 AI-2026 Currency: PASS — Section 12.4 ("AI-Specific Professional Obligations") expanded with 2024-2025 anchors: ACM Technology Policy Council 2023-2024 AI governance work and active AI-specific addendum review; IEEE P7001 (Transparency of Autonomous Systems) and P7003 (Algorithmic Bias Considerations) 7000-series standards moving toward ratification in 2024-2025; (ISC)² 2024-2025 AI security ethics guidance covering generative AI in penetration testing and AI infrastructure protection under Canon 1; CAIP (Certified AI Professional) credentialing and IEEE AI ethics certification pathway launched 2024; AI ethics officer role formalization at major tech employers 2024-2025; EU AI Act August 2025 high-risk enforcement phase-in added to Transparency bullet; EEOC 2024-2025 AI hiring guidance added to Bias Testing bullet. Orchestrator-verifier frame added explicitly in a dedicated paragraph: students positioned as professionals responsible for selecting appropriate AI tools, verifying outputs for accuracy and bias, and escalating concerns when systems fall short of professional standards. Further Reading IEEE entry updated to reference 7000-series standards alongside Ethically Aligned Design.
+* B3 Rubric Vocabulary: PASS — Skills Lab 12A capstone rubric uses Mastery (5), Proficiency (4), Developing (3), Emerging (2), Not Evident (1) across 5 criteria (Stakeholder Analysis, Ethical Framework Application, Course Concept Synthesis, Recommendation Quality, Writing Quality and Professional Reflection), matching the cross-module standard.
+* B4 Discussion Prompt Quality: PASS — Prompt requires selecting one emerging technology, evaluating whether existing professional codes provide adequate guidance, identifying specific provisions from at least one code, explaining where the code falls short, and proposing a specific addition or revision; it also requires at least one ethical framework from Module 1; peer engagement required; framework-grounded, not opinion-broadcast.
+* B5 Case Study Stakeholders: PASS — Case Study 12.1 (AutoDrive Technologies autonomous vehicle object-detection disparity) presents 5 stakeholder groups (Priya Sharma, David Chen, Marcus Williams, the public/pedestrians, investors and leadership) with genuinely competing interests; no obvious right answer because the utilitarian "safer than human drivers overall" argument is in real tension with the deontological nondiscrimination obligation, and the non-binding ethics board adds a structural dimension without resolving it.
+* B6 CLO Alignment: PASS — CLO XVII (professional codes of ethics and professional accountability in IT) traced through §12.1 (ACM, IEEE, (ISC)² code structures and enforcement, MLO-12.1 Analyze), §12.2 (comparative analysis and gaps, MLO-12.2 Evaluate), §12.3 (licensing vs. certification debate, MLO-12.1 Analyze), and §12.4 (AI-specific obligations and orchestrator-verifier role, MLO-12.2 Evaluate); MLO-12.3 (Create) is delivered by Skills Lab 12A, which requires synthesis across all course modules; all three MLOs reference CLO XVII per the CLAUDE.md CLO-to-Module table.
+* B7 Voice Consistency: PASS — Second-person ("you") maintained throughout all content sections ("when you become a doctor," "when you build or deploy AI systems," "you are responsible for selecting," "you are increasingly being asked to act as an orchestrator and verifier"); no academic passive voice; direct and professional tone consistent with the cross-module standard and M11 voice reference.
+* B8 Looking Ahead: PASS with no-successor note — Module 12 is the final instructional module in W9 under the selected Option 1 schedule; there is no next module to forward-reference. The Looking Ahead section opens explicitly with "There is no Module 13" and correctly frames the section as a career-facing course closer, reviewing the full arc of the twelve modules and positioning students to carry their reasoning skills into professional practice. No fictional successor module was invented. This is the expected and correct behavior for B8 when applied to the terminal module.
+
+## Notes
+
+**Capstone band exception confirmed.** A3 target for Module 12 is 6,500-7,500 per both the summer-2026-addendum.md and the redesign-acceptance rubric (A3, Module 12 Capstone exception). Final word count of 7,366 is inside this band. No trim was needed or applied.
+
+**Skills Lab 12A preserved in full.** The capstone project specification (Skills Lab 12A) is the course's culminating assessment. All components were preserved without modification: the three-part structure (Foundation, Application, Extension), all four scenario options (Predictive Healthcare AI, AI-Powered Hiring Platform, Smart City Surveillance System, Instructor-Approved Scenario D), the five-criterion rubric with Mastery-through-Not-Evident vocabulary, and the submission guidelines including the 1,500-2,000 word target. The B2 additions were confined to section 12.4 prose and the Further Reading entry.
+
+**B2 placement rationale.** AI-currency additions were concentrated in section 12.4 ("AI-Specific Professional Obligations"), which was the existing home for AI ethics content. The orchestrator-verifier paragraph was added as a standalone block between the organizational-standards overview and the four obligation bullets, giving students the conceptual framing before the specific obligations. This preserves the section's argument flow: codes and organizational statements → your role as an orchestrator-verifier → specific professional obligations derived from that role. Current regulatory anchors (EU AI Act, EEOC guidance) were woven into the existing obligation bullets rather than added as new bullets, keeping the list at four items.
+
+**B8 no-successor handling.** The rubric states B8 checks that Looking Ahead "forward-references the next module in the schedule." For Module 12, no next module exists. The existing Looking Ahead section correctly handles this by making the "no Module 13" statement explicit, reviewing the course arc, and pivoting to a career-forward close. This is the appropriate design for a terminal module and satisfies the spirit of B8. The rubric does not define a failure condition for the terminal module; the PASS is based on the Looking Ahead content being accurate, purposeful, and complete.
+
+**Three-commit branch structure.**
+1. `polish(module-12): mechanical pass (format compliance)` — Section A audit confirmed clean; B2 additions and em-dash fixes included in this commit since the module required no structural changes.
+2. `polish(module-12): judgment pass (AI-2026 currency, voice, CLO alignment)` — no module file changes; commit confirms B2-B8 judgment evaluation results and scorecard production intent.
+3. `polish(module-12): final scorecard, all rubric checks pass` — this file.
+
+**Section C deferral.** Per the rubric, Section C runs after all 12 modules pass A and B individually. This scorecard reports A and B only.
