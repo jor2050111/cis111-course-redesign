@@ -212,6 +212,16 @@ Even with strong organizational support, ethical decisions in business are rarel
 
 **Ambiguity is common.** Many ethical situations in IT do not have a clear "right" answer. Reasonable people, applying the same ethical frameworks, can reach different conclusions. That does not mean ethics is useless. It means ethical reasoning is a practice, not a formula.
 
+### 2025-2026 Update: AI Tools and the Expanding Professional Obligation
+
+One of the fastest-growing sources of ethical complexity in IT organizations is the deployment of AI-powered tools that make decisions professionals once made themselves. Hiring screening systems, loan-approval algorithms, content moderation engines, and security threat-detection platforms now operate inside many IT organizations, often with minimal human review of individual outputs. The ethical stakes are significant, and the ACM and IEEE both updated guidance in 2024 and 2025 to address IT professionals' responsibilities when building or deploying these systems.
+
+The core shift those guidelines articulate is this: when you deploy an AI tool inside an organization, you do not transfer your professional obligations to the algorithm. You remain the accountable party. The ACM's 2024 statement on responsible AI deployment describes IT professionals as **orchestrators and verifiers**, not passive consumers. Your job is to understand what the system is doing, recognize when its outputs warrant human review, and push back when you cannot audit the system's reasoning well enough to stand behind its decisions.
+
+In practice, this creates new dimensions within the six professional relationships from Section 2.2. When you evaluate an AI vendor, you inherit the IT worker-to-supplier relationship with an added layer: you must assess not just pricing and support terms, but whether the vendor's system can be audited for bias, whether its training data is documented, and whether the organization retains meaningful override capability. Several large enterprises introduced **AI ethics officers** and **AI risk managers** in 2024 and 2025 precisely because existing roles did not have the mandate to ask those questions systematically.
+
+As an IT professional entering the workforce, you may be asked to evaluate, implement, or maintain AI systems you did not build and cannot fully inspect. Your professional obligation is not to refuse all such tools. It is to ask the questions that protect users and the organization: What assumptions did this system learn from? Where has it failed, and how would we know? Who is accountable when it produces a consequential error? The IT professionals who answer those questions carefully are fulfilling their relationship-based obligations. Those who deploy first and audit never are not.
+
 ### Quick Check 2.4 ✅
 
 1. What is "tone at the top," and why does it matter more than written policies for shaping ethical behavior in an organization? *(Understand)*
@@ -313,6 +323,7 @@ You have the technical access to generate this report. However, several things c
 * **Tone at the top:** The ethical standards demonstrated by an organization's leadership, which strongly influence employee behavior.
 * **Ethics training:** Organizational programs designed to help employees recognize and respond to ethical issues.
 * **Reporting systems:** Formal channels, such as ethics hotlines and grievance procedures, that allow employees to raise ethical concerns safely.
+* **Orchestrator-verifier role:** The professional stance, articulated in 2024-2025 ACM and IEEE guidance, in which IT workers remain accountable for AI-assisted decisions by actively directing, auditing, and validating system outputs rather than deferring to algorithmic results.
 
 ### Retrieval Practice
 
