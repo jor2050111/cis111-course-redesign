@@ -191,6 +191,14 @@ The system would collect location data on roughly 80,000 students and staff acro
 
 3. **Choose and defend** a position. Should the district adopt the system, reject it, or adopt a modified version? State which ethical framework(s) support your recommendation and explain why you find them most persuasive in this situation.
 
+### The Frameworks in the Age of AI
+
+In 2025-2026, IT professionals face a new application of these frameworks that did not exist a generation ago: deciding how to use AI systems that make consequential decisions on your behalf. The EU AI Act, which began phasing in foundational enforcement obligations in February 2025, and the ACM and IEEE guidance updated in 2024-2025, both point toward the same professional stance. When you deploy or configure an AI system, you are not a passive user of its outputs. You are an **orchestrator and verifier**: you direct the system toward defined goals, check whether its outputs are fair and accurate, and take responsibility for what it does.
+
+Each of the four frameworks gives you a different lens for that role. A utilitarian asks: what are the full consequences of letting this AI decision stand? A deontologist asks: does this AI decision respect the rights of the person it affects, regardless of efficiency gains? A virtue ethicist asks: is deferring entirely to the algorithm the action of someone with professional integrity? A social contract theorist asks: would the people this AI affects agree to the rules it is following, if they knew what those rules were?
+
+You will apply these questions to specific AI systems throughout this course. Module 3 develops the AI governance framework in depth. Every module after that includes at least one AI ethics touchpoint where these frameworks come back to work.
+
 ### Quick Check 1.4 ✅
 
 1. Looking at the comparison table, explain why utilitarianism is described as "weakest when outcomes are hard to predict." Give an IT-related example. *(Understand)*
@@ -271,6 +279,8 @@ Metro City Council must decide whether to continue, modify, or cancel the CrimeM
 
 * **No single framework is always best.** Strong ethical reasoning applies multiple frameworks to the same problem and looks for where they agree or disagree.
 
+* **All four frameworks apply to AI.** When you deploy or configure an AI system, you act as an orchestrator and verifier, not a passive consumer of outputs. Utilitarianism asks about consequences; deontology asks about rights; virtue ethics asks about professional integrity; social contract theory asks whether affected people would accept the rules the AI is following. Module 3 builds out the full AI governance framework using these foundations.
+
 ### Key Terms
 
 **Section 1.1**
@@ -290,6 +300,9 @@ Metro City Council must decide whether to continue, modify, or cancel the CrimeM
 * **Social contract theory:** An ethical theory based on the idea that moral rules come from agreements people would make to create a fair society.
 * **Veil of ignorance:** Rawls's thought experiment: design rules for society without knowing your own position in it, which pushes decisions toward fairness.
 
+**Section 1.4**
+* **Orchestrator and verifier:** The professional stance, articulated in 2024-2025 ACM and IEEE guidance, in which IT professionals who deploy or configure AI systems remain responsible for directing those systems toward defined goals, checking outputs for fairness and accuracy, and taking accountability for results rather than deferring entirely to algorithmic decisions.
+
 ### Retrieval Practice
 
 Try to answer these from memory before looking back at the module.
@@ -302,9 +315,9 @@ Try to answer these from memory before looking back at the module.
 
 ## 1.7 Discussion Prompt 💬
 
-**Prompt:** In 2023, a major tech company laid off its entire AI ethics team while continuing to release AI products. Some argued the company was cutting an unnecessary cost. Others said it was removing the only internal check on potentially harmful technology.
+**Prompt:** Between 2023 and 2025, several major technology companies reduced or restructured their AI ethics teams while simultaneously accelerating AI product releases. Some argued that separate ethics teams create friction and that ethical responsibility should belong to every team. Others argued that removing dedicated oversight removes the only internal check on potentially harmful AI systems. By 2025, the EU AI Act had begun phasing in enforcement requirements that require companies to demonstrate exactly the kind of human oversight those ethics teams provided.
 
-Take a position: Was dissolving the AI ethics team an ethical decision? Use at least one framework from this module to support your argument. Then, address the strongest counterargument to your position using a different framework.
+Take a position: Is having a dedicated, independent AI ethics team an ethical obligation for a company that deploys AI systems? Use at least one framework from this module to support your argument. Then, address the strongest counterargument to your position using a different framework.
 
 **Guidelines:**
 * Your initial post should be 200-300 words
