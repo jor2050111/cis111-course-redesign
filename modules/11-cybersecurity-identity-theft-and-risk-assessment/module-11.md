@@ -1,10 +1,10 @@
 # Module 11: Cybersecurity, Identity Theft, and Risk Assessment
 
-In December 2020, the United States government disclosed that sophisticated attackers had compromised SolarWinds, a company whose Orion network monitoring software was used by more than 30,000 organizations, including the U.S. Treasury Department, the Department of Homeland Security, and Fortune 500 companies. The attackers had inserted malicious code into a routine software update months earlier. For at least nine months, they moved undetected through government and corporate networks, reading emails, accessing files, and exfiltrating sensitive data. The breach was not discovered by any of the affected organizations. It was found by a cybersecurity firm, FireEye, only after the attackers compromised FireEye's own systems.
+In December 2020, the U.S. government disclosed that sophisticated attackers had compromised SolarWinds, whose Orion network monitoring software was used by more than 30,000 organizations including Treasury, DHS, and Fortune 500 companies. The attackers had inserted malicious code into a routine software update months earlier and moved undetected through government and corporate networks for at least nine months, reading emails, accessing files, and exfiltrating data. None of the affected organizations found the breach; cybersecurity firm FireEye discovered it only after attackers compromised FireEye itself.
 
-The SolarWinds attack illustrates a sobering reality about cybersecurity in the 2020s: even well-resourced organizations with dedicated security teams can be breached. The methods are sophisticated, the threat landscape is constantly evolving, and the consequences of failure range from financial loss to national security compromise. For IT professionals, understanding how to protect systems, respond to incidents, and build security policies is not optional. It is a core professional responsibility.
+SolarWinds illustrates a sobering reality: even well-resourced organizations with dedicated security teams can be breached. For IT professionals, knowing how to protect systems, respond to incidents, and build security policies is core professional responsibility.
 
-This module covers the broadest set of topics in the course because cybersecurity sits at the intersection of technology, law, policy, and ethics. You will learn the foundational CIA Security Triad, examine identity theft and federal cybercrime laws, study real breach case studies and risk assessment frameworks, and explore how organizations formulate security policies and respond to incidents. You will also examine how artificial intelligence is changing both sides of the cybersecurity equation, enabling more powerful attacks and more effective defenses simultaneously.
+This module covers the broadest range in the course because cybersecurity sits at the intersection of technology, law, policy, and ethics. You will learn the CIA Security Triad, examine identity theft and federal cybercrime laws, study real breach cases and risk-assessment frameworks, and explore how organizations build security policies and respond to incidents, including how AI is reshaping both sides of the equation.
 
 ## Module Overview 🧭
 
@@ -25,45 +25,36 @@ By the end of this module, **you will be able to**:
 
 ## 11.1 The CIA Security Triad and the Threat Landscape
 
-Every cybersecurity decision you will make as an IT professional connects back to three fundamental principles. Whether you are configuring a firewall, writing a security policy, or responding to a breach, these three principles tell you what you are trying to protect and why.
+Every cybersecurity decision connects back to three principles. Whether you configure a firewall, write a policy, or respond to a breach, they tell you what you are protecting and why.
 
 ### The CIA Security Triad
 
-The **CIA Security Triad** is the foundational framework for information security. The three components are:
+The **CIA Security Triad** is the foundational framework for information security:
 
-* **Confidentiality** ensures that information is accessible only to those authorized to see it. When a hospital restricts patient records to authorized medical staff, it is protecting confidentiality. When a hacker steals a database of Social Security numbers, confidentiality has been breached.
+* **Confidentiality** keeps information accessible only to authorized users. A hospital restricting patient records to medical staff protects confidentiality; a hacker stealing a database of Social Security numbers breaches it.
+* **Integrity** keeps information accurate, complete, and untampered. A bank guaranteeing your account balance reflects actual transactions protects integrity; an attacker altering financial records or modifying a software update (as in SolarWinds) compromises it.
+* **Availability** keeps information and systems accessible to authorized users when needed. A hospital EHR operational during an emergency has availability; ransomware locking down a city's systems destroys it.
 
-* **Integrity** ensures that information is accurate, complete, and has not been tampered with. When a bank guarantees that your account balance reflects your actual transactions, it is protecting integrity. When an attacker alters financial records or modifies a software update (as in the SolarWinds attack), integrity has been compromised.
-
-* **Availability** ensures that information and systems are accessible to authorized users when needed. When a hospital's electronic health records system is operational during an emergency, availability is intact. When a ransomware attack locks down a city's computer systems, availability has been destroyed.
-
-These three principles often create tension with one another. Maximizing confidentiality (requiring complex authentication for every action) can reduce availability (making systems slower and harder to use). Maximizing availability (making systems easy to access from anywhere) can reduce confidentiality (creating more entry points for attackers). Effective security balances all three based on the organization's specific needs and risk tolerance.
+These principles often trade against each other. Maximizing confidentiality (complex authentication for every action) reduces availability. Maximizing availability (easy access from anywhere) reduces confidentiality. Effective security balances all three based on the organization's risk tolerance.
 
 ### Implementing CIA at Multiple Levels
 
-Organizations must implement the CIA triad at every level of their technology infrastructure:
+Organizations implement CIA at four levels:
 
-**Organizational level.** Security starts with leadership. Organizations need clear governance structures, defined roles and responsibilities, security budgets, and a culture that treats security as everyone's responsibility, not just the IT department's. The ethical dimension here connects directly to Module 3's discussion of corporate governance: leadership that underfunds security or ignores warnings is making a choice that puts stakeholders at risk.
-
-**Network level.** Firewalls, **intrusion detection systems (IDS)**, **intrusion prevention systems (IPS)**, **virtual private networks (VPNs)**, and network segmentation all protect data as it moves across networks. Network-level security prevents unauthorized access and monitors for suspicious activity.
-
-**Application level.** Secure coding practices (which you studied in Module 7), input validation, authentication mechanisms, and encryption protect individual software applications. Application-level vulnerabilities, such as the SQL injection and cross-site scripting flaws from Module 7, remain among the most common attack vectors.
-
-**End-user level.** The human element is consistently the weakest link in cybersecurity. Strong passwords, **multi-factor authentication (MFA)**, security awareness training, and clear acceptable use policies help protect against social engineering, phishing, and careless mistakes. No amount of technical infrastructure can fully compensate for a user who clicks a malicious link or shares their credentials.
+* **Organizational.** Clear governance, defined roles, security budgets, and a culture treating security as everyone's responsibility. Module 3's principles apply: leadership that underfunds security puts stakeholders at risk.
+* **Network.** Firewalls, **intrusion detection systems (IDS)**, **intrusion prevention systems (IPS)**, **VPNs**, and network segmentation protect data in transit.
+* **Application.** Secure coding (Module 7), input validation, authentication, and encryption protect individual applications. SQL injection and cross-site scripting remain common attack vectors.
+* **End-user.** The human element is consistently the weakest link. Strong passwords, **multi-factor authentication (MFA)**, security awareness training, and acceptable-use policies help against social engineering and phishing. No technical infrastructure compensates for a user who clicks a malicious link.
 
 ### The Current Threat Landscape
 
-Why are computer incidents so prevalent? Several factors converge to make cybersecurity one of the most persistent challenges in IT:
+Why are computer incidents so prevalent? Several factors converge:
 
-* **The expanding attack surface.** Every new device, application, cloud service, and **Internet of Things (IoT)** sensor adds another potential entry point for attackers. The average organization now manages thousands of connected endpoints, each of which must be secured.
-
-* **The professionalization of cybercrime.** Cybercrime is no longer the domain of lone hackers. Organized criminal groups operate like businesses, with specialized roles, customer service departments (for ransomware victims), and sophisticated supply chains. **Ransomware as a Service (RaaS)** allows criminals with limited technical skills to launch devastating attacks using tools developed by others.
-
-* **Nation-state actors.** Governments including those of Russia, China, North Korea, and Iran conduct cyber operations for espionage, sabotage, and strategic advantage. The SolarWinds attack is attributed to Russia's SVR intelligence service. These actors have resources and patience that far exceed typical criminal organizations.
-
-* **The speed gap.** Attackers move faster than defenders. Once a vulnerability is discovered, attackers can develop **exploits** (tools or techniques that take advantage of a vulnerability) within hours or days. Many organizations take weeks or months to apply patches. This gap creates a persistent window of opportunity.
-
-* **Human factors.** Social engineering, phishing, and credential theft exploit human psychology rather than technical flaws. According to multiple industry reports, human error or social engineering is involved in the majority of successful breaches.
+* **Expanding attack surface.** Every new device, application, cloud service, and **Internet of Things (IoT)** sensor is another entry point. Organizations now manage thousands of connected endpoints.
+* **Professionalization of cybercrime.** Organized criminal groups operate like businesses with specialized roles and customer service for ransomware victims. **Ransomware as a Service (RaaS)** lets criminals with limited skills launch devastating attacks using tools developed by others.
+* **Nation-state actors.** Russia, China, North Korea, and Iran conduct cyber operations for espionage, sabotage, and strategic advantage. The SolarWinds attack is attributed to Russia's SVR. Their resources and patience exceed typical criminal organizations.
+* **The speed gap.** Once a vulnerability is discovered, attackers develop **exploits** within hours or days; many organizations take weeks or months to apply patches.
+* **Human factors.** Social engineering, phishing, and credential theft exploit psychology rather than technical flaws and are involved in most successful breaches.
 
 Common types of exploits include:
 
@@ -93,76 +84,64 @@ Common types of exploits include:
 
 ## 11.2 Identity Theft and Cybercrime
 
-Identity theft is one of the most personal consequences of cybersecurity failures. When your Social Security number, credit card information, or login credentials are stolen, the impact goes beyond financial loss. Victims spend months or years restoring their credit, correcting fraudulent records, and recovering from the emotional toll. Understanding how identity theft works and what laws address it is essential for IT professionals who design, manage, and protect the systems where personal data lives.
+Identity theft is one of the most personal consequences of cybersecurity failures. Victims spend months or years restoring credit, correcting fraudulent records, and recovering from the emotional toll. Understanding how it works is essential for IT professionals who protect the systems where personal data lives.
 
 ### What Is Identity Theft?
 
-**Identity theft** occurs when someone uses another person's **personally identifiable information (PII)** without authorization, typically for financial gain. PII includes names, Social Security numbers, dates of birth, addresses, financial account numbers, and other data that can uniquely identify an individual.
+**Identity theft** is the unauthorized use of another person's **personally identifiable information (PII)** for financial gain. PII includes names, SSNs, dates of birth, addresses, and financial account numbers.
 
 Identity theft takes several forms:
 
-* **Financial identity theft** is the most common form. The thief uses stolen information to open credit cards, take out loans, or make purchases in the victim's name.
-
-* **Medical identity theft** occurs when someone uses another person's identity to obtain medical care, prescription drugs, or health insurance benefits. This can create false entries in the victim's medical records, which can lead to dangerous treatment decisions.
-
-* **Criminal identity theft** happens when someone provides another person's identity during an arrest or investigation. The victim may end up with a criminal record they know nothing about.
-
-* **Synthetic identity theft** is a growing form where criminals combine real and fabricated information to create a new identity. For example, they might pair a real Social Security number (often belonging to a child or deceased person) with a fake name and address. Synthetic identities are particularly difficult to detect because they do not directly match any existing person's records.
-
-* **Tax identity theft** involves filing a fraudulent tax return using someone else's Social Security number to claim their refund.
+* **Financial identity theft** (most common): the thief opens credit cards, takes out loans, or makes purchases in the victim's name.
+* **Medical identity theft**: someone uses another person's identity to obtain medical care, prescriptions, or insurance benefits, creating false medical records that can lead to dangerous treatment decisions.
+* **Criminal identity theft**: someone provides another person's identity during an arrest, leaving the victim with a criminal record they know nothing about.
+* **Synthetic identity theft** (growing): criminals combine real and fabricated information, often pairing a real Social Security number (often a child's or a deceased person's) with a fake name and address. Synthetic identities are hard to detect because they do not match any existing person's records.
+* **Tax identity theft**: filing a fraudulent return using someone else's SSN to claim their refund.
 
 ### Methods and Scale
 
-Identity thieves obtain personal information through multiple channels:
+Thieves obtain PII through multiple channels:
 
-* **Data breaches** expose millions of records at once. The 2017 Equifax breach alone compromised the personal data of approximately 147 million people, including Social Security numbers, birth dates, and addresses. You studied the Equifax breach briefly in Module 7; it remains one of the most significant identity theft enablers in history.
-
-* **Phishing and social engineering** trick individuals into voluntarily providing their information. A convincing email that appears to come from your bank, a fake website that looks identical to a real one, or a phone call from someone claiming to be the IRS can all be effective.
-
-* **Dumpster diving and mail theft** are low-tech methods that remain surprisingly effective. Financial statements, pre-approved credit card offers, and medical bills all contain valuable PII.
-
+* **Data breaches** expose millions of records at once. The 2017 Equifax breach (Module 7) compromised data on approximately 147 million people.
+* **Phishing and social engineering** trick individuals into voluntarily providing information through convincing emails, fake websites, or phone calls.
+* **Dumpster diving and mail theft** remain effective: financial statements, pre-approved credit card offers, and medical bills all contain valuable PII.
 * **Skimming** uses devices attached to ATMs or point-of-sale terminals to capture card data during legitimate transactions.
+* **Dark web marketplaces** sell stolen identities, credit card numbers, and login credentials in bulk. A stolen SSN sells for a few dollars; a complete identity package can sell for significantly more.
 
-* **Dark web marketplaces** allow criminals to buy and sell stolen identities, credit card numbers, and login credentials in bulk. A stolen Social Security number might sell for as little as a few dollars, while a complete identity package (name, SSN, date of birth, address, and financial accounts) can sell for significantly more.
-
-The scale of the problem is staggering. The Federal Trade Commission (FTC) receives millions of identity theft reports each year, and the actual number of victims is likely much higher because many cases go unreported.
+The FTC receives millions of identity theft reports each year, and the actual number is likely much higher because many cases go unreported.
 
 ### Prevention and Response
 
-Preventing identity theft requires action at both the individual and organizational levels:
+Prevention requires action at both individual and organizational levels:
 
-**Individual prevention strategies:**
+**Individual:**
 
-* Use strong, unique passwords for each account and enable multi-factor authentication wherever possible
-* Monitor credit reports regularly (free annual reports are available from AnnualCreditReport.com)
-* Freeze your credit with the three major bureaus (Equifax, Experian, TransUnion) to prevent new accounts from being opened in your name
-* Be cautious about sharing personal information, especially in response to unsolicited requests
-* Shred documents containing PII before discarding them
+* Strong, unique passwords and MFA wherever possible
+* Regular credit monitoring (free annual reports from AnnualCreditReport.com)
+* Credit freezes at Equifax, Experian, and TransUnion
+* Caution about sharing personal information in response to unsolicited requests
+* Shredding documents containing PII before disposal
 
-**Organizational responsibilities:**
+**Organizational:**
 
-* Collect only the PII that is genuinely necessary (data minimization)
-* Encrypt stored PII and data in transit
-* Implement access controls so that employees can access only the data they need
+* Collect only PII that is genuinely necessary (data minimization)
+* Encrypt PII at rest and in transit
+* Apply access controls so employees see only data they need
 * Conduct regular security audits and vulnerability assessments
-* Have a breach notification plan in place before a breach occurs
-* Train employees to recognize social engineering attempts
+* Maintain a breach notification plan before a breach occurs
+* Train employees to recognize social engineering
 
-**If identity theft occurs,** the FTC recommends a specific sequence of steps: place a fraud alert on your credit reports, review your credit reports for unfamiliar accounts, report the theft to the FTC at IdentityTheft.gov, file a police report, and contact the fraud departments of any companies where accounts were opened or misused. The recovery process can take months and requires persistent follow-up.
+**If identity theft occurs,** the FTC sequence: place a fraud alert on credit reports, review for unfamiliar accounts, report at IdentityTheft.gov, file a police report, and contact fraud departments of affected companies. Recovery takes months and requires persistent follow-up.
 
 ### Federal Laws for Prosecuting Cybercrime
 
-Several federal laws provide the legal framework for prosecuting identity theft and computer crimes:
+Several federal laws frame the prosecution of identity theft and computer crimes:
 
-* **The Computer Fraud and Abuse Act (CFAA)** is the primary federal law for prosecuting computer crimes. Originally passed in 1986 and amended multiple times, the CFAA criminalizes unauthorized access to computer systems, exceeding authorized access, trafficking in passwords, and transmitting malicious code. The CFAA has been criticized for its broad language, which some argue can criminalize relatively minor activities such as violating a website's terms of service.
-
-* **The Identity Theft and Assumption Deterrence Act (1998)** made identity theft a federal crime and established penalties for knowingly using another person's identification with the intent to commit a crime.
-
-* **The Electronic Communications Privacy Act (ECPA)** governs the interception of electronic communications. Originally passed in 1986, the ECPA includes the Wiretap Act (prohibiting unauthorized interception of communications) and the Stored Communications Act (protecting stored electronic data). Critics argue that the ECPA has not kept pace with modern technology and offers weaker protections for stored data than for real-time communications.
-
-* **The CAN-SPAM Act (2003)** establishes rules for commercial email and gives recipients the right to stop receiving messages. While primarily an anti-spam law, it is relevant to cybersecurity because phishing campaigns often violate its provisions.
-
-* **State breach notification laws** require organizations to notify affected individuals when their personal data has been compromised. All 50 states now have breach notification laws, though the specific requirements (what constitutes a "breach," how quickly notification must occur, and what information must be provided) vary significantly from state to state.
+* **Computer Fraud and Abuse Act (CFAA):** Primary federal law for computer crimes. Criminalizes unauthorized access, exceeding authorized access, password trafficking, and malicious code. Critics argue its broad language can criminalize minor activities like terms-of-service violations.
+* **Identity Theft and Assumption Deterrence Act (1998):** Made identity theft a federal crime.
+* **Electronic Communications Privacy Act (ECPA):** Governs interception of electronic communications via the Wiretap Act and Stored Communications Act. Critics argue ECPA offers weaker protection for stored data than for real-time communications.
+* **CAN-SPAM Act (2003):** Rules for commercial email and the right to opt out; relevant because phishing often violates it.
+* **State breach notification laws:** All 50 states have them, with specifics varying widely.
 
 ### Think About It 11.2 🧠
 
@@ -204,51 +183,34 @@ Several factors compounded the severity. Anthem had not encrypted the Social Sec
 
 ## 11.3 Security Breaches, Risk Assessment, and Security Policies
 
-When you read about a major data breach, the post-incident analysis almost always reveals a chain of decisions, oversights, and systemic failures rather than a single moment of catastrophic error. Understanding what goes wrong in breaches, how to assess risk before an incident occurs, and how to build effective security policies are interconnected skills that define competent IT security practice.
+Major breaches almost always reveal a chain of decisions and systemic failures rather than a single catastrophic error. Understanding what goes wrong, how to assess risk, and how to build security policies are interconnected skills.
 
 ### IT Security Breaches: What Goes Wrong and Why
 
-Security breaches follow recognizable patterns. Studying real-world cases reveals recurring themes that IT professionals must understand to prevent similar failures in their own organizations.
+Common breach factors:
 
-**Common breach factors include:**
-
-* **Unpatched vulnerabilities.** The 2017 Equifax breach exploited a known vulnerability in Apache Struts for which a patch had been available for two months. As you studied in Module 7, the gap between patch availability and patch deployment remains one of the most exploitable weaknesses in organizational security.
-
-* **Weak access controls.** The 2013 Target breach began when attackers compromised credentials belonging to a third-party HVAC vendor. Once inside, they were able to move laterally across the network to reach Target's point-of-sale systems because the network was not properly segmented. Approximately 40 million credit and debit card numbers were stolen.
-
-* **Inadequate monitoring.** In many breaches, attackers operate inside networks for weeks or months before detection. The average "dwell time" (the period between initial compromise and discovery) has improved in recent years but still often exceeds weeks. The SolarWinds attackers had access for at least nine months.
-
-* **Insufficient encryption.** As the Anthem case study demonstrates, failing to encrypt sensitive data at rest means that a breach of access controls immediately exposes the data in readable form.
-
-* **Human error.** Misconfigured cloud storage buckets, accidental email disclosures, lost devices, and weak passwords account for a significant percentage of breaches. These are not sophisticated attacks; they are preventable mistakes.
-
-* **Third-party risk.** Organizations increasingly depend on vendors, cloud providers, and software supply chains. A vulnerability anywhere in that chain can become your vulnerability. The SolarWinds attack exploited this reality explicitly, compromising organizations through a trusted software provider.
+* **Unpatched vulnerabilities.** The 2017 Equifax breach exploited a known Apache Struts flaw for which a patch had been available for two months.
+* **Weak access controls.** The 2013 Target breach began with compromised credentials from a third-party HVAC vendor; attackers moved laterally to point-of-sale systems because the network was not properly segmented, stealing approximately 40 million card numbers.
+* **Inadequate monitoring.** Attackers often operate inside networks for weeks or months before detection. The SolarWinds attackers had access for at least nine months.
+* **Insufficient encryption.** As the Anthem case study shows, unencrypted data at rest means a breach of access controls immediately exposes data in readable form.
+* **Human error.** Misconfigured cloud buckets, accidental email disclosures, lost devices, and weak passwords cause many breaches; these are preventable mistakes, not sophisticated attacks.
+* **Third-party risk.** Vendors, cloud providers, and software supply chains are entry points. SolarWinds exploited this explicitly through a trusted software provider.
 
 ### Risk Assessment Frameworks
 
-**Risk assessment** is the systematic process of identifying, analyzing, and evaluating potential threats to an organization's information assets. Rather than trying to protect everything equally (which is impossible and unaffordable), risk assessment helps organizations prioritize their security investments where they matter most.
+**Risk assessment** systematically identifies, analyzes, and evaluates threats to information assets, helping organizations prioritize security investment where it matters most.
 
-A standard risk assessment follows these steps:
+Standard steps:
 
-1. **Asset identification.** What are you protecting? Data, systems, applications, intellectual property, and physical infrastructure all have value. Not all assets are equal. A database of customer Social Security numbers requires more protection than a public-facing marketing website.
+1. **Asset identification.** What are you protecting? Data, systems, applications, IP, and physical infrastructure. A database of customer SSNs requires more protection than a marketing website.
+2. **Threat identification.** External attackers, insider threats, natural disasters, hardware failures, and software defects.
+3. **Vulnerability assessment.** Vulnerability scanning, penetration testing, and security audits reveal weaknesses.
+4. **Likelihood estimation.** Historical data, industry intelligence, and threat modeling inform estimates.
+5. **Impact analysis.** Financial loss, reputational damage, regulatory penalties, operational disruption, and harm to individuals.
+6. **Risk calculation.** **Risk = Likelihood x Impact.** High-likelihood, high-impact threats demand immediate attention.
+7. **Risk response.** Mitigate (reduce likelihood or impact), transfer (e.g., cyber insurance), accept (low-priority risks), or avoid (eliminate the risky activity).
 
-2. **Threat identification.** What could go wrong? Threats include external attackers, insider threats, natural disasters, hardware failures, and software defects. Understanding the full range of threats prevents blind spots.
-
-3. **Vulnerability assessment.** Where are you exposed? Vulnerability scanning, penetration testing, and security audits reveal weaknesses that threats could exploit. This connects directly to the secure coding concepts from Module 7.
-
-4. **Likelihood estimation.** How probable is each threat? A zero-day exploit targeting a niche application is less likely than a phishing attack. Historical data, industry intelligence, and threat modeling inform these estimates.
-
-5. **Impact analysis.** If the threat materializes, how bad is it? Impact includes financial loss, reputational damage, regulatory penalties, operational disruption, and harm to individuals whose data is compromised.
-
-6. **Risk calculation.** Risk is commonly expressed as: **Risk = Likelihood x Impact.** A high-likelihood, high-impact threat (such as a phishing attack on an organization that handles financial data) demands immediate attention. A low-likelihood, low-impact threat (such as a minor cosmetic defect on an internal tool) can be accepted or addressed later.
-
-7. **Risk response.** For each identified risk, the organization chooses one of four responses:
-   * **Mitigate:** Implement controls to reduce the likelihood or impact (e.g., deploy multi-factor authentication)
-   * **Transfer:** Shift the risk to another party (e.g., purchase cyber insurance)
-   * **Accept:** Acknowledge the risk and choose to live with it (appropriate for low-priority risks)
-   * **Avoid:** Eliminate the activity that creates the risk (e.g., stop collecting a type of data you do not need)
-
-The **National Institute of Standards and Technology (NIST) Cybersecurity Framework** is widely used as a comprehensive approach to managing cybersecurity risk. It organizes security functions into five categories: Identify, Protect, Detect, Respond, and Recover. Each category contains subcategories and references to specific security controls. The framework is voluntary but has become a de facto standard, particularly for organizations that work with the U.S. government.
+The **NIST Cybersecurity Framework** organizes security functions into five categories, Identify, Protect, Detect, Respond, Recover, and has become a de facto standard, particularly for organizations working with the U.S. government.
 
 ### Think About It 11.3 🧠
 
@@ -256,37 +218,27 @@ The **National Institute of Standards and Technology (NIST) Cybersecurity Framew
 
 ### Formulating Security Policies
 
-A **security policy** is a formal document that defines an organization's rules, expectations, and procedures for protecting its information assets. Policies translate the principles of the CIA triad and the findings of risk assessments into actionable guidelines that everyone in the organization must follow.
+A **security policy** is a formal document defining an organization's rules and procedures for protecting information assets. Policies translate CIA principles and risk-assessment findings into actionable guidelines.
 
-Effective security policies address several key areas:
+Effective policies address several areas:
 
-**Acceptable use policy (AUP).** Defines what employees can and cannot do with organizational technology resources. This includes rules about personal use of work devices, prohibited websites, software installation, and the use of personal devices for work (bring your own device, or **BYOD**).
-
-**Password and authentication policy.** Specifies requirements for password complexity, expiration, and multi-factor authentication. In an era when weak passwords remain a primary attack vector, clear authentication policies are essential.
-
-**Data classification and handling policy.** Categorizes data by sensitivity level (e.g., public, internal, confidential, restricted) and defines how each category must be stored, transmitted, and disposed of. A **data classification** policy ensures that a customer's Social Security number receives stronger protection than a company newsletter.
-
-**Access control policy.** Implements the **principle of least privilege**, which states that users should have access only to the data and systems necessary for their job functions. This limits the damage that can result from compromised credentials or insider threats.
-
-**Incident response policy.** Defines what happens when a security incident occurs. You will study this in detail in Section 11.4.
-
-**Remote work and mobile device policy.** Addresses the security requirements for employees who work from home or use mobile devices to access organizational systems. The shift to remote work following 2020 made this policy category far more critical.
-
-**Vendor and third-party risk management policy.** Establishes security requirements for vendors and partners who have access to organizational data or systems. The Target and SolarWinds breaches both demonstrate the consequences of inadequate vendor security management.
+* **Acceptable use policy (AUP):** What employees can and cannot do with organizational technology, including personal-device-for-work rules (**BYOD**).
+* **Password and authentication:** Complexity, expiration, and MFA requirements. Weak passwords remain a primary attack vector.
+* **Data classification and handling:** Categorizes data by sensitivity (public, internal, confidential, restricted) and defines storage, transmission, and disposal for each. A **data classification** policy ensures a customer's SSN gets stronger protection than a company newsletter.
+* **Access control:** Implements the **principle of least privilege**, granting users access only to data and systems necessary for their job. Limits damage from compromised credentials or insider threats.
+* **Incident response:** What happens when a security incident occurs (Section 11.4).
+* **Remote work and mobile device:** Security for employees working from home or using mobile devices. Far more critical post-2020.
+* **Vendor and third-party risk management:** Security requirements for partners with access to data or systems. Target and SolarWinds both demonstrate the consequences of inadequate vendor management.
 
 ### Policy Enforcement and Compliance
 
-A security policy that exists only on paper provides no protection. Enforcement requires:
+A policy on paper provides no protection. Enforcement requires:
 
-* **Training and awareness.** Every employee must understand the policies and why they matter. Annual security awareness training is a minimum; organizations with strong security cultures provide ongoing education.
-
-* **Technical controls.** Policies should be enforced through technology where possible. If the password policy requires 12 characters, the system should reject shorter passwords automatically.
-
-* **Monitoring and auditing.** Regular audits verify that policies are being followed. This raises the workplace monitoring ethics you studied in Module 10. There is a tension between monitoring for security compliance and respecting employee privacy. Transparent policies that clearly state what is monitored and why help balance this tension.
-
-* **Consequences for violations.** Policies must include clear consequences for non-compliance, applied consistently across the organization. If executives are exempt from the rules, the policies lose credibility and effectiveness.
-
-* **Regular review and updates.** The threat landscape changes constantly. Policies must be reviewed and updated at least annually, and immediately after significant incidents or changes in technology or regulations.
+* **Training and awareness.** Annual security awareness training at minimum; strong security cultures provide ongoing education.
+* **Technical controls.** Enforce through technology where possible: if password policy requires 12 characters, the system should reject shorter passwords.
+* **Monitoring and auditing.** Audits verify compliance. This raises workplace monitoring tensions from Module 10; transparent policies stating what is monitored and why help balance security with employee privacy.
+* **Consequences for violations.** Clear, consistent consequences. If executives are exempt, policies lose credibility.
+* **Regular review.** The threat landscape changes constantly; review at least annually and after significant incidents.
 
 ### Quick Check 11.3 ✅
 
@@ -300,83 +252,75 @@ A security policy that exists only on paper provides no protection. Enforcement 
 
 ## 11.4 Incident Response, Computer Forensics, and AI in Cybersecurity
 
-No matter how strong your security policies and technical controls are, breaches will occur. The question is not whether your organization will face a security incident, but how prepared you are to respond when it happens. This section covers the incident response lifecycle, the basics of computer forensics, and the rapidly evolving role of artificial intelligence in both cyberattacks and cyber defense.
+No matter how strong policies and controls are, breaches occur. The question is not whether but how prepared you are.
 
 ### The Incident Response Lifecycle
 
-**Incident response** is the organized approach to addressing and managing the aftermath of a security breach or cyberattack. The goal is to handle the situation in a way that limits damage, reduces recovery time and costs, and preserves evidence for potential legal proceedings.
+**Incident response** is the organized approach to managing a security breach or cyberattack: limit damage, reduce recovery time and cost, and preserve evidence for legal proceedings. The NIST framework defines four phases:
 
-The NIST incident response framework defines four phases:
+**Phase 1: Preparation.** Before any incident: form an incident response team, define roles, establish communication channels, create playbooks, and run regular tabletop exercises. Organizations without a prepared plan make costly mistakes under active-breach pressure.
 
-**Phase 1: Preparation.** This happens before any incident occurs. Preparation includes forming an incident response team, defining roles and responsibilities, establishing communication channels, creating playbooks for common incident types, and conducting regular training exercises (sometimes called "tabletop exercises" or "war games"). An organization without a prepared response plan will make costly mistakes under the pressure of an active breach.
+**Phase 2: Detection and analysis.** Often the hardest phase. **Security information and event management (SIEM)** systems, intrusion detection, **endpoint detection and response (EDR)** tools, and alert monitoring contribute to detection. Once detected, the team analyzes scope, severity, and nature: is this one user phished, or a network-wide compromise?
 
-**Phase 2: Detection and analysis.** Identifying that an incident has occurred is often the most difficult phase. **Security information and event management (SIEM)** systems, intrusion detection systems, **endpoint detection and response (EDR)** tools, and alert monitoring all contribute to detection. Once an incident is detected, the response team must analyze its scope, severity, and nature. Is this a phishing attempt affecting one user, or a network-wide compromise? The analysis phase determines the appropriate response level.
+**Phase 3: Containment, eradication, and recovery.** Contain (prevent spread), eradicate (remove the attacker and malicious code), recover (restore normal operations). Short-term containment isolates affected segments; long-term containment may require rebuilding compromised systems. Verify recovery through testing before returning systems to production.
 
-**Phase 3: Containment, eradication, and recovery.** Once the incident is understood, the team works to contain it (preventing further spread), eradicate it (removing the attacker's access and any malicious code), and recover (restoring systems to normal operations). Containment strategies vary: short-term containment might involve isolating an affected network segment, while long-term containment might involve rebuilding compromised systems. Recovery must be verified through testing before affected systems are returned to production.
-
-**Phase 4: Post-incident activity.** After the immediate crisis is resolved, the organization conducts a thorough review. What happened? How was the incident detected? What worked well in the response? What needs to improve? This "lessons learned" process is critical for strengthening defenses against future incidents. Post-incident activity also includes documentation for legal, regulatory, and insurance purposes.
+**Phase 4: Post-incident activity.** Review: what happened, how it was detected, what worked, what needs improvement. The "lessons learned" process strengthens defenses for next time and includes documentation for legal, regulatory, and insurance purposes.
 
 ### Notification and Legal Obligations
 
-When a breach involves personal data, organizations face legal notification requirements. As noted in Section 11.2, all 50 states have breach notification laws, but the specific requirements vary. Key questions include:
+When a breach involves personal data, organizations face legal notification requirements. All 50 states have breach notification laws with varying specifics:
 
-* **Who must be notified?** Most laws require notifying affected individuals. Some also require notifying state attorneys general, the FTC, or industry-specific regulators (such as HHS for healthcare data, which connects to the HIPAA requirements you studied in Module 6).
+* **Who must be notified?** Affected individuals; many laws also require state AGs, the FTC, or industry-specific regulators (HHS for health data, per Module 6's HIPAA discussion).
+* **How quickly?** 30 to 90 days in most states; some require "as expeditiously as possible." Delays bring additional penalties and erode trust.
+* **What must it include?** What happened, what data was compromised, what the organization is doing, and what affected individuals should do.
 
-* **How quickly?** Notification deadlines range from 30 to 90 days in most states. Some states require notification "as expeditiously as possible." Delays in notification can result in additional penalties and erode public trust.
-
-* **What must the notification include?** Typically, the notification must describe what happened, what data was compromised, what the organization is doing in response, and what steps affected individuals should take to protect themselves.
-
-The ethical obligation to notify goes beyond legal requirements. Even when the law does not technically require notification, organizations face an ethical question: do the people whose data was exposed have a right to know? The answer, grounded in the fiduciary principles you studied in Module 5, is almost always yes. Transparency protects individuals and preserves trust.
+The ethical obligation extends beyond the law. Even when not legally required, the question is whether people whose data was exposed have a right to know. Grounded in Module 5's fiduciary principles, the answer is almost always yes. Transparency protects individuals and preserves trust.
 
 ### Computer Forensics
 
-**Computer forensics** (also called **digital forensics**) is the practice of collecting, preserving, analyzing, and presenting digital evidence in a manner that is legally admissible. When a breach occurs, forensic investigation answers critical questions: Who did this? How did they get in? What did they access? How long were they inside? What evidence do we have?
+**Computer forensics** (or **digital forensics**) collects, preserves, analyzes, and presents digital evidence in a legally admissible way. After a breach, it answers: who did this, how did they get in, what did they access, how long were they inside?
 
-The integrity of digital evidence depends on strict procedures:
+Evidence integrity depends on strict procedures:
 
-* **Evidence preservation.** The first priority is to preserve the crime scene. This means creating **forensic images** (exact bit-for-bit copies) of affected systems before any changes are made. Shutting down a computer, rebooting it, or even opening files can alter or destroy evidence. The principle of "collect first, analyze later" is fundamental.
+* **Preservation.** Create **forensic images** (exact bit-for-bit copies) before any changes. Shutting down, rebooting, or opening files can destroy evidence. The principle is "collect first, analyze later."
+* **Chain of custody.** Document every step: who collected what, when, where, how stored. A break in the **chain of custody** can make evidence inadmissible. Investigators use write blockers (preventing changes to the original) and cryptographic hashes (verifying evidence is unaltered).
+* **Analysis.** Examine log files, file systems, network traffic, email, and memory dumps; recover deleted files, trace connections, analyze malware, reconstruct attacker timelines. Tools are specialized; the principle is systematic, methodical investigation.
+* **Reporting.** Findings must withstand legal scrutiny. Analysts may testify as expert witnesses; testimony rests on evidence, not speculation.
 
-* **Chain of custody.** Every piece of evidence must be documented: who collected it, when, where, and how it was stored. A break in the **chain of custody** can make evidence inadmissible in court. Forensic investigators use write blockers (tools that prevent any changes to the original media) and cryptographic hashes (mathematical fingerprints that verify the evidence has not been altered) to maintain integrity.
-
-* **Analysis techniques.** Forensic analysts examine log files, file systems, network traffic captures, email records, and memory dumps. They may recover deleted files, trace network connections, analyze malware behavior, and reconstruct timelines of attacker activity. The tools are specialized, but the underlying principle is systematic and methodical investigation.
-
-* **Reporting and testimony.** Forensic findings must be documented in reports that can withstand legal scrutiny. Forensic analysts may be called to testify as expert witnesses in criminal or civil proceedings. Their testimony must be based on the evidence, not speculation, and their methods must be defensible.
-
-For IT professionals who are not forensic specialists, the most important lesson is this: do not contaminate the evidence. If you suspect a security incident, do not attempt your own investigation on the affected systems. Secure the systems, document what you observed, and contact your incident response team or a qualified forensic specialist. Well-intentioned actions by untrained personnel are one of the most common ways digital evidence is compromised.
+For non-specialists, the lesson is: do not contaminate the evidence. If you suspect an incident, do not run your own investigation on affected systems. Secure them, document what you observed, and contact the incident response team or a qualified forensic specialist. Well-intentioned actions by untrained personnel are one of the most common ways digital evidence is compromised.
 
 ### AI Touchpoint: AI on Both Sides of the Cybersecurity Equation
 
-Artificial intelligence is transforming cybersecurity in ways that are both promising and alarming. The same AI capabilities that strengthen defenses also empower attackers, creating an escalating arms race that defines the current threat landscape.
+The same AI capabilities that strengthen defenses empower attackers, creating an escalating arms race.
 
-**AI-powered cyberattacks** represent a significant escalation in threat capability:
+**AI-powered cyberattacks:**
 
-* **Spear phishing at scale.** Traditional spear phishing requires an attacker to manually research a target and craft a personalized, convincing message. AI can automate this process, generating thousands of highly personalized phishing emails by scraping social media profiles, professional networks, and public records. What was once a labor-intensive attack becomes industrialized.
+* **Spear phishing at scale.** AI generates thousands of personalized phishing emails by scraping social media and public records, industrializing what was once labor-intensive.
+* **Social engineering automation.** AI chatbots conduct real-time conversational attacks. Voice cloning replicates a specific person's voice from seconds of audio, enabling phone calls that sound like the CEO requesting an urgent wire transfer.
+* **AI-generated malware.** LLMs write or modify malicious code, generating variants that evade detection. Vendor safeguards exist; open-source models without them are freely available.
+* **Deepfake-enabled fraud.** In 2024, a Hong Kong finance worker transferred roughly $25 million after attending a video call where every other participant, including the CFO, was a deepfake.
 
-* **Social engineering automation.** AI chatbots can conduct real-time social engineering attacks, engaging targets in convincing conversations via email, text, or even voice calls. AI voice cloning technology can replicate a specific person's voice with just a few seconds of sample audio, enabling attacks where an employee receives a phone call that sounds exactly like their CEO requesting an urgent wire transfer.
+**AI in defense:**
 
-* **AI-generated malware.** Large language models can be used to write or modify malicious code, potentially generating variants that evade existing detection systems. While major AI companies implement safeguards to prevent their models from producing malware, these guardrails are not foolproof, and open source models without such restrictions are freely available.
+* **SOCs** use AI to analyze vast security data, flagging the handful of millions of log entries that represent genuine threats.
+* **Behavioral analytics** establish normal-behavior baselines and alert on deviations: an employee who normally works business hours suddenly downloading large volumes at 3 AM gets flagged.
+* **Automated response.** AI can isolate a compromised endpoint or block a malicious IP without waiting for humans, critical when attacks spread in minutes.
+* **Threat intelligence.** AI predicts emerging threats from global data, dark web activity, and vulnerability databases.
 
-* **Deepfake-enabled fraud.** Video and audio deepfakes can be used for identity verification fraud, business email compromise schemes, and disinformation campaigns. In 2024, a Hong Kong finance worker was tricked into transferring approximately $25 million after attending a video call where every other participant, including the company's CFO, was a deepfake.
+**Limitations:**
 
-**AI in threat detection and defense** is equally transformative:
+* **False positives and alert fatigue.** Too many false alarms cause teams to miss real threats.
+* **Adversarial AI.** Attackers can craft inputs that cause AI to misclassify malicious activity as benign.
+* **Bias.** AI trained on historical threat data detects familiar patterns better than novel ones, and may flag user behaviors based on demographic correlations.
+* **Over-reliance.** AI enhances human analysts; it does not replace them. Organizations that cut teams based on AI find themselves vulnerable to threats AI was not trained for.
 
-* **Security Operations Centers (SOCs)** use AI-powered tools to analyze vast quantities of security data, identifying patterns and anomalies that human analysts would miss. AI can process millions of log entries, network events, and alerts, flagging the handful that represent genuine threats.
+### A 2025-2026 Snapshot: AI-vs-AI Defense and Critical-Infrastructure Rules
 
-* **Behavioral analytics** use machine learning to establish baselines of normal user and system behavior, then alert security teams when activity deviates from those baselines. If an employee who normally accesses files during business hours suddenly downloads large volumes of data at 3 AM, AI behavioral analytics would flag this as suspicious.
+**AI-vs-AI defense matured through 2025.** Major SIEM and EDR vendors shipped autonomous-triage AI that closes simple alerts without analyst review. The 2024 AI-generated-phishing surge accelerated adoption, but 2025 incidents showed adversarial inputs manipulating commercial AI detectors, confirming no AI defense is permanent.
 
-* **Automated response.** Some AI systems can take immediate defensive action, such as isolating a compromised endpoint or blocking a malicious IP address, without waiting for human intervention. This speed is critical when attacks can spread across networks in minutes.
+**Regulation is catching up.** The EU AI Act's high-risk classification covers AI in critical infrastructure, with transparency, human-oversight, and post-market monitoring obligations phasing in through 2025-2026. CISA's 2025 secure-by-design guidance and updated NIST AI Risk Management Framework profiles now treat AI security tooling itself as a risk surface.
 
-* **Threat intelligence.** AI systems analyze global threat data, dark web activity, and vulnerability databases to predict emerging threats and recommend preemptive defenses.
-
-**Limitations and ethical concerns of AI in cybersecurity** are important to acknowledge:
-
-* **False positives and alert fatigue.** AI systems that generate too many false alarms can overwhelm security teams, causing them to miss genuine threats. Tuning AI systems to balance sensitivity with accuracy is an ongoing challenge.
-
-* **Adversarial AI.** Attackers can manipulate AI detection systems by feeding them carefully crafted data that causes the AI to misclassify malicious activity as benign. This cat-and-mouse dynamic means AI defenses are never a permanent solution.
-
-* **Bias in AI security tools.** AI systems trained on historical threat data may be better at detecting familiar attack patterns than novel ones. They may also reflect biases in the data, such as flagging certain user behaviors as suspicious based on patterns that correlate with demographic factors rather than actual threats.
-
-* **Over-reliance on automation.** AI enhances human analysts; it does not replace them. Organizations that reduce their security teams based on AI capabilities may find themselves vulnerable when AI systems encounter threats they were not trained to handle.
+Your role is **orchestrator and verifier**: when an AI security platform auto-closes an alert or recommends containment, the question is whether your team can audit what it decided, why, and whether a human had a meaningful chance to intervene.
 
 ### Think About It 11.4 🧠
 
@@ -460,55 +404,49 @@ MCC recently experienced the following incident: A phishing email that appeared 
 
 ### Key Concepts
 
-* **The CIA Security Triad provides the foundation for all security thinking.** Confidentiality, integrity, and availability are the three properties that security controls aim to protect. These principles must be implemented at the organizational, network, application, and end-user levels, and they often create trade-offs that require careful balancing based on risk assessment.
-
-* **Identity theft is a pervasive and personal consequence of cybersecurity failures.** Financial, medical, criminal, synthetic, and tax identity theft all exploit stolen PII. Prevention requires action at both the individual level (strong passwords, credit monitoring, MFA) and the organizational level (data minimization, encryption, access controls). Federal laws including the CFAA, the Identity Theft and Assumption Deterrence Act, and the ECPA provide a legal framework, but enforcement and technological evolution remain ongoing challenges.
-
-* **Security breaches follow recognizable patterns.** Unpatched vulnerabilities, weak access controls, inadequate monitoring, insufficient encryption, human error, and third-party risk appear repeatedly in breach analyses. Understanding these patterns through case studies enables IT professionals to identify and address similar weaknesses in their own organizations.
-
-* **Risk assessment is a systematic process for prioritizing security investments.** By identifying assets, threats, vulnerabilities, likelihood, and impact, organizations can allocate limited resources to the areas of greatest need. The NIST Cybersecurity Framework provides a widely adopted structure for this work.
-
-* **Security policies translate security principles into organizational practice.** Effective policies address acceptable use, authentication, data classification, access control, incident response, remote work, and vendor management. Policies must be enforced through training, technical controls, monitoring, and consequences, and they must be reviewed regularly.
-
-* **Incident response requires preparation, not improvisation.** The NIST incident response lifecycle (preparation, detection and analysis, containment/eradication/recovery, and post-incident activity) provides a structured approach. Computer forensics preserves and analyzes digital evidence using strict procedures to maintain legal admissibility.
-
-* **AI is transforming both cyberattack and cyber defense capabilities.** AI-powered phishing, social engineering automation, malware generation, and deepfake fraud represent escalating threats. AI-powered threat detection, behavioral analytics, and automated response provide powerful defensive tools. Neither side has a permanent advantage, and human judgment remains essential.
+* **The CIA Security Triad is the foundation for all security thinking.** Confidentiality, integrity, and availability must be implemented at organizational, network, application, and end-user levels and balanced via risk assessment.
+* **Identity theft is a pervasive and personal consequence of security failures.** Financial, medical, criminal, synthetic, and tax forms all exploit stolen PII. Prevention requires individual (strong passwords, credit monitoring, MFA) and organizational action (data minimization, encryption, access controls). Federal laws (CFAA, Identity Theft and Assumption Deterrence Act, ECPA) frame prosecution.
+* **Breaches follow recognizable patterns.** Unpatched vulnerabilities, weak access controls, inadequate monitoring, insufficient encryption, human error, and third-party risk recur across breach analyses.
+* **Risk assessment prioritizes security investments.** Identifying assets, threats, vulnerabilities, likelihood, and impact lets organizations allocate limited resources where they matter most. The NIST Cybersecurity Framework provides a widely adopted structure.
+* **Security policies translate principles into practice.** Effective policies cover acceptable use, authentication, data classification, access control, incident response, remote work, and vendor management, enforced through training, technical controls, monitoring, and consequences.
+* **Incident response requires preparation, not improvisation.** The NIST four-phase lifecycle structures the work; computer forensics preserves evidence under strict legal-admissibility procedures.
+* **AI is transforming both attack and defense.** AI-powered phishing, social engineering, malware generation, and deepfake fraud escalate threats; AI threat detection, behavioral analytics, and automated response strengthen defense. Neither side has a permanent advantage, and human judgment remains essential.
 
 ### Key Terms
 
 **Section 11.1**
-* **CIA Security Triad:** The foundational information security framework comprising confidentiality, integrity, and availability.
-* **Confidentiality:** The principle that information is accessible only to authorized users.
-* **Integrity:** The principle that information is accurate, complete, and unaltered by unauthorized parties.
-* **Availability:** The principle that information and systems are accessible to authorized users when needed.
-* **Exploit:** A tool, technique, or method that takes advantage of a vulnerability to compromise a system.
-* **Ransomware as a Service (RaaS):** A criminal business model where ransomware developers sell or lease their tools to other attackers.
-* **Intrusion detection system (IDS):** A system that monitors network traffic for suspicious activity and alerts administrators.
-* **Multi-factor authentication (MFA):** A security mechanism requiring two or more independent verification methods to confirm identity.
+* **CIA Security Triad:** Foundational information-security framework: confidentiality, integrity, availability.
+* **Confidentiality:** Information accessible only to authorized users.
+* **Integrity:** Information accurate, complete, and unaltered by unauthorized parties.
+* **Availability:** Systems and information accessible to authorized users when needed.
+* **Exploit:** A tool or technique that takes advantage of a vulnerability to compromise a system.
+* **Ransomware as a Service (RaaS):** Criminal business model where ransomware developers sell or lease their tools.
+* **Intrusion detection system (IDS):** Monitors network traffic for suspicious activity and alerts administrators.
+* **Multi-factor authentication (MFA):** Requires two or more independent verification methods to confirm identity.
 
 **Section 11.2**
-* **Identity theft:** The unauthorized use of another person's personally identifiable information, typically for financial gain.
-* **Personally identifiable information (PII):** Data that can uniquely identify an individual, such as Social Security numbers, dates of birth, and financial account numbers.
-* **Synthetic identity theft:** A form of identity theft where criminals combine real and fabricated information to create a new identity.
-* **Computer Fraud and Abuse Act (CFAA):** The primary federal law for prosecuting unauthorized computer access and related crimes.
-* **Electronic Communications Privacy Act (ECPA):** Federal law governing the interception and access of electronic communications.
-* **Breach notification laws:** State and federal laws requiring organizations to notify individuals when their personal data has been compromised.
+* **Identity theft:** Unauthorized use of another person's PII for financial gain.
+* **Personally identifiable information (PII):** Data that uniquely identifies an individual (SSN, DOB, account numbers).
+* **Synthetic identity theft:** Combining real and fabricated information into a new identity.
+* **Computer Fraud and Abuse Act (CFAA):** Primary federal law for unauthorized computer access and related crimes.
+* **Electronic Communications Privacy Act (ECPA):** Federal law governing interception of electronic communications.
+* **Breach notification laws:** State/federal laws requiring notification when personal data is compromised.
 
 **Section 11.3**
-* **Risk assessment:** A systematic process for identifying, analyzing, and evaluating potential threats to an organization's information assets.
-* **NIST Cybersecurity Framework:** A widely adopted framework organizing security functions into Identify, Protect, Detect, Respond, and Recover categories.
-* **Security policy:** A formal document defining an organization's rules, expectations, and procedures for protecting information assets.
-* **Principle of least privilege:** The practice of granting users access only to the data and systems necessary for their job functions.
-* **Data classification:** The process of categorizing data by sensitivity level to determine appropriate handling and protection requirements.
-* **Acceptable use policy (AUP):** A policy defining what employees can and cannot do with organizational technology resources.
+* **Risk assessment:** Systematic process for identifying, analyzing, and evaluating threats to information assets.
+* **NIST Cybersecurity Framework:** Framework organizing security into Identify, Protect, Detect, Respond, Recover.
+* **Security policy:** Formal document defining rules and procedures for protecting information assets.
+* **Principle of least privilege:** Users get access only to data and systems necessary for their job.
+* **Data classification:** Categorizing data by sensitivity to determine handling and protection.
+* **Acceptable use policy (AUP):** Defines what employees can and cannot do with organizational technology.
 
 **Section 11.4**
-* **Incident response:** The organized approach to addressing and managing the aftermath of a security breach or cyberattack.
-* **Computer forensics (digital forensics):** The practice of collecting, preserving, analyzing, and presenting digital evidence in a legally admissible manner.
-* **Chain of custody:** The documented record of who handled evidence, when, and how it was stored, maintaining its legal admissibility.
-* **Forensic image:** An exact bit-for-bit copy of a digital storage device, created to preserve evidence without altering the original.
-* **Security Operations Center (SOC):** A centralized facility where security professionals monitor, detect, and respond to cybersecurity threats.
-* **Behavioral analytics:** The use of machine learning to establish normal behavior baselines and detect anomalous activity.
+* **Incident response:** Organized approach to managing the aftermath of a breach or cyberattack.
+* **Computer forensics (digital forensics):** Collecting, preserving, analyzing, and presenting digital evidence in a legally admissible way.
+* **Chain of custody:** Documented record of who handled evidence, when, and how it was stored.
+* **Forensic image:** Exact bit-for-bit copy of a storage device, preserving evidence without altering the original.
+* **Security Operations Center (SOC):** Centralized facility for monitoring, detecting, and responding to threats.
+* **Behavioral analytics:** Machine learning to establish normal-behavior baselines and detect anomalies.
 
 ### Retrieval Practice
 
@@ -558,4 +496,4 @@ Take a clear position and support it using at least two concepts from this modul
 
 ## Looking Ahead ⏩
 
-In Module 12, you will shift from protecting systems to examining the professional obligations of the people who build and manage them. You will study the ACM Code of Ethics, the IEEE Code of Ethics, and the (ISC)2 Code of Ethics, comparing what these codes share and where they differ. You will also explore arguments for and against professional licensing and certification for IT professionals, apply the ethical frameworks from this entire course to emerging technologies, and complete a capstone synthesis project that brings together everything you have learned.
+In Module 12, you shift from protecting systems to the professional obligations of the people who build and manage them: the ACM, IEEE, and (ISC)² codes of ethics; arguments for and against IT licensing and certification; the course's frameworks applied to emerging technologies; and a capstone synthesis project.
