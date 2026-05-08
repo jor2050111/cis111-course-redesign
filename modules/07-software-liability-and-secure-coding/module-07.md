@@ -25,39 +25,31 @@ By the end of this module, **you will be able to**:
 
 ## 7.1 Software Defects and Product Liability
 
-Software is everywhere. It runs your phone, controls your car's braking system, manages hospital medication dispensing, and processes your financial transactions. When software works correctly, you barely notice it. When it fails, the consequences can range from minor inconvenience to catastrophic harm.
+A **software defect** (commonly called a "bug") is an error or unintended behavior in a program that causes incorrect or unexpected results. Some defects are trivial: a button displaying the wrong color, or a date that formats incorrectly. Others are deadly. In the late 1980s, the Therac-25 radiation therapy machine delivered massive radiation overdoses to at least six patients due to a software race condition. Three died. The software had been reused from an earlier model without adequate testing for the new hardware.
 
-A **software defect** (commonly called a "bug") is an error, flaw, or unintended behavior in a program that causes it to produce incorrect or unexpected results. Some defects are trivial: a button that displays the wrong color, or a date that formats incorrectly. Others are deadly. In the late 1980s, the Therac-25 radiation therapy machine delivered massive radiation overdoses to at least six patients due to a software race condition, a type of defect where the timing of operations causes unpredictable behavior. Three of those patients died. The software had been reused from an earlier model without adequate testing for the new hardware configuration.
-
-Software defects arise from many sources: misunderstood requirements, coding errors, inadequate testing, integration failures between components, and flawed assumptions about how users will interact with a system. The critical ethical question is not whether defects will occur (they will), but what obligations developers and organizations have to prevent, detect, and respond to them.
+The critical ethical question is not whether defects will occur (they will), but what obligations developers and organizations have to prevent, detect, and respond to them.
 
 ### Product Liability Frameworks
 
-When a physical product injures someone, **product liability** law provides a framework for holding the manufacturer responsible. If a toaster catches fire due to faulty wiring, the manufacturer can be sued. But does the same framework apply to software? The answer is more complicated than you might expect.
+When a physical product injures someone, **product liability** law provides a framework for holding the manufacturer responsible. Software complicates that framework in several ways. Three theories cover most claims:
 
-Product liability law traditionally recognizes three theories under which an injured party can seek compensation:
+* **Negligence** requires proving that the developer or company failed to exercise reasonable care: ignoring known defects, skipping industry-standard testing, or rushing a release without adequate quality assurance. If a company knew about a critical vulnerability but shipped the product anyway to meet a deadline, a negligence claim has strong footing.
 
-* **Negligence** requires proving that the developer or company failed to exercise reasonable care. Did they follow industry-standard testing practices? Did they ignore known defects? Did they rush to release without adequate quality assurance? If a company knew about a critical vulnerability but shipped the product anyway to meet a deadline, a negligence claim has strong footing.
+* **Strict liability** holds manufacturers responsible for defective products regardless of how careful they were. The question is not "Did you try hard enough?" but "Was the product defective, and did it cause harm?" Courts have been reluctant to apply strict liability uniformly to software.
 
-* **Strict liability** holds manufacturers responsible for defective products regardless of how careful they were. Under strict liability, the question is not "Did you try hard enough?" but "Was the product defective, and did it cause harm?" Strict liability is common for physical products, but courts have been reluctant to apply it uniformly to software.
-
-* **Breach of warranty** occurs when software fails to perform as promised. If a vendor guarantees that their security software will detect a specific category of malware and it fails to do so, that is a potential warranty claim. Warranties can be **express** (explicitly stated in marketing or contracts) or **implied** (assumed by law, such as the implied warranty that a product is fit for its intended purpose).
+* **Breach of warranty** occurs when software fails to perform as promised. Warranties can be **express** (explicitly stated in marketing or contracts) or **implied** (assumed by law, such as the implied warranty that a product is fit for its intended purpose).
 
 ### Is Software a "Product" or a "Service"?
 
-This is one of the most contested questions in software liability law. Traditional product liability applies to tangible goods. Software, however, is intangible. It is a set of instructions, not a physical object. Many courts and legal scholars have struggled with this distinction.
+This is one of the most contested questions in software liability law. When you purchase software on a disc or embedded in a device, courts are more likely to treat it as a product subject to product liability. When you access software through a cloud service or subscription (Software as a Service, or **SaaS**), courts have sometimes classified it as a service, which carries weaker liability standards. This distinction matters: if software is a product, strict liability may apply; if it is a service, the injured party must prove negligence, a higher burden.
 
-When you purchase software on a disc or embedded in a device, courts are more likely to treat it as a product subject to product liability. But when you access software through a cloud service or a subscription model (Software as a Service, or **SaaS**), courts have sometimes classified it as a service, which carries different and often weaker liability standards. This distinction matters enormously. If software is a product, strict liability may apply. If it is a service, the injured party typically must prove negligence, which is a higher burden of proof.
-
-The trend toward SaaS and cloud-based delivery means that much of the software you interact with daily exists in a legal gray area. The company running the software may argue that you are purchasing access to a service, not a product, and therefore product liability does not apply.
+The trend toward SaaS delivery means that much of the software you interact with daily exists in a legal gray area, and vendors may argue that product liability does not apply.
 
 ### Liability Limitations: EULAs and Terms of Service
 
-Before you can use most software, you must agree to an **End User License Agreement (EULA)** or **Terms of Service (ToS)**. These agreements almost always contain clauses that limit the company's liability. Typical language includes disclaimers like "the software is provided 'as is' without warranty of any kind" and limitations that cap damages at the price you paid for the software.
+Before you can use most software, you must agree to an **End User License Agreement (EULA)** or **Terms of Service (ToS)** that limits the company's liability. Most users never read them. Even those who do have no practical alternative: you agree or you cannot use the software.
 
-These clauses raise significant ethical questions. Most users never read EULAs. Even those who do often have no practical alternative: you either agree or you cannot use the software. When a company includes a clause that says it bears no responsibility if its software deletes your files, crashes your system, or exposes your data, is that a fair agreement? Or is it an exploitation of the power imbalance between a large company and an individual user?
-
-Courts have sometimes found that particularly egregious liability limitations are **unconscionable**, meaning they are so one-sided that they are unenforceable. However, in practice, most EULA limitations hold up in court. This means that software vendors enjoy a level of liability protection that manufacturers of physical products do not.
+Courts have sometimes found egregious limitations **unconscionable** and unenforceable. In practice, most hold up, giving software vendors liability protection that manufacturers of physical products do not enjoy.
 
 ### Think About It 7.1 🧠
 
@@ -75,17 +67,15 @@ Courts have sometimes found that particularly egregious liability limitations ar
 
 ## 7.2 Software Quality and Development Ethics
 
-Software quality is not just a technical concern. It is an ethical one. When organizations choose how to build, test, and maintain their software, they are making decisions that affect the safety, privacy, and well-being of every person who uses or depends on that software. This section examines what software quality means, how development methodologies shape ethical outcomes, and why technical debt carries moral weight.
+Software quality is an ethical issue, not just a technical one. When organizations choose how to build, test, and maintain their software, they are making decisions that affect everyone who depends on it.
 
 ### What Does Software Quality Mean?
 
-**Software quality** refers to the degree to which software meets its specified requirements and satisfies user needs. The International Organization for Standardization (ISO) defines software quality through characteristics including functionality, reliability, usability, efficiency, maintainability, and security. But from an ethical standpoint, quality also means that the software does not cause unnecessary harm, that it performs honestly (doing what it claims to do), and that its limitations are transparently communicated to users.
-
-Quality is not binary. Software exists on a spectrum from deeply flawed to highly reliable. The ethical question is: what level of quality is your organization obligated to achieve? The answer depends on context. A game with a minor graphical glitch has different quality obligations than a medical device that controls insulin dosing. The potential for harm shapes the ethical standard.
+**Software quality** is the degree to which software meets its requirements and satisfies user needs. From an ethical standpoint, quality also means the software does not cause unnecessary harm, performs honestly, and communicates its limitations. A game with a minor graphical glitch has different quality obligations than a medical device that controls insulin dosing. Potential for harm shapes the standard.
 
 ### The Capability Maturity Model Integration (CMMI)
 
-The **Capability Maturity Model Integration (CMMI)** is a framework developed by Carnegie Mellon University's Software Engineering Institute (SEI) that measures an organization's software development process maturity. CMMI defines five maturity levels:
+The **Capability Maturity Model Integration (CMMI)** measures an organization's software development process maturity across five levels:
 
 | Level | Name | Description |
 |-------|------|-------------|
@@ -95,23 +85,21 @@ The **Capability Maturity Model Integration (CMMI)** is a framework developed by
 | 4 | Quantitatively Managed | Processes are measured and controlled using statistical data. |
 | 5 | Optimizing | Organization focuses on continuous improvement based on data and innovation. |
 
-Most organizations operate at Level 1 or 2. Reaching Level 3 or higher requires significant investment in process discipline, documentation, and training. From an ethical perspective, CMMI matters because higher maturity levels produce more predictable, reliable software. Organizations that choose to remain at Level 1, accepting chaotic processes with unpredictable outcomes, are making a choice that affects everyone who depends on their software.
+Most organizations operate at Level 1 or 2. Higher levels produce more predictable, reliable software. Organizations that choose to remain at Level 1, accepting chaotic and unpredictable processes, are making a choice that affects everyone who depends on their software.
 
 ### Development Methodologies and Their Ethical Dimensions
 
-How software is built shapes whether it is built well. Three dominant development methodologies each carry distinct ethical implications:
+How software is built shapes whether it is built well. Three dominant methodologies each carry distinct ethical implications:
 
-**Waterfall** is a sequential process: requirements are gathered first, then design, then coding, then testing, then deployment. Each phase must be completed before the next begins. Waterfall's strength is its thoroughness in planning and documentation. Its ethical risk is rigidity. If requirements change or new risks emerge during development, the waterfall model makes it difficult to adapt. Software built under waterfall may be well-documented but slow to respond to discovered vulnerabilities.
+**Waterfall** is a sequential process: requirements, then design, then coding, then testing, then deployment. Its strength is documentation and planning rigor. Its ethical risk is rigidity: if new risks emerge mid-development, waterfall makes adaptation difficult.
 
-**Agile** is an iterative approach that delivers working software in short cycles (typically two-week "sprints"). Agile emphasizes flexibility, customer collaboration, and rapid response to change. Its ethical strength is adaptability: if a security flaw is discovered, agile teams can prioritize a fix in the next sprint. Its ethical risk is that the pressure to deliver working software quickly can lead teams to cut corners on testing, documentation, or security reviews. When a product owner says "ship it now, fix it later," ethical problems follow.
+**Agile** delivers working software in short cycles (typically two-week "sprints"). Its ethical strength is adaptability: security flaws can be addressed in the next sprint. Its ethical risk is that pressure to ship quickly leads teams to cut corners on testing or security reviews. "Ship it now, fix it later" is an ethical problem.
 
-**DevOps** extends agile by integrating development and operations teams. It emphasizes automation, continuous integration, continuous delivery (CI/CD), and monitoring. DevOps enables rapid deployment of updates and patches, which is an ethical advantage: vulnerabilities can be fixed and distributed quickly. However, the speed of DevOps can also introduce risk. The 2024 CrowdStrike incident is a cautionary example: an automated deployment pipeline pushed a flawed update to millions of machines because the testing safeguards within the pipeline were insufficient. Speed without adequate safety checks creates ethical liability.
+**DevOps** integrates development and operations through automation, continuous integration, and continuous delivery (CI/CD). DevOps enables rapid patch deployment, an ethical advantage. The 2024 CrowdStrike incident shows the other side: an automated pipeline pushed a flawed update to millions of machines because its testing safeguards were insufficient. Speed without adequate safety checks creates ethical liability.
 
 ### Technical Debt and Ethical Implications
 
-**Technical debt** is a concept that describes the accumulated cost of shortcuts taken during software development. When a team writes quick-and-dirty code to meet a deadline, they take on technical debt, similar to financial debt. The code works now, but it will be harder to maintain, harder to secure, and more likely to break in the future.
-
-Technical debt is a business decision, but it is also an ethical one. Every shortcut creates future risk for users. Unpatched vulnerabilities, brittle code that crashes under unexpected conditions, and undocumented workarounds all trace back to technical debt. When organizations knowingly accumulate technical debt without a plan to address it, they are transferring risk from themselves to their users. The users bear the consequences of crashes, data loss, and security breaches, while the organization benefited from the faster delivery that created the debt.
+**Technical debt** is the accumulated cost of shortcuts taken during software development. Quick-and-dirty code meets a deadline but will be harder to maintain, harder to secure, and more likely to break. When organizations accumulate technical debt without a plan to address it, they transfer risk to users: users bear the consequences of crashes, data loss, and security breaches while the organization captured the benefit of faster delivery.
 
 ### Case Study 7.1 - The MedTrack Patient Monitoring Dilemma 📋
 
@@ -147,49 +135,43 @@ Priya is uncomfortable with this plan. She knows that in critical care, a missed
 
 ## 7.3 Secure Coding and Vulnerability Management
 
-Every piece of software you use, from your web browser to your banking app, is a potential target for attackers. Secure coding is not an optional enhancement or an afterthought added before release. It is a fundamental ethical obligation for anyone who writes, reviews, or deploys software. When developers fail to follow secure coding practices, they create vulnerabilities that expose users to data theft, financial loss, and even physical danger.
+Secure coding is not an afterthought. It is a fundamental ethical obligation for anyone who writes, reviews, or deploys software. Failures in secure coding create vulnerabilities that expose users to data theft, financial loss, and physical danger.
 
 ### What Is Secure Coding?
 
-**Secure coding** is the practice of writing software in a way that protects it against security vulnerabilities. It means anticipating how attackers might exploit your code and building defenses into the software from the start, rather than patching holes after they are discovered.
+**Secure coding** is the practice of writing software that protects against security vulnerabilities by design. The core principle: every input is potentially malicious, every connection is potentially hostile, every assumption about software use is potentially wrong. These are design constraints from the start.
 
-The principle behind secure coding is straightforward: every input is potentially malicious, every connection is potentially hostile, and every assumption about how the software will be used is potentially wrong. Secure coding requires treating these possibilities as design constraints, not as unlikely edge cases.
-
-Several widely recognized frameworks guide secure coding practices. The **Open Web Application Security Project (OWASP)** maintains the OWASP Top 10, a regularly updated list of the most critical web application security risks. The OWASP Top 10 is not a comprehensive catalog of all possible vulnerabilities, but it represents the most common and most dangerous categories of flaws that developers should address.
+The **Open Web Application Security Project (OWASP)** maintains the OWASP Top 10, a regularly updated list of the most critical web application security risks.
 
 ### Common Vulnerability Types
 
-You do not need to be a programmer to understand the basic categories of software vulnerabilities. As an IT professional, knowing these categories helps you understand security risks, evaluate vendor claims, and participate in security discussions.
+As an IT professional, knowing the basic vulnerability categories helps you understand security risks, evaluate vendor claims, and participate in security discussions. You do not need to be a programmer.
 
-**Injection flaws** occur when an attacker sends malicious data to a program, and the program treats that data as a command. The most common type is **SQL injection**, where an attacker enters specially crafted text into a web form, and the application passes that text directly to a database query. If the application does not validate input properly, the attacker can read, modify, or delete database contents. In a secure system, user input is always treated as data, never as executable code.
+**Injection flaws** occur when an attacker sends malicious data that a program treats as a command. The most common type is **SQL injection**: an attacker enters specially crafted text into a web form, and the application passes it directly to a database query. Without proper input validation, the attacker can read, modify, or delete database contents.
 
-**Authentication and session management flaws** involve weaknesses in how software verifies user identity and maintains login sessions. Examples include storing passwords in plain text (instead of using encryption), allowing weak passwords, failing to expire session tokens, and not implementing multi-factor authentication for sensitive operations. When authentication is weak, attackers can impersonate legitimate users.
+**Authentication and session management flaws** involve weaknesses in how software verifies identity: storing passwords in plain text, allowing weak passwords, failing to expire session tokens, or skipping multi-factor authentication for sensitive operations.
 
-**Cross-site scripting (XSS)** occurs when an application includes untrusted data in a web page without proper validation. An attacker can inject malicious scripts that execute in other users' browsers, potentially stealing session cookies, redirecting users to fake websites, or capturing keystrokes. XSS is particularly dangerous because the malicious code runs in the context of a trusted website.
+**Cross-site scripting (XSS)** occurs when an application includes untrusted data in a web page without validation, allowing attackers to inject malicious scripts that execute in other users' browsers. XSS is particularly dangerous because the malicious code runs in the context of a trusted website.
 
-**Insecure direct object references** occur when an application exposes internal implementation details (such as database record numbers or file paths) in URLs or form fields. If the application does not verify that the current user is authorized to access the requested object, an attacker can simply change the reference to access another user's data. Imagine a medical records portal where changing the patient ID number in the URL displays a different patient's records. That is an insecure direct object reference.
+**Insecure direct object references** occur when an application exposes internal details (database record numbers, file paths) in URLs without checking authorization. A medical records portal where changing the patient ID in the URL reveals a different patient's records is a classic example.
 
-**Security misconfiguration** refers to systems deployed with default settings, unnecessary features enabled, or incomplete security configurations. Default passwords, open cloud storage buckets, and verbose error messages that reveal system internals are all examples. Security misconfiguration is one of the most common vulnerabilities because it results not from a coding error but from a failure in deployment and maintenance processes.
+**Security misconfiguration** refers to systems deployed with default settings, unnecessary features enabled, or incomplete configurations. It is one of the most common vulnerabilities because it results not from a coding error but from failure in deployment and maintenance.
 
 ### Responsible Disclosure vs. Full Disclosure
 
 When a security researcher discovers a vulnerability in someone else's software, they face an ethical choice about how to report it.
 
-**Responsible disclosure** (also called **coordinated disclosure**) means the researcher privately contacts the software vendor, gives them a reasonable amount of time (typically 90 days) to develop and release a patch, and only then publishes details about the vulnerability. The goal is to protect users by giving the vendor time to fix the problem before attackers learn about it. Google's Project Zero team follows this approach, giving vendors a 90-day deadline before publishing findings.
+**Responsible disclosure** (also called **coordinated disclosure**) means the researcher privately contacts the vendor, gives them a reasonable time (typically 90 days) to release a patch, and only then publishes details. Google's Project Zero team follows this approach.
 
-**Full disclosure** means publishing the vulnerability immediately, without giving the vendor advance notice. Advocates argue that full disclosure puts pressure on vendors to fix problems quickly and prevents them from ignoring reported vulnerabilities. Critics argue that it puts users at risk by giving attackers a roadmap before a patch is available.
+**Full disclosure** means publishing the vulnerability immediately, without advance notice. Advocates argue it pressures vendors to act quickly. Critics argue it gives attackers a roadmap before a patch exists.
 
-A middle approach, sometimes called **limited disclosure**, involves sharing vulnerability details with a trusted group (such as the CERT Coordination Center) that can coordinate response without fully publicizing the flaw.
-
-Each approach reflects different ethical priorities: responsible disclosure prioritizes user protection, full disclosure prioritizes transparency and vendor accountability, and limited disclosure attempts to balance both.
+**Limited disclosure** involves sharing details with a trusted group (such as the CERT Coordination Center) that can coordinate response without publicizing the flaw. Each approach reflects different ethical priorities: user protection, vendor accountability, or a balance of both.
 
 ### Patch Management Ethics
 
-Discovering a vulnerability is only half the problem. The other half is getting the fix to users. **Patch management** is the process of developing, testing, and distributing updates that fix known security vulnerabilities.
+**Patch management** is the process of developing, testing, and distributing updates that fix known vulnerabilities. It raises its own ethical questions: How quickly must a vendor release a patch? How much testing is required before deployment (a hasty patch can itself cause problems, as CrowdStrike demonstrated)? What obligation does a vendor have to patch software that has reached "end of life" but is still widely used?
 
-Patch management raises its own ethical questions. How quickly must a vendor release a patch after learning of a critical vulnerability? What testing is required before deploying a patch, given that a hasty patch can itself cause problems (as the CrowdStrike incident demonstrated)? What obligation does a vendor have to patch software that has reached "end of life" but is still widely used? When Microsoft ended support for Windows XP, millions of computers, including many in hospitals and government agencies, continued running the unsupported operating system, exposing them to unpatched vulnerabilities.
-
-The 2017 Equifax data breach, which exposed the personal information of approximately 147 million people, illustrates the consequences of failed patch management. The vulnerability that attackers exploited (in the Apache Struts web framework) had a patch available for two months before the breach occurred. Equifax knew about the patch but failed to apply it. The ethical failure was not in the existence of the vulnerability. It was in the organizational decision-making that left a known flaw unpatched in a system containing sensitive personal data.
+The 2017 Equifax breach exposed the personal information of approximately 147 million people through a vulnerability that had a patch available two months earlier. Equifax knew about it but failed to apply it. The ethical failure was not the existence of the vulnerability. It was the organizational decision-making that left a known flaw unpatched in a system holding sensitive personal data.
 
 ### Think About It 7.3 🧠
 
@@ -207,62 +189,68 @@ The 2017 Equifax data breach, which exposed the personal information of approxim
 
 ## 7.4 Cost/Benefit Analysis and Safety-Critical Systems
 
-Every IT decision involves trade-offs. Organizations have limited budgets, limited time, and competing priorities. Cost/benefit analysis is a legitimate and necessary tool for decision-making. But when that analysis is applied to decisions that affect human safety, the ethical stakes increase dramatically. This section examines how organizations weigh costs and benefits in IT, the special obligations that apply to safety-critical systems, and the emerging question of AI liability.
+Every IT decision involves trade-offs, and cost/benefit analysis is a legitimate tool for navigating them. But when applied to decisions affecting human safety, the ethical stakes increase dramatically.
 
 ### Risk Assessment Frameworks in IT
 
-**Risk assessment** is the systematic process of identifying potential threats, evaluating the likelihood that those threats will materialize, and estimating the impact if they do. In IT, risk assessment helps organizations decide where to allocate security resources, which vulnerabilities to patch first, and how much to invest in redundancy and failsafes.
-
-A standard risk calculation uses the formula:
+**Risk assessment** is the systematic process of identifying potential threats and estimating their likelihood and impact. The standard formula:
 
 **Risk = Likelihood x Impact**
 
-A threat that is very likely but has minimal impact (a minor website glitch) receives a different priority than a threat that is unlikely but catastrophic (a complete data center failure). Risk assessment frameworks like the **National Institute of Standards and Technology (NIST) Risk Management Framework** provide structured processes for evaluating and prioritizing risks.
+A very likely threat with minimal impact (a minor website glitch) receives lower priority than an unlikely but catastrophic one (a complete data center failure). The **NIST Risk Management Framework** provides structured processes for evaluating and prioritizing risks.
 
-**Cost/benefit analysis** in IT decision-making weighs the cost of implementing a security measure, quality improvement, or system upgrade against the expected benefit, usually expressed as reduced risk. If a $50,000 security upgrade reduces the expected annual loss from data breaches by $200,000, the cost/benefit calculation favors the investment.
+**Cost/benefit analysis** weighs the cost of a security measure or improvement against the expected benefit, expressed as reduced risk. A $50,000 security upgrade that reduces expected annual losses from breaches by $200,000 clearly favors the investment.
 
 ### The Ethical Dimensions of Cost/Benefit Analysis
 
-Cost/benefit analysis becomes ethically problematic when it reduces human safety, privacy, or well-being to a dollar figure. The most infamous example outside of IT is the Ford Pinto case from the 1970s. Ford calculated that it would be cheaper to pay settlements for burn injuries and deaths caused by a defective fuel tank than to recall and fix the vehicles. The math may have been accurate. The ethics were indefensible.
+Cost/benefit analysis becomes ethically problematic when it reduces human safety to a dollar figure. The Ford Pinto case is the classic example: Ford calculated that paying settlements for burn injuries and deaths was cheaper than a recall. The math may have been accurate. The ethics were indefensible.
 
-Similar reasoning appears in IT. An organization might calculate that the cost of a comprehensive security audit exceeds the expected financial loss from a breach, and conclude that skipping the audit is the "rational" decision. But this calculation often omits or undervalues factors that are difficult to quantify: the human suffering caused by identity theft, the erosion of public trust, the psychological impact on breach victims, and the disproportionate impact on vulnerable populations who have fewer resources to recover from fraud.
+The same logic appears in IT. An organization might conclude that skipping a security audit is "rational" because its cost exceeds expected breach losses. But this omits what is hard to quantify: human suffering from identity theft, erosion of public trust, and disproportionate impact on vulnerable populations with fewer resources to recover.
 
-Ethical cost/benefit analysis in IT requires acknowledging what the numbers leave out. Some questions cannot be answered with a spreadsheet:
+Ethical cost/benefit analysis requires acknowledging what the numbers leave out:
 
-* **Who bears the risk?** Often, the people who benefit from cost savings (executives, shareholders) are not the same people who suffer when things go wrong (users, patients, the public). When the risk-bearers and the decision-makers are different groups, there is an ethical obligation to give extra weight to the interests of those who bear the risk.
+* **Who bears the risk?** Those who benefit from cost savings (executives, shareholders) are often not those who suffer the consequences (users, patients, the public). That gap creates an ethical obligation to give extra weight to the interests of those who bear the risk.
 
-* **What is being valued?** A cost/benefit analysis that compares security spending against "expected loss" often reduces privacy and safety to financial terms. But a patient whose medical records are exposed suffers harm that cannot be fully captured by the cost of credit monitoring services.
+* **What is being valued?** A patient whose medical records are exposed suffers harm credit monitoring cannot fully address.
 
-* **What alternatives exist?** Cost/benefit analysis is useful when comparing options. It becomes dangerous when it is used to justify inaction by framing the cheapest option as the "rational" one.
+* **What alternatives exist?** Cost/benefit analysis becomes dangerous when it frames the cheapest option as the only "rational" choice.
 
 ### Safety-Critical Systems
 
-A **safety-critical system** is any system whose failure could result in death, serious injury, or significant environmental damage. Examples include aviation software, medical devices, nuclear power plant controls, autonomous vehicle systems, and industrial control systems.
+A **safety-critical system** is any system whose failure could result in death, serious injury, or significant environmental damage: aviation software, medical devices, nuclear plant controls, autonomous vehicles. These systems demand standards that make "good enough" wholly inadequate. Key principles include:
 
-Safety-critical systems demand a fundamentally different approach to quality and testing than consumer software. The standard of "good enough" that might apply to a social media app is wholly inadequate for software that controls a passenger aircraft. Key principles for safety-critical development include:
-
-* **Redundancy:** Critical functions are backed by independent secondary systems. If one system fails, another takes over.
-* **Formal verification:** Mathematical methods are used to prove that software meets its specifications, going beyond traditional testing.
-* **Certification standards:** Safety-critical industries have specific standards. Aviation software follows DO-178C. Medical device software follows IEC 62304. Automotive software follows ISO 26262. These standards specify required levels of testing, documentation, and review.
+* **Redundancy:** Critical functions are backed by independent secondary systems.
+* **Formal verification:** Mathematical methods prove that software meets its specifications.
+* **Certification standards:** Aviation software follows DO-178C; medical device software follows IEC 62304; automotive software follows ISO 26262.
 * **Fail-safe design:** When a safety-critical system encounters an error it cannot handle, it defaults to a safe state rather than continuing to operate unpredictably.
 
-The ethical principle underlying safety-critical development is clear: when failure means someone could die, the obligation to get it right is not measured by cost/benefit analysis. It is measured by the duty to protect human life.
+When failure means someone could die, the obligation to get it right is not measured by cost/benefit analysis. It is measured by the duty to protect human life.
 
 ### AI Liability: Who Is Responsible When AI Causes Harm?
 
-As you explored in Module 3's discussion of AI ethics principles (fairness, transparency, accountability, explainability, and human oversight), the question of AI accountability is one of the defining ethical challenges of our time. Module 7 applies that question to the specific context of liability.
+Module 3 established AI ethics principles: fairness, transparency, accountability, explainability, and human oversight. Module 7 applies the accountability principle to liability specifically.
 
-When traditional software causes harm, there is usually a clear chain of responsibility: the developer wrote the code, the company shipped the product, and the failure can be traced to specific decisions. AI systems complicate this chain in several ways:
+When traditional software causes harm, there is usually a clear chain: the developer wrote the code, the company shipped the product, the failure can be traced to specific decisions. AI complicates this chain in several ways:
 
-* **Opacity:** Many AI systems, particularly those using deep learning, operate as "black boxes." The developers who built the system may not be able to explain exactly why it produced a particular output. If an AI diagnostic tool misdiagnoses a patient, identifying the "defect" may be impossible in the traditional sense.
+* **Opacity:** Many AI systems, particularly deep learning models, operate as "black boxes." Developers may not be able to explain why a system produced a particular output, making it impossible to identify a "defect" in the traditional sense.
 
-* **Training data:** AI systems learn from data. If the training data is biased, incomplete, or unrepresentative, the system's outputs will reflect those flaws. But the bias may not be apparent until the system is deployed at scale. Who is liable: the team that collected the data, the team that built the model, or the organization that deployed it without adequate testing?
+* **Training data:** AI systems learn from data. If that data is biased or unrepresentative, the outputs will reflect those flaws. Who is liable: the team that collected the data, the team that built the model, or the organization that deployed it without adequate testing?
 
-* **Evolving behavior:** Some AI systems continue to learn and change after deployment. A system that performs well during testing may behave differently after months of real-world interaction. Traditional liability frameworks assume that a product's behavior is known at the time of sale. AI challenges that assumption.
+* **Evolving behavior:** Some AI systems continue to learn after deployment. A system that performs well during testing may behave differently after months of real-world interaction, challenging the assumption that product behavior is fixed at the time of sale.
 
-* **Multiple parties:** An AI system might involve a foundation model built by one company, fine-tuned by a second company, deployed by a third, and used by an end user. When harm occurs, the liability could potentially fall on any or all of these parties. Current law does not provide clear answers.
+* **Multiple parties:** A foundation model built by one company, fine-tuned by a second, deployed by a third creates a liability chain that current law does not clearly resolve.
 
-The ethical obligations for AI system testing and release decisions include rigorous testing across diverse populations and scenarios, ongoing monitoring after deployment, transparent communication about the system's limitations, and clear mechanisms for users to report problems and seek recourse. Organizations that rush AI systems to market without adequate testing are making the same kind of ethical error as organizations that ship software with known defects: they are transferring risk to users for their own benefit.
+Organizations that rush AI systems to market without adequate testing are making the same ethical error as those that ship software with known defects: transferring risk to users for their own benefit.
+
+### AI-Generated Code and the Orchestrator-Verifier Role
+
+The liability question has a new dimension relevant to your career: AI-assisted development tools. By 2025, tools like GitHub Copilot were generating large portions of production code. Litigation followed: Copilot faced lawsuits beginning in 2022 over training on open source code without attribution, and by 2024-2025, those cases were shaping how companies document AI-generated code provenance.
+
+More directly: security researchers in 2024 and 2025 documented cases where AI coding assistants introduced vulnerabilities (injection flaws, insecure cryptographic implementations) into production code, because the tools were trained on repositories that themselves contained vulnerable patterns. The code compiled. The tests passed. The vulnerability shipped.
+
+The emerging regulatory answer: the human developer and the deploying organization bear responsibility, not the AI tool. The EU Product Liability Directive, revised in 2024 and enacted in 2025, explicitly extended liability to software and AI-generated outputs, treating them as products for liability purposes. U.S. FTC and SEC guidance in 2025 signaled that AI-product liability claims would be evaluated against the same standards as traditional software defects.
+
+This is where the orchestrator-verifier frame from Module 3 has direct professional consequences. When you use an AI coding assistant, you are the orchestrator directing it and the verifier responsible for its output. Accepting AI-generated code without security review is not a defense against liability; it is evidence of negligence. Your obligation is not to avoid AI tools but to apply the same secure coding standards to AI-generated code that you would to code you wrote yourself.
 
 ### Think About It 7.4 🧠
 
@@ -351,49 +339,41 @@ Evaluate the cost/benefit trade-offs and formulate a recommendation:
 
 ### Key Concepts
 
-* **Software defects cause real harm.** From the Therac-25 radiation deaths to the 2024 CrowdStrike global outage, software failures can have consequences that range from financial disruption to loss of life. The ethical responsibility of software developers and organizations extends beyond writing functional code to writing safe, reliable, and secure code.
+* **Software defects cause real harm.** From the Therac-25 radiation deaths to the 2024 CrowdStrike global outage, software failures range from financial disruption to loss of life. Ethical responsibility extends beyond writing functional code to writing safe, reliable, and secure code.
 
-* **Product liability law applies unevenly to software.** Three theories (negligence, strict liability, and breach of warranty) provide frameworks for holding software producers accountable, but the product-vs.-service distinction and widespread EULA protections leave significant gaps. The result is that software vendors often enjoy less legal accountability than manufacturers of physical products.
+* **Product liability law applies unevenly to software.** Negligence, strict liability, and breach of warranty provide frameworks for accountability, but the product-vs.-service distinction and EULA protections leave significant gaps. Software vendors often enjoy less legal accountability than manufacturers of physical products.
 
-* **Software quality is an ethical obligation, not just a business metric.** Development methodologies (waterfall, agile, DevOps) shape the likelihood of quality outcomes. CMMI provides a maturity framework for assessing organizational capability. Technical debt transfers risk from organizations to users when shortcuts are taken without plans to address them.
+* **Software quality is an ethical obligation.** Development methodologies (waterfall, agile, DevOps) shape quality outcomes. CMMI provides a maturity framework for assessing organizational capability. Technical debt transfers risk from organizations to users when shortcuts are taken without plans to address them.
 
-* **Secure coding prevents foreseeable harm.** Vulnerabilities like SQL injection, XSS, and authentication flaws are well-understood and preventable. Responsible disclosure, patch management, and ongoing security maintenance are ethical obligations that persist throughout a product's lifecycle.
+* **Secure coding prevents foreseeable harm.** Vulnerabilities like SQL injection, XSS, and authentication flaws are well-understood and preventable. Responsible disclosure, patch management, and ongoing security maintenance are ethical obligations throughout a product's lifecycle.
 
-* **Cost/benefit analysis requires ethical guardrails.** Financial calculations that reduce human safety and privacy to dollar figures are incomplete and potentially dangerous. Safety-critical systems demand standards that go beyond cost optimization. When failure means serious harm, "good enough" is not good enough.
+* **Cost/benefit analysis requires ethical guardrails.** Financial calculations that reduce human safety and privacy to dollar figures are incomplete and potentially dangerous. When failure means serious harm, "good enough" is not good enough.
 
-* **AI liability is an emerging and unresolved challenge.** The opacity of AI systems, the role of training data, evolving post-deployment behavior, and multi-party development chains make it difficult to assign responsibility when AI causes harm. Ethical AI deployment requires rigorous testing, transparent limitations, and clear accountability structures.
+* **AI liability is an emerging and rapidly developing challenge.** Opacity, biased training data, evolving behavior, and multi-party development chains make assigning responsibility difficult. The 2024 revised EU Product Liability Directive extended liability to software and AI-generated outputs. As orchestrator-verifier, you bear liability for AI-generated code you accept without adequate review. Ethical AI deployment requires rigorous testing, transparent limitations, and clear accountability structures.
 
 ### Key Terms
 
-**Section 7.1**
-* **Software defect (bug):** An error, flaw, or unintended behavior in software that causes incorrect or unexpected results.
+* **Software defect (bug):** An error or unintended behavior that causes incorrect or unexpected results.
 * **Product liability:** Legal framework holding manufacturers responsible for harm caused by defective products.
 * **Negligence:** Liability based on failure to exercise reasonable care in developing or maintaining software.
-* **Strict liability:** Liability for a defective product regardless of the level of care exercised by the manufacturer.
-* **Breach of warranty:** Liability arising when a product fails to perform as expressly or implicitly promised.
-* **End User License Agreement (EULA):** A legal contract between a software provider and user that defines terms of use and typically limits liability.
-* **Software as a Service (SaaS):** A software distribution model where applications are hosted in the cloud and accessed via subscription.
-
-**Section 7.2**
+* **Strict liability:** Liability for a defective product regardless of how much care the manufacturer exercised.
+* **Breach of warranty:** Liability when a product fails to perform as expressly or implicitly promised.
+* **End User License Agreement (EULA):** A contract defining software terms of use that typically limits the provider's liability.
+* **Software as a Service (SaaS):** Applications hosted in the cloud and accessed via subscription, often classified as a service rather than a product for liability purposes.
 * **Software quality:** The degree to which software meets specified requirements and user needs, including reliability, security, and usability.
-* **Capability Maturity Model Integration (CMMI):** A framework that measures the maturity of an organization's software development processes across five levels.
-* **Agile development:** An iterative software development methodology emphasizing short cycles, flexibility, and continuous delivery.
-* **DevOps:** A development approach that integrates software development and IT operations, emphasizing automation and continuous deployment.
-* **Technical debt:** The accumulated cost of shortcuts in software development that create future maintenance, security, and reliability burdens.
-
-**Section 7.3**
-* **Secure coding:** The practice of writing software that is resistant to security vulnerabilities by design.
-* **OWASP Top 10:** A regularly updated list from the Open Web Application Security Project identifying the most critical web application security risks.
-* **SQL injection:** A vulnerability where an attacker inserts malicious database commands through unvalidated input fields.
-* **Cross-site scripting (XSS):** A vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.
-* **Responsible disclosure:** The practice of privately reporting a vulnerability to the vendor and allowing time for a fix before public disclosure.
-* **Patch management:** The process of developing, testing, and distributing software updates that fix known vulnerabilities.
-
-**Section 7.4**
-* **Risk assessment:** A systematic process for identifying, evaluating, and prioritizing threats based on likelihood and impact.
-* **Cost/benefit analysis:** A method of evaluating decisions by comparing the financial and non-financial costs against expected benefits.
+* **Capability Maturity Model Integration (CMMI):** A framework measuring software development process maturity across five levels.
+* **Technical debt:** Accumulated cost of development shortcuts that create future maintenance, security, and reliability burdens.
+* **Secure coding:** Writing software resistant to vulnerabilities by design, treating all inputs and connections as potentially hostile.
+* **OWASP Top 10:** A regularly updated list of the most critical web application security risks.
+* **SQL injection:** A vulnerability where malicious database commands are inserted through unvalidated input fields.
+* **Cross-site scripting (XSS):** A vulnerability allowing attackers to inject malicious scripts into web pages viewed by other users.
+* **Responsible disclosure:** Privately reporting a vulnerability to the vendor and allowing time for a patch before public disclosure.
+* **Patch management:** Developing, testing, and distributing software updates that fix known vulnerabilities.
+* **Risk assessment:** Identifying, evaluating, and prioritizing threats based on likelihood and impact.
+* **Cost/benefit analysis:** Evaluating decisions by comparing financial and non-financial costs against expected benefits.
 * **Safety-critical system:** A system whose failure could result in death, serious injury, or significant environmental damage.
-* **AI liability:** The legal and ethical question of who is responsible when an artificial intelligence system causes harm.
+* **AI liability:** The legal and ethical question of who is responsible when an AI system causes harm.
+* **Orchestrator-verifier:** A professional posture in which you direct AI tools and take responsibility for verifying their outputs; the standard of care governing liability for AI-generated code.
 
 ### Retrieval Practice
 
@@ -424,15 +404,17 @@ Take a clear position and support it using at least one concept from this module
 
 ## Further Reading 📖
 
-* **OWASP Foundation: "OWASP Top 10."** The definitive and regularly updated list of the most critical web application security risks. Free online at owasp.org. Essential reference for anyone involved in software development or security.
+* **OWASP Foundation: "OWASP Top 10."** Regularly updated list of the most critical web application security risks. Free at owasp.org.
 
-* **Leveson, N. (2020). "Engineering a Safer World."** An open access book from MIT Press examining system safety engineering and its application to software-intensive systems. Chapters on the Therac-25 case and safety-critical system design are particularly relevant to this module.
+* **Leveson, N. (2020). "Engineering a Safer World."** Open access book from MIT Press on system safety engineering, with chapters on Therac-25 and safety-critical system design directly relevant to this module.
 
-* **NIST Special Publication 800-30: "Guide for Conducting Risk Assessments."** A free, comprehensive guide from the National Institute of Standards and Technology on risk assessment methodology. Useful for understanding how organizations evaluate and prioritize IT risks.
+* **NIST Special Publication 800-30: "Guide for Conducting Risk Assessments."** Free NIST guide on risk assessment methodology. Useful for understanding how organizations evaluate and prioritize IT risks.
 
-* **Krebs, B. (2024). "What We Know About the CrowdStrike Update Crash."** Journalism covering the July 2024 CrowdStrike incident, including technical details and industry analysis. Available at krebsonsecurity.com.
+* **Krebs, B. (2024). "What We Know About the CrowdStrike Update Crash."** Coverage of the July 2024 CrowdStrike incident with technical analysis. Available at krebsonsecurity.com.
 
-* **European Commission: "Proposal for an AI Liability Directive."** The EU's proposed framework for assigning liability when AI systems cause harm. Represents one of the most developed regulatory approaches to AI liability globally. Free to read at ec.europa.eu.
+* **European Commission: "EU Product Liability Directive (2024 revision)."** The revised directive, enacted in 2025, explicitly extends product liability to software and AI-generated outputs. Free at ec.europa.eu.
+
+* **CISA: "Software Bill of Materials (SBOM) Resources."** SBOM requirements, expanded to AI model components in 2025, require documentation of all software dependencies. Essential for understanding supply chain liability in AI-assisted development. Free at cisa.gov/sbom.
 
 ---
 
