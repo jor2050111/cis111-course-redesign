@@ -180,6 +180,8 @@ From a virtue ethics perspective, the question is straightforward: would a compa
 
 Deepfakes create multiple ethical problems on social media. They can be used to create nonconsensual intimate images, which constitutes a severe form of cyberabuse. They can be used to fabricate statements by public figures, spreading disinformation that is difficult to detect and debunk. They can be used to commit fraud, such as impersonating a CEO in a video call to authorize a financial transfer.
 
+The 2024 U.S. election cycle brought deepfake concerns into sharp focus. Synthetic audio and video depicting candidates and public officials circulated across multiple platforms during primary and general election periods. Several states enacted AI-generated content disclosure laws requiring political ads to label synthetic media. By early 2025, at least 18 states had some form of deepfake-in-politics legislation, and Congress debated federal standards. Platforms moved to add AI-generated content labels, though enforcement was inconsistent. A fabricated audio clip could still spread widely before takedown decisions were made, raising questions about whether labeling alone is sufficient.
+
 The threat to trust is particularly concerning. If any image or video could be fake, people may begin to distrust authentic evidence. A real video of misconduct can be dismissed as "probably a deepfake." This erosion of shared reality makes it harder for society to hold powerful institutions accountable.
 
 ### Think About It 4.4 🧠
@@ -195,6 +197,18 @@ Consider this: if a recommendation algorithm consistently shows you content supp
 This is not a hypothetical concern. Researchers have demonstrated that search engine and social media ranking can shift voting preferences in undecided populations by significant margins. The people affected have no idea it is happening.
 
 From a social contract theory perspective, a fair society requires that citizens have access to balanced information. From a deontological perspective, manipulating someone's information environment without their knowledge violates their autonomy and treats them as a means to an end (revenue), not as an end in themselves. Both frameworks raise serious concerns about the unchecked power of recommendation algorithms.
+
+### Platform AI in 2025-2026: Regulation, Disclosure, and Your Role as Verifier
+
+Governments and regulators responded to AI-driven social media harms with new legal frameworks between 2024 and 2026. Understanding these developments helps you evaluate platform claims and exercise informed judgment rather than simply accepting what you are shown.
+
+The European Union's **Digital Services Act (DSA)** began enforcement against the largest platforms in 2024. The DSA requires very large online platforms to assess and mitigate systemic risks, including algorithmic amplification of harmful content, and to make their recommendation systems auditable by independent researchers. In 2025, the European Commission opened formal proceedings against several platforms for failing to meet DSA risk-assessment obligations. Platforms that cannot demonstrate they have evaluated the harms their algorithms produce face substantial fines.
+
+The EU **AI Act**, which entered its phased implementation in 2024 and 2025, classifies recommendation systems used by very large platforms as high-risk when they can influence users' political views or expose them to content that causes psychological harm. High-risk classification requires documentation of training data, ongoing monitoring, and human oversight mechanisms. This means platforms can no longer treat their recommendation algorithms as proprietary black boxes immune to scrutiny.
+
+In the United States, platform accountability moved through state-level action. Beyond deepfake disclosure laws, several states enacted or proposed regulations requiring platforms to provide users with a non-personalized, chronological feed option. The argument is that users should be able to opt out of algorithmic curation and see content without AI filtering their information environment.
+
+What does this mean for you? You are not a passive recipient of whatever a recommendation algorithm delivers. When you use social media, you can exercise the role of **orchestrator and verifier**: you actively choose settings, question sources, verify claims through independent searches, and recognize when an algorithm is feeding you a narrow slice of available information. Checking whether a headline you see in your feed matches reporting from multiple independent sources is a basic verification habit. Using the non-personalized feed option, when available, lets you calibrate how much algorithmic curation you actually want. The M3 principles of fairness, transparency, and human oversight apply not just to AI developers but to every person who interacts with AI-driven systems. Your critical engagement with platform AI is itself a form of ethical practice.
 
 ### Quick Check 4.4 ✅
 
@@ -268,7 +282,7 @@ An investigative report reveals the following findings:
 
 * **Social media creates ethical challenges in hiring and personal safety.** Employer social media screening risks introducing illegal bias through context collapse and exposure to protected characteristics. Cyberabuse, harassment, and cyberstalking disproportionately affect marginalized groups, and platforms bear ethical responsibility for the abuse their systems enable.
 
-* **The attention economy** creates a fundamental conflict between platform revenue and user wellbeing. Deepfakes and AI-generated synthetic media threaten trust in authentic evidence. Recommendation algorithms can undermine personal autonomy by shaping the information environment without users' awareness or consent.
+* **The attention economy** creates a fundamental conflict between platform revenue and user wellbeing. Deepfakes and AI-generated synthetic media threaten trust in authentic evidence, and 2024-2025 political deepfake incidents accelerated state and federal disclosure laws. Recommendation algorithms can undermine personal autonomy by shaping the information environment without users' awareness or consent. The EU Digital Services Act and AI Act now require large platforms to make their recommendation systems auditable and to address systemic harms. As a user and future IT professional, you act as an orchestrator and verifier: actively questioning algorithmic curation, checking sources, and applying the M3 governance principles of fairness, transparency, and human oversight to your own media environment.
 
 ### Key Terms
 
@@ -292,6 +306,8 @@ An investigative report reveals the following findings:
 * **Attention economy:** An economic model in which platforms compete for user attention as the primary resource, generating revenue through advertising that increases with greater user engagement.
 * **Deepfake:** AI-generated synthetic media (image, audio, or video) that realistically depicts a person saying or doing something they never actually said or did.
 * **Autonomy:** The capacity to make informed, independent decisions, which can be undermined when AI systems shape a person's information environment without their knowledge.
+* **Digital Services Act (DSA):** European Union regulation requiring large platforms to assess and reduce systemic risks from their algorithms, including requirements for auditable recommendation systems.
+* **Orchestrator-verifier:** A role in which you actively direct and critically evaluate AI-generated or AI-curated content rather than accepting it passively; a stance that frames you as a responsible agent in AI-mediated environments.
 
 ### Retrieval Practice
 
@@ -305,9 +321,9 @@ Try to answer these from memory before looking back at the module.
 
 ## 4.7 Discussion Prompt 💬
 
-**Prompt:** In 2024, several U.S. states passed laws requiring social media platforms to verify the age of users and restrict access for minors. Supporters argue that these laws protect children from harmful content, predatory advertising, and algorithmic manipulation. Opponents argue that age verification systems create privacy risks for all users, restrict young people's access to legitimate information and community, and shift responsibility from platforms to parents and users.
+**Prompt:** In 2024 and 2025, several U.S. states passed laws requiring social media platforms to verify the age of users and restrict minor access, while the EU's Digital Services Act required platforms to assess how their recommendation algorithms affect vulnerable users, including minors. Supporters of these regulatory approaches argue that platforms have demonstrated they will not voluntarily prioritize user safety over engagement, and that government intervention is the only reliable check. Opponents argue that age verification creates new privacy risks, restricts access to legitimate information, and places technical burdens on platforms that may not be effective in practice.
 
-Take a position: Should governments require social media platforms to verify user age and restrict minor access, or should platform design and parental oversight be sufficient? Use at least one ethical framework from this course to support your argument. Then, address the strongest counterargument to your position using a different framework.
+Take a position: Should governments mandate platform accountability measures like age verification and algorithmic risk assessments, or should platform self-regulation and user choice be sufficient? Use at least one ethical framework from this course to support your argument. Then, address the strongest counterargument to your position using a different framework.
 
 **Guidelines:**
 * Your initial post should be 200-300 words
