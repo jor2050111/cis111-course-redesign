@@ -2,9 +2,9 @@
 
 In January 2023, three visual artists filed a class-action lawsuit against Stability AI, Midjourney, and DeviantArt, claiming that these companies trained their AI image generators on billions of copyrighted images scraped from the internet without permission or compensation. The artists argued that every AI-generated image was, in some sense, a derivative of their stolen work. The companies countered that training AI on publicly available data is transformative and falls within the bounds of fair use. As of early 2026, the case remains one of several high-profile lawsuits reshaping how we think about ownership in the age of generative AI. Who is right? The answer depends on how you interpret intellectual property law, and the law is still catching up to the technology.
 
-This module examines the legal and ethical foundations of **intellectual property (IP)**, the body of law that protects creative and innovative works. You will learn the four main types of IP protection, how **fair use** works (and where it falls short in digital contexts), and why open source licensing represents a fundamentally different philosophy about ownership. You will also confront some of the hardest questions in IT ethics right now: Is downloading a movie without paying for it really "theft"? Can a company reverse-engineer a competitor's product legally? And who, if anyone, owns the output of an AI system?
+This module examines the legal and ethical foundations of **intellectual property (IP)**, the body of law that protects creative and innovative works. You will learn the four main types of IP protection, how **fair use** works (and where it falls short in digital contexts), and why open source licensing represents a fundamentally different philosophy about ownership. You will also confront some of the hardest questions in current IT ethics: Is downloading a movie without paying for it really "theft"? Can a company reverse-engineer a competitor's product legally? Who, if anyone, owns the output of an AI system?
 
-These are not abstract questions. Whether you work in software development, IT support, web design, or data analytics, you will encounter IP decisions regularly. Understanding the rules, and knowing where the rules are genuinely unclear, will help you make informed choices in your career.
+Whether you work in software development, IT support, web design, or data analytics, you will encounter IP decisions regularly. Understanding the rules, and knowing where they are genuinely unclear, will help you make informed choices in your career.
 
 ## Module Overview 🧭
 
@@ -25,15 +25,13 @@ By the end of this module, **you will be able to**:
 
 ## 9.1 The Four Types of Intellectual Property
 
-Intellectual property is a legal concept that grants creators and inventors certain exclusive rights over their work. Unlike physical property, IP protects intangible things: ideas expressed in a particular form, inventions, brand identities, and confidential business information. The goal of IP law is to reward creativity and innovation while still allowing the public to benefit from new ideas over time.
-
-There are four main types of IP protection, each designed for a different kind of work. Understanding the differences matters because using the wrong framework, or ignoring these protections entirely, can have serious legal and ethical consequences.
+Intellectual property law grants creators and inventors certain exclusive rights over their work. Unlike physical property, IP protects intangible things: ideas expressed in a particular form, inventions, brand identities, and confidential business information. There are four main types of IP protection, each designed for a different kind of work. Understanding the differences matters because using the wrong framework, or ignoring these protections entirely, can have serious legal and ethical consequences.
 
 ### Copyright
 
 **Copyright** protects original works of authorship that are fixed in a tangible form. This includes books, music, software code, photographs, videos, website content, and architectural designs. Copyright protection is automatic: the moment you write a poem, take a photograph, or commit code to a repository, you own the copyright. You do not need to register it, though registration provides additional legal benefits if you ever need to enforce your rights in court.
 
-Copyright gives the owner several exclusive rights: the right to reproduce the work, distribute copies, create derivative works (such as translations or adaptations), and publicly display or perform it. These rights last for a long time. For works created by individuals, copyright protection lasts for the author's lifetime plus 70 years. For works created as **work for hire** (such as software written by an employee as part of their job), the copyright belongs to the employer, and protection lasts 95 years from publication or 120 years from creation, whichever is shorter.
+Copyright gives the owner several exclusive rights: to reproduce the work, distribute copies, create derivative works, and publicly display or perform it. For works created by individuals, protection lasts the author's lifetime plus 70 years. For works created as **work for hire** (software written by an employee as part of their job, for example), the copyright belongs to the employer, and protection lasts 95 years from publication or 120 years from creation, whichever is shorter.
 
 One critical point for IT professionals: **copyright protects the expression of an idea, not the idea itself.** You can write your own sorting algorithm, but you cannot copy someone else's specific code that implements one. Two people can independently write programs that do the same thing, and both programs are separately copyrightable. The protection covers the particular way the idea was expressed in code.
 
@@ -41,19 +39,19 @@ One critical point for IT professionals: **copyright protects the expression of 
 
 A **patent** gives an inventor the exclusive right to make, use, and sell an invention for a limited time, typically 20 years from the filing date. Unlike copyright, patents require a formal application process through the United States Patent and Trademark Office (USPTO) or equivalent agencies in other countries. The invention must be novel, non-obvious, and useful.
 
-In IT, patents cover hardware inventions, manufacturing processes, and sometimes software-related innovations. **Software patents** have been controversial for decades. Critics argue that many software patents are too broad or too obvious, and that they stifle innovation rather than encourage it. A single smartphone may involve thousands of patents held by dozens of companies. Patent disputes in the tech industry have led to massive lawsuits and complex licensing agreements. In 2012, Apple and Samsung fought a patent case over smartphone design elements that eventually reached the U.S. Supreme Court.
+In IT, patents cover hardware inventions, manufacturing processes, and sometimes software-related innovations. **Software patents** have been controversial for decades. Critics argue that many software patents are too broad or too obvious, and that they stifle innovation rather than encourage it. A single smartphone may involve thousands of patents held by dozens of companies, and patent disputes in the tech industry have produced massive lawsuits and complex licensing agreements that can take years to resolve.
 
 ### Trademarks
 
 A **trademark** protects words, phrases, symbols, logos, or designs that identify the source of goods or services. The Apple logo, the Nike swoosh, and the phrase "Just Do It" are all trademarks. Trademarks prevent consumer confusion by ensuring that when you see a particular brand name or logo, you know who made the product.
 
-Trademark protection can last indefinitely, as long as the mark is actively used in commerce and the owner takes steps to defend it. This is different from copyright and patents, which eventually expire. For IT professionals, trademarks matter in web development, app design, domain name registration, and anywhere brand identity intersects with technology.
+Trademark protection can last indefinitely, as long as the mark is actively used in commerce and the owner takes steps to defend it. For IT professionals, trademarks matter in web development, app design, domain name registration, and anywhere brand identity intersects with technology.
 
 ### Trade Secrets
 
 A **trade secret** is confidential business information that provides a competitive advantage. The classic example is the Coca-Cola formula, but in IT, trade secrets more commonly include proprietary algorithms, customer databases, pricing strategies, and internal business processes. Unlike patents, trade secrets have no expiration date and require no registration. The catch is that the owner must take reasonable steps to keep the information secret. If a trade secret is publicly disclosed, whether through a leak, reverse engineering, or carelessness, the protection is lost.
 
-The **Defend Trade Secrets Act (DTSA)** of 2016 created a federal cause of action for trade secret theft, giving companies a powerful legal tool to pursue employees or competitors who misappropriate confidential information. For IT workers, this is especially relevant: the code you write, the systems you build, and the data you access at work may all be classified as trade secrets by your employer.
+The **Defend Trade Secrets Act (DTSA)** of 2016 created a federal cause of action for trade secret theft. For IT workers, this is especially relevant: the code you write, the systems you build, and the data you access at work may all be classified as trade secrets by your employer.
 
 ### Think About It 9.1 🧠
 
@@ -69,11 +67,11 @@ The **Defend Trade Secrets Act (DTSA)** of 2016 created a federal cause of actio
 
 ## 9.2 Fair Use, Open Source, and Digital Licensing
 
-Understanding IP types is only half the picture. Equally important is understanding when and how others can legally use protected works. This section covers three frameworks that define the boundaries of legitimate use: fair use doctrine, open source licensing, and the broader ethics of digital content sharing.
+Understanding IP types is only half the picture. Equally important is knowing when and how others can legally use protected works. This section covers three frameworks that define the boundaries of legitimate use: fair use doctrine, open source licensing, and the broader ethics of digital content sharing.
 
 ### Fair Use Doctrine
 
-**Fair use** is a legal doctrine built into U.S. copyright law (Section 107 of the Copyright Act) that allows limited use of copyrighted material without permission from the copyright holder. Fair use exists because rigid copyright enforcement could stifle criticism, education, commentary, and creativity. A book reviewer needs to quote passages. A teacher needs to share excerpts with students. A comedian needs to parody a popular song. Fair use makes these activities possible.
+**Fair use** is a legal doctrine built into U.S. copyright law (Section 107 of the Copyright Act) that allows limited use of copyrighted material without permission. Fair use exists because rigid copyright enforcement could stifle criticism, education, commentary, and creativity. A book reviewer needs to quote passages. A teacher needs to share excerpts with students. A comedian needs to parody a popular song. Fair use makes these activities possible.
 
 Courts evaluate fair use claims using four factors:
 
@@ -82,7 +80,7 @@ Courts evaluate fair use claims using four factors:
 3. **The amount used.** Using a small portion of a work is more defensible than using the entire thing. However, even a small amount can fail the fair use test if it represents the "heart" of the original work.
 4. **The effect on the market.** Does the use substitute for the original, potentially reducing sales or licensing revenue? If so, it is less likely to qualify as fair use.
 
-No single factor is decisive. Courts weigh all four together, which makes fair use inherently unpredictable. This ambiguity is one of the biggest challenges for IT professionals, educators, and content creators who want to stay within the law.
+No single factor is decisive. Courts weigh all four together, which makes fair use inherently unpredictable, and that ambiguity is one of the biggest challenges for IT professionals and content creators who want to stay within the law.
 
 ### Fair Use in Digital Contexts
 
@@ -121,9 +119,9 @@ The most common open source licenses fall into two categories:
 * **Permissive licenses** (such as the MIT License and Apache License) allow nearly unrestricted use, including incorporating open source code into commercial products. The main requirement is attribution: you must credit the original creators.
 * **Copyleft licenses** (such as the GNU General Public License, or GPL) require that any derivative work be released under the same license. This means that if you use GPL-licensed code in your software, your software must also be open source. This "viral" quality is intentional: it ensures that improvements to the codebase remain freely available.
 
-The ethical arguments for open source are compelling. Proponents argue that software built collaboratively and shared freely accelerates innovation, reduces barriers to entry for new developers, and promotes transparency. When source code is public, anyone can audit it for security flaws or hidden behaviors.
+The ethical arguments for open source are compelling: software built collaboratively and shared freely accelerates innovation, reduces barriers to entry for new developers, and promotes transparency through public source code that anyone can audit for security flaws.
 
-However, open source raises its own ethical questions. Companies sometimes build profitable products on top of free open source code without contributing back to the community. Volunteer open source developers often burn out maintaining critical infrastructure that millions of people and businesses depend on. The **Creative Commons (CC)** licensing system extends similar principles to non-software works like textbooks (including this one), photographs, and music.
+However, open source raises its own ethical questions. Companies sometimes build profitable products on top of free open source code without contributing back to the community. Volunteer open source developers often burn out maintaining critical infrastructure that millions depend on. The **Creative Commons (CC)** licensing system extends similar principles to non-software works like textbooks (including this one), photographs, and music.
 
 ### Think About It 9.2 🧠
 
@@ -139,37 +137,37 @@ However, open source raises its own ethical questions. Companies sometimes build
 
 ## 9.3 Plagiarism, Piracy, and Competitive Intelligence
 
-IP law sets the legal boundaries. But many of the most difficult decisions IT professionals face fall in gray areas where the law is ambiguous, varies by jurisdiction, or simply has not caught up with current practice. This section covers three areas where ethical reasoning matters as much as legal knowledge: plagiarism, digital piracy, and competitive intelligence practices like reverse engineering.
+IP law sets the legal boundaries, but many of the hardest decisions IT professionals face fall in gray areas where the law is ambiguous, varies by jurisdiction, or simply has not caught up with current practice. This section examines three such areas: plagiarism, digital piracy, and competitive intelligence practices like reverse engineering.
 
 ### Plagiarism in IT Contexts
 
-**Plagiarism** is presenting someone else's work, ideas, or expressions as your own without proper attribution. In academic settings, plagiarism is a serious violation of integrity. In professional IT settings, it takes different forms: copying code from Stack Overflow without attribution, reusing a colleague's design work in a portfolio, or submitting vendor documentation as your own analysis.
+**Plagiarism** is presenting someone else's work, ideas, or expressions as your own without proper attribution. In academic settings, plagiarism is a serious integrity violation. In professional IT settings, it takes different forms: copying code from Stack Overflow without attribution, reusing a colleague's design in a portfolio, or submitting vendor documentation as your own analysis.
 
-Plagiarism and copyright infringement overlap but are not identical. You can plagiarize something that is not copyrighted (like an idea or a fact presented without attribution), and you can infringe copyright without plagiarizing (like copying a song you fully credit to the original artist but do not have permission to redistribute). The ethical issue with plagiarism is dishonesty: it misrepresents the origin of work and undermines trust.
+Plagiarism and copyright infringement overlap but are not identical. You can plagiarize something that is not copyrighted (such as an idea presented without attribution), and you can infringe copyright without plagiarizing (such as copying a song you fully credit but have no right to redistribute). The ethical issue with plagiarism is dishonesty: it misrepresents the origin of work and undermines trust.
 
-For IT professionals, code plagiarism raises particular concerns. Open source code is meant to be reused, but even open source licenses typically require attribution. Copying proprietary code from a previous employer into a new project can violate trade secret protections and employment agreements. Understanding what you can reuse, and how to credit it properly, is a practical skill every IT worker needs.
+For IT professionals, code plagiarism raises particular concerns. Open source code is meant to be reused, but even open source licenses typically require attribution. Copying proprietary code from a previous employer into a new project can violate trade secret protections and employment agreements. Knowing what you can reuse and how to credit it is a practical skill every IT worker needs.
 
 ### Digital Piracy
 
 **Digital piracy** refers to the unauthorized copying, distribution, or use of copyrighted digital content, including software, music, movies, games, and e-books. The scale of digital piracy is enormous. Industry groups estimate billions of dollars in annual losses, though the exact figures are debated because not every pirated copy represents a lost sale.
 
-The ethical arguments around piracy are more complex than they first appear. Those who oppose piracy argue that creators deserve to be compensated for their work, that piracy undermines the economic incentives for creating new content, and that it is simply a form of theft. Those who see piracy differently argue that digital copies are not like physical goods (copying a file does not deprive the owner of the original), that many people who pirate content could not or would not have paid for it anyway, and that restrictive pricing models and regional availability gaps push consumers toward piracy.
+The ethical arguments around piracy are more complex than they first appear. Those who oppose piracy argue that creators deserve compensation and that piracy undermines the economic incentives for creating new content. Those who see it differently argue that digital copies are not like physical goods (copying a file does not deprive the owner of the original), that many who pirate content would not have paid for it anyway, and that restrictive pricing models and regional availability gaps push consumers toward piracy.
 
-The **Digital Millennium Copyright Act (DMCA)**, passed in 1998, is the primary U.S. law addressing digital piracy. The DMCA criminalizes the circumvention of **digital rights management (DRM)** technologies and provides a "notice and takedown" process for copyright holders to request removal of infringing content from websites. Critics argue that the DMCA is overly broad, chilling legitimate uses like security research and archival preservation.
+The **Digital Millennium Copyright Act (DMCA)** of 1998 is the primary U.S. law addressing digital piracy. It criminalizes the circumvention of **digital rights management (DRM)** technologies and provides a "notice and takedown" process for copyright holders to request removal of infringing content. Critics argue the DMCA is overly broad, chilling legitimate uses like security research and archival preservation.
 
 ### Reverse Engineering and Competitive Intelligence
 
 **Reverse engineering** is the process of analyzing a product to understand how it works, often to build a competing product or ensure compatibility. In IT, this might mean decompiling software, analyzing network protocols, or studying how a competitor's system handles data.
 
-The legal status of reverse engineering depends heavily on context. In the United States, courts have generally allowed reverse engineering for purposes of achieving interoperability (making your software work with someone else's system) or conducting security research. However, the DMCA's anti-circumvention provisions create complications: if reverse engineering requires bypassing DRM or other technical protections, it may violate the law even if the underlying purpose is legitimate.
+The legal status of reverse engineering depends heavily on context. U.S. courts have generally allowed it for achieving interoperability or conducting security research. However, the DMCA's anti-circumvention provisions create complications: if reverse engineering requires bypassing DRM or other technical protections, it may violate the law even if the underlying purpose is legitimate.
 
-**Competitive intelligence** is the broader practice of gathering information about competitors to inform business strategy. Most competitive intelligence is perfectly legal and ethical: reading public filings, attending trade shows, analyzing publicly available products, and monitoring news coverage. The line gets crossed when companies use deceptive practices to obtain information, recruit employees primarily to extract trade secrets, or access proprietary systems without authorization.
+**Competitive intelligence** is the practice of gathering information about competitors to inform business strategy. Most of it is perfectly legal: reading public filings, attending trade shows, analyzing publicly available products, and monitoring news coverage. The line gets crossed when companies use deceptive practices to obtain information, recruit employees primarily to extract trade secrets, or access proprietary systems without authorization.
 
 ### Trademark Infringement and Cybersquatting
 
-While copyright and patent disputes get most of the headlines, trademark violations are common in the digital world. **Trademark infringement** occurs when someone uses a mark that is confusingly similar to an existing trademark in a way that is likely to mislead consumers. In IT contexts, this often involves domain names, app names, or website designs that imitate established brands.
+While copyright and patent disputes get most of the headlines, trademark violations are common in the digital world. **Trademark infringement** occurs when someone uses a mark that is confusingly similar to an existing trademark in a way likely to mislead consumers, such as domain names, app names, or website designs that imitate established brands.
 
-**Cybersquatting** is the practice of registering domain names that incorporate well-known trademarks with the intent to profit from them, typically by selling the domain to the trademark holder at an inflated price. The **Anticybersquatting Consumer Protection Act (ACPA)** of 1999 and the **Uniform Domain-Name Dispute-Resolution Policy (UDRP)** administered by the Internet Corporation for Assigned Names and Numbers (ICANN) provide legal remedies for trademark holders whose names have been cybersquatted.
+**Cybersquatting** is the practice of registering domain names that incorporate well-known trademarks with the intent to profit from them, typically by selling the domain back to the trademark holder at an inflated price. The **Anticybersquatting Consumer Protection Act (ACPA)** of 1999 and the **Uniform Domain-Name Dispute-Resolution Policy (UDRP)** administered by ICANN provide legal remedies for affected trademark holders.
 
 ### Think About It 9.3 🧠
 
@@ -185,29 +183,35 @@ While copyright and patent disputes get most of the headlines, trademark violati
 
 ## 9.4 AI and Intellectual Property: Uncharted Territory
 
-The rise of generative AI has created some of the most challenging IP questions the legal system has ever faced. When an AI system produces a painting, writes a poem, or generates code, who owns the result? When AI companies train their models on billions of copyrighted works scraped from the internet, did they infringe copyright or engage in fair use? These questions are not hypothetical. They are being fought in courtrooms right now, and the answers will shape the future of creative work, software development, and the technology industry.
+The rise of generative AI has created some of the most challenging IP questions the legal system has ever faced. When an AI system produces a painting, writes a poem, or generates code, who owns the result? When AI companies train their models on billions of copyrighted works scraped from the internet, did they infringe copyright or engage in fair use? These questions are being fought in courtrooms right now, and the answers will shape the future of creative work, software development, and the technology industry.
 
 ### Who Owns AI-Generated Works?
 
-Under current U.S. copyright law, only works created by human beings can be copyrighted. The U.S. Copyright Office has consistently held that the connection between the human mind and creative expression is a fundamental requirement. In 2023, the Copyright Office issued guidance clarifying that purely AI-generated content cannot be registered for copyright protection. If you type a prompt into an image generator and it produces a picture, you do not own the copyright on that picture because you did not create the expressive elements yourself.
+Under current U.S. copyright law, only works created by human beings can be copyrighted. The U.S. Copyright Office has consistently held that the human mind's connection to creative expression is a fundamental requirement. In 2023, the Copyright Office issued guidance clarifying that purely AI-generated content cannot be registered. If you type a prompt into an image generator and it produces a picture, you do not own the copyright because you did not create the expressive elements yourself.
 
-However, the situation becomes more complex when humans and AI collaborate. If a human author uses AI as a tool but makes substantial creative choices, such as selecting, arranging, and editing AI-generated elements into a larger work, those human-authored elements may be copyrightable. The Copyright Office has handled these cases on an individual basis, and the boundary between "human-authored with AI assistance" and "AI-generated" is not yet clearly defined.
+However, the situation becomes more complex when humans and AI collaborate. If a human author makes substantial creative choices, such as selecting, arranging, and editing AI-generated elements into a larger work, those human-authored elements may be copyrightable. The Copyright Office has handled these cases individually, and the boundary between "human-authored with AI assistance" and "AI-generated" is not yet clearly defined.
 
-This creates practical problems for IT professionals and businesses. If AI-generated code cannot be copyrighted, can competitors freely copy it? If a marketing team uses AI to create advertising images, does the company have any IP protection for those images? These uncertainties are already affecting business decisions.
+This creates practical problems for IT professionals and businesses. If AI-generated code cannot be copyrighted, can competitors freely copy it? If a marketing team uses AI to produce advertising images, does the company have any IP protection for those images? These uncertainties are already affecting business decisions.
 
 ### AI Training Data and Copyright
 
-The other side of the AI-IP debate concerns the data used to train AI systems. Large language models and image generators are trained on enormous datasets that typically include copyrighted material: books, articles, photographs, artwork, and source code scraped from the internet. AI companies argue that this training process is fair use because the models learn patterns and concepts rather than storing or reproducing specific works. Critics argue that training on copyrighted material without permission is infringement, regardless of how the data is processed internally.
+The other side of the AI-IP debate concerns the data used to train AI systems. Large language models and image generators are trained on enormous datasets that typically include copyrighted material: books, articles, photographs, artwork, and source code scraped from the internet. AI companies argue this training process is fair use because models learn patterns rather than storing or reproducing specific works. Critics argue that training on copyrighted material without permission is infringement, regardless of how the data is processed internally.
 
-Several major lawsuits are testing these arguments. The *New York Times v. Microsoft and OpenAI* case, filed in late 2023, alleges that ChatGPT can reproduce substantial portions of *Times* articles verbatim, demonstrating that the model did more than simply "learn" from the content. Other cases brought by authors, visual artists, and music publishers raise similar claims against various AI companies. Getty Images sued Stability AI for training its image generator on millions of Getty's copyrighted photographs.
+Several major lawsuits are testing these arguments. The *New York Times v. Microsoft and OpenAI* case, filed in late 2023, alleges that ChatGPT can reproduce substantial portions of Times articles verbatim. Other cases brought by authors, visual artists, and music publishers raise similar claims against various AI companies, and Getty Images sued Stability AI for training on millions of its copyrighted photographs.
 
-The outcome of these cases will have enormous consequences. If courts rule that AI training on copyrighted data is not fair use, AI companies may need to license training data, fundamentally changing the economics of AI development. If courts rule that training is fair use, creators may lose meaningful control over how their works are used in the age of AI.
+The outcome of these cases will have enormous consequences. If courts rule that training on copyrighted data is not fair use, AI companies may need to license training data, fundamentally changing the economics of AI development. If courts rule that training is fair use, creators may lose meaningful control over how their works are used.
 
 ### The Global Dimension
 
 Different countries are taking different approaches. The European Union's AI Act includes provisions about transparency in training data, requiring companies to disclose what copyrighted material was used. Japan has taken a more permissive stance, generally allowing AI training on copyrighted works for the purpose of information analysis. These differences create challenges for global technology companies that must comply with varying legal frameworks across jurisdictions.
 
-As you learned in Module 8, different regulatory philosophies reflect different ethical values. The EU's precautionary approach prioritizes creator rights and transparency. Japan's permissive approach prioritizes innovation and economic competitiveness. The United States is taking a case-by-case judicial approach, letting courts decide rather than passing comprehensive legislation. Each reflects a different set of assumptions about how to balance innovation against the rights of existing creators.
+As you learned in Module 8, different regulatory philosophies reflect different ethical values. The EU's precautionary approach prioritizes creator rights and transparency. Japan's permissive approach prioritizes innovation and competitiveness. The United States is relying on a case-by-case judicial approach, letting courts decide rather than enacting comprehensive legislation. Each reflects a different assumption about how to balance innovation against the rights of existing creators.
+
+### 2025-2026 Update: Rulings, Registrations, and Likeness Laws
+
+The AI-IP landscape shifted significantly in 2024-2025. The *New York Times v. OpenAI* case moved into discovery, producing evidence that ChatGPT could reproduce extended passages of Times content verbatim, evidence both sides are using to argue the fair use question. The U.S. Copyright Office issued updated registration guidance in 2025 clarifying how to document human creative contributions in AI-assisted works, making the registration process more accessible for creators who use AI as a tool but author the final selection and arrangement. Separately, more than a dozen U.S. states enacted deepfake and digital likeness laws in 2024-2025, creating new legal exposure for anyone who generates AI images or audio of real people without consent.
+
+For you as an IT professional, these developments mean you cannot treat AI-generated content as legally neutral. When you use an AI tool to produce images, text, or code for a project, your role is to evaluate what the tool produces, verify that it does not reproduce recognizable third-party content, and document the human creative decisions that support any IP claim. Treating AI output as a finished product (without review) exposes your employer to liability that is still actively being defined in court.
 
 ### Quick Check 9.4 ✅
 
@@ -272,15 +276,15 @@ Third, several small businesses that created logos and marketing materials using
 
 ### Key Concepts
 
-* **Intellectual property law protects intangible creative and innovative works** through four main mechanisms: copyright (original expression), patents (inventions), trademarks (brand identity), and trade secrets (confidential business information). Each type covers different kinds of work and has different requirements and durations.
+* **Intellectual property law protects intangible creative and innovative works** through four mechanisms: copyright (original expression), patents (inventions), trademarks (brand identity), and trade secrets (confidential business information). Each type covers different kinds of work and has different requirements and durations.
 
-* **Fair use allows limited use of copyrighted material without permission**, but its boundaries are unpredictable. Courts weigh four factors: purpose and character of use, nature of the copyrighted work, amount used, and effect on the market. Digital technology has intensified fair use debates because copying and distribution have become effortless.
+* **Fair use allows limited use of copyrighted material without permission**, but its boundaries are unpredictable. Courts weigh four factors: purpose and character of use, nature of the copyrighted work, amount used, and effect on the market. Digital technology has intensified these debates because copying and distribution have become effortless.
 
 * **Open source licensing represents an alternative to traditional IP restrictions**, with permissive licenses (like MIT) allowing broad reuse and copyleft licenses (like GPL) requiring that derivative works remain open source. The open source philosophy prioritizes collaborative innovation and transparency.
 
-* **Digital piracy, reverse engineering, and competitive intelligence** occupy gray areas where legal rules, ethical principles, and practical considerations do not always align. Understanding where the lines fall, and where they are genuinely uncertain, is essential for IT professionals.
+* **Digital piracy, reverse engineering, and competitive intelligence** occupy gray areas where legal rules, ethical principles, and practical considerations do not always align. Knowing where the lines fall, and where they remain genuinely uncertain, is essential for IT professionals.
 
-* **AI has disrupted traditional IP frameworks.** Under current U.S. law, purely AI-generated works cannot be copyrighted. The legality of training AI models on copyrighted data is being tested in multiple high-profile lawsuits. Different countries are adopting different approaches, creating a complex global landscape for technology companies.
+* **AI has disrupted traditional IP frameworks.** Under current U.S. law, purely AI-generated works cannot be copyrighted. The legality of training AI models on copyrighted data is being tested in multiple high-profile lawsuits, and countries are adopting widely different approaches.
 
 ### Key Terms
 
