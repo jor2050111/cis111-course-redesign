@@ -81,20 +81,20 @@
 
 ---
 
-## C3 Skills Lab Style Consistency: PASS
+## C3 Skills Lab Style Consistency: PASS (re-verified 2026-05-17 after universal-rubric migration)
 
-* **All 12 rubrics use Mastery / Proficiency / Developing / Emerging / Not Evident:** ✓
-* **Header row consistency:** all 12 rubric tables use the identical header row `| Criteria | Mastery (5) | Proficiency (4) | Developing (3) | Emerging (2) | Not Evident (1) |` (verified via `grep -rE` across `modules/`).
-* **Criterion names parallel across modules:** ✓ for M1-M11
+* **All 12 rubrics use Mastery (10) / Proficiency (7) / Developing (4) / Emerging (1):** ✓
+* **Header row consistency:** all 12 rubric tables use the identical header row `| Criteria | Mastery (10) | Proficiency (7) | Developing (4) | Emerging (1) |` (verified via `grep -rE` across `modules/`).
+* **Criterion names parallel across modules:** ✓ for M1-M11. M12 uses documented capstone variant.
 
-### Per-module Skills Lab criteria
+### Per-module Skills Lab criteria (post-2026-05-17 universal-rubric migration)
 
-| Module | Criterion 1 | Criterion 2 | Criterion 3 | Criterion 4 | Criterion 5 |
-|---|---|---|---|---|---|
-| M1-M11 | Stakeholder Analysis | Ethical Framework Application | Module Concept Application | Recommendation Quality | Writing and Professionalism |
-| M12 | Stakeholder Analysis | Ethical Framework Application | **Course Concept Synthesis** | Recommendation Quality | **Writing Quality and Professional Reflection** |
+| Module | Criterion 1 | Criterion 2 | Criterion 3 | Criterion 4 |
+|---|---|---|---|---|
+| M1-M11 | Foundation Analysis | Ethical Framework Application | Reasoning, Recommendation & Reflection | Documentation & Communication |
+| M12 | Foundation Analysis | Ethical Framework Application | **Course Concept Synthesis** | **Writing Quality and Professional Reflection** |
 
-**Notes:** M12 (capstone) uses two intentionally renamed criteria that reframe the lab as a course-wide synthesis rather than a single-module application. The 5-level vocabulary, the 5-criterion structure, and three of the five criterion names are identical to M1-M11. This deviation is documented in M12's scorecard B3 line as a capstone-appropriate adaptation; treating C3 as PASS with this note is consistent with the rubric's intent (consistent vocabulary and parallel structure across modules).
+**Notes:** On 2026-05-17 the repo was migrated from the original 5-criterion rubric to the universal 4-criterion rubric designed for cross-module reuse (see `rubrics/universal-skills-lab-rubric.md`). The canonical version is the one applied to Canvas M1 Skills Lab 1A (assignment 18504659, rubric id 2801576) in `pc.dev.cis111.vega`. M12 (capstone) keeps two renamed criteria (Course Concept Synthesis, Writing Quality and Professional Reflection) to reframe the lab as a course-wide synthesis. The 4-level vocabulary and the first two criterion names are identical between M1-M11 and M12. C3 remains PASS after the migration.
 
 ---
 

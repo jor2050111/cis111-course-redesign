@@ -93,8 +93,9 @@ These require Claude Code to read the module content and evaluate against criter
 
 ### B3. Skills Lab Rubric Vocabulary Consistency
 
-* **Check:** Rubric uses Mastery (5), Proficiency (4), Developing (3), Emerging (2), Not Evident (1) with descriptor language aligned to the master template
-* **Pass:** Levels and language are consistent with the cross-module standard
+* **Check:** Rubric matches the universal CIS111 Skills Lab rubric at `rubrics/universal-skills-lab-rubric.md`. The universal rubric uses Mastery (10), Proficiency (7), Developing (4), Emerging (1) across four criteria: Foundation Analysis, Ethical Framework Application, Reasoning Recommendation & Reflection, Documentation & Communication.
+* **Pass for Modules 1 through 11:** All four criteria and all four levels are present with descriptors byte-identical to the universal version.
+* **Pass for Module 12 (Capstone variant):** First two criteria match the universal version. Third criterion is renamed to "Course Concept Synthesis" and combines synthesis across modules with the defensible recommendation. Fourth criterion is renamed to "Writing Quality and Professional Reflection" and combines writing quality with professional self-awareness reflection.
 
 ### B4. Discussion Prompt Quality
 
@@ -137,8 +138,8 @@ These require Claude Code to read the module content and evaluate against criter
 
 ### C3. Skills Lab Style Consistency
 
-* **Check:** All 12 Skills Lab rubrics use identical level vocabulary and parallel descriptor structure
-* **Pass:** Vocabulary matches across all rubrics
+* **Check:** All 12 Skills Lab rubrics use the universal CIS111 Skills Lab rubric (Modules 1 through 11) or the documented capstone variant (Module 12). Level vocabulary (Mastery 10 / Proficiency 7 / Developing 4 / Emerging 1) is identical across all rubrics.
+* **Pass:** Modules 1 through 11 rubrics are byte-identical to `rubrics/universal-skills-lab-rubric.md`. Module 12 uses the capstone variant with two renamed criteria as documented in `rubrics/universal-skills-lab-rubric.md`.
 
 ### C4. Banned Words and Em Dashes Across All Modules
 
